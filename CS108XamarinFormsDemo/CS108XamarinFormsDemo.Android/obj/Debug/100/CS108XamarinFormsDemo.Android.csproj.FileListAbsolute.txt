@@ -1,0 +1,4 @@
+C:\Users\trevo\source\repos\RFID_BT_app\CS108XamarinFormsDemo\CS108XamarinFormsDemo.Android\obj\Debug\100\MonoAndroid,Version=v10.0.AssemblyAttributes.cs
+C:\Users\trevo\source\repos\RFID_BT_app\CS108XamarinFormsDemo\CS108XamarinFormsDemo.Android\obj\Debug\100\build.props
+C:\Users\trevo\source\repos\RFID_BT_app\CS108XamarinFormsDemo\CS108XamarinFormsDemo.Android\obj\Debug\100\adb.props
+C:\Users\trevo\source\repos\RFID_BT_app\CS108XamarinFormsDemo\CS108XamarinFormsDemo.Android\obj\Debug\100\CS108XamarinFormsDemo.Android.csproj.AssemblyReference.cache

@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="ConvergenceSystemsLimited.CS108CDemo" version="1.0" primary="true">
+		<Qualifiers>
+			<AlternateForm>UNPLATED</AlternateForm>
+			<Language>EN</Language>
+			<Scale>200</Scale>
+			<TargetSize>24</TargetSize>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="App.xbf" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/App.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="BLE.Client.UWP.xr.xml" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/BLE.Client.UWP.xr.xml">
+				<Candidate type="Path">
+					<Value>BLE.Client.UWP.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MainPage.xbf" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/MainPage.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Acr.UserDialogs">
+				<NamedResource name="Acr.UserDialogs.xr.xml" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/Acr.UserDialogs/Acr.UserDialogs.xr.xml">
+					<Candidate type="Path">
+						<Value>Acr.UserDialogs\Acr.UserDialogs.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ActionSheetContentDialog.xaml" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/Acr.UserDialogs/ActionSheetContentDialog.xaml">
+					<Candidate type="Path">
+						<Value>Acr.UserDialogs\ActionSheetContentDialog.xaml</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ActionSheetContentDialog.xbf" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/Acr.UserDialogs/ActionSheetContentDialog.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="DatePickerControl.xaml" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/Acr.UserDialogs/DatePickerControl.xaml">
+					<Candidate type="Path">
+						<Value>Acr.UserDialogs\DatePickerControl.xaml</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="DatePickerControl.xbf" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/Acr.UserDialogs/DatePickerControl.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="LoginContentDialog.xaml" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/Acr.UserDialogs/LoginContentDialog.xaml">
+					<Candidate type="Path">
+						<Value>Acr.UserDialogs\LoginContentDialog.xaml</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="LoginContentDialog.xbf" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/Acr.UserDialogs/LoginContentDialog.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ProgressContentDialog.xaml" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/Acr.UserDialogs/ProgressContentDialog.xaml">
+					<Candidate type="Path">
+						<Value>Acr.UserDialogs\ProgressContentDialog.xaml</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ProgressContentDialog.xbf" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/Acr.UserDialogs/ProgressContentDialog.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="TimePickerControl.xaml" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/Acr.UserDialogs/TimePickerControl.xaml">
+					<Candidate type="Path">
+						<Value>Acr.UserDialogs\TimePickerControl.xaml</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="TimePickerControl.xbf" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/Acr.UserDialogs/TimePickerControl.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="body.png" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/Assets/body.png">
+					<Candidate type="Path">
+						<Value>Assets\body.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="gray.png" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/Assets/gray.png">
+					<Candidate type="Path">
+						<Value>Assets\gray.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="green.png" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/Assets/green.png">
+					<Candidate type="Path">
+						<Value>Assets\green.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="LockScreenLogo.png" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/Assets/LockScreenLogo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\LockScreenLogo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="red.png" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/Assets/red.png">
+					<Candidate type="Path">
+						<Value>Assets\red.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.png" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/Assets/SplashScreen.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\SplashScreen.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square150x150Logo.png" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/Assets/Square150x150Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square150x150Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square44x44Logo.png" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/Assets/Square44x44Logo.png">
+					<Candidate qualifiers="TargetSize-24, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/Assets/StoreLogo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\StoreLogo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Wide310x150Logo.png" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/Assets/Wide310x150Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Wide310x150Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Coding4Fun.Toolkit.Controls">
+				<NamedResource name="Coding4Fun.Toolkit.Controls.xr.xml" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/Coding4Fun.Toolkit.Controls/Coding4Fun.Toolkit.Controls.xr.xml">
+					<Candidate type="Path">
+						<Value>Coding4Fun.Toolkit.Controls\Coding4Fun.Toolkit.Controls.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Themes">
+					<NamedResource name="Generic.xbf" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/Coding4Fun.Toolkit.Controls/Themes/Generic.xbf">
+						<Candidate type="Path">
+							<Value>Coding4Fun.Toolkit.Controls\Themes\Generic.xbf</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="LiveChartsCore.SkiaSharpView.UWP">
+				<NamedResource name="CartesianChart.xbf" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/LiveChartsCore.SkiaSharpView.UWP/CartesianChart.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="DefaultLegend.xbf" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/LiveChartsCore.SkiaSharpView.UWP/DefaultLegend.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="DefaultTooltip.xbf" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/LiveChartsCore.SkiaSharpView.UWP/DefaultTooltip.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="GeoMap.xbf" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/LiveChartsCore.SkiaSharpView.UWP/GeoMap.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="LiveChartsCore.SkiaSharpView.UWP.xr.xml" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/LiveChartsCore.SkiaSharpView.UWP/LiveChartsCore.SkiaSharpView.UWP.xr.xml">
+					<Candidate type="Path">
+						<Value>LiveChartsCore.SkiaSharpView.UWP\LiveChartsCore.SkiaSharpView.UWP.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="MotionCanvas.xbf" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/LiveChartsCore.SkiaSharpView.UWP/MotionCanvas.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PieChart.xbf" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/LiveChartsCore.SkiaSharpView.UWP/PieChart.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PolarChart.xbf" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/LiveChartsCore.SkiaSharpView.UWP/PolarChart.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Microsoft.UI.Xaml">
+				<ResourceMapSubtree name="DensityStyles">
+					<NamedResource name="Compact.xbf" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/Microsoft.UI.Xaml/DensityStyles/Compact.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Properties">
+				<NamedResource name="Default.rd.xml" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/Properties/Default.rd.xml">
+					<Candidate type="Path">
+						<Value>Properties\Default.rd.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Uno.UI.Toolkit">
+				<NamedResource name="Uno.UI.Toolkit.xr.xml" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/Uno.UI.Toolkit/Uno.UI.Toolkit.xr.xml">
+					<Candidate type="Path">
+						<Value>Uno.UI.Toolkit\Uno.UI.Toolkit.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Themes">
+					<NamedResource name="Generic.xbf" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/Uno.UI.Toolkit/Themes/Generic.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="WinMetadata">
+				<NamedResource name="Windows.winmd" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/WinMetadata/Windows.winmd">
+					<Candidate type="Path">
+						<Value>WinMetadata\Windows.winmd</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Xamarin.Forms.Platform.UAP">
+				<NamedResource name="FlyoutPageControlStyle.xbf" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/Xamarin.Forms.Platform.UAP/FlyoutPageControlStyle.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="FormsAutoSuggestBoxStyle.xbf" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/Xamarin.Forms.Platform.UAP/FormsAutoSuggestBoxStyle.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="FormsCheckBoxStyle.xbf" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/Xamarin.Forms.Platform.UAP/FormsCheckBoxStyle.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="FormsCommandBarStyle.xbf" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/Xamarin.Forms.Platform.UAP/FormsCommandBarStyle.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="FormsEmbeddedPageWrapper.xbf" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/Xamarin.Forms.Platform.UAP/FormsEmbeddedPageWrapper.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="FormsFlyout.xbf" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/Xamarin.Forms.Platform.UAP/FormsFlyout.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="FormsProgressBarStyle.xbf" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/Xamarin.Forms.Platform.UAP/FormsProgressBarStyle.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="FormsTextBoxStyle.xbf" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/Xamarin.Forms.Platform.UAP/FormsTextBoxStyle.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="MasterDetailControlStyle.xbf" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/Xamarin.Forms.Platform.UAP/MasterDetailControlStyle.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PageControlStyle.xbf" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/Xamarin.Forms.Platform.UAP/PageControlStyle.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PickerStyle.xbf" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/Xamarin.Forms.Platform.UAP/PickerStyle.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PromptDialog.xbf" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/Xamarin.Forms.Platform.UAP/PromptDialog.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Resources.xbf" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/Xamarin.Forms.Platform.UAP/Resources.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SliderStyle.xbf" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/Xamarin.Forms.Platform.UAP/SliderStyle.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StepperControl.xbf" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/Xamarin.Forms.Platform.UAP/StepperControl.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="TabbedPageStyle.xbf" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/Xamarin.Forms.Platform.UAP/TabbedPageStyle.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Xamarin.Forms.Platform.UAP.xr.xml" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/Xamarin.Forms.Platform.UAP/Xamarin.Forms.Platform.UAP.xr.xml">
+					<Candidate type="Path">
+						<Value>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="CollectionView">
+					<NamedResource name="ItemsViewStyles.xbf" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/Xamarin.Forms.Platform.UAP/CollectionView/ItemsViewStyles.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Shell">
+					<NamedResource name="ShellPageWrapper.xbf" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/Xamarin.Forms.Platform.UAP/Shell/ShellPageWrapper.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ShellStyles.xbf" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Files/Xamarin.Forms.Platform.UAP/Shell/ShellStyles.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="FxResources.Microsoft.Bcl.HashCode.SR">
+			<NamedResource name="HashCode_EqualityNotSupported" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/FxResources.Microsoft.Bcl.HashCode.SR/HashCode_EqualityNotSupported">
+				<Candidate type="String">
+					<Value>HashCode is a mutable struct and should not be compared with other HashCodes.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="HashCode_HashCodeNotSupported" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/FxResources.Microsoft.Bcl.HashCode.SR/HashCode_HashCodeNotSupported">
+				<Candidate type="String">
+					<Value>HashCode is a mutable struct and should not be compared with other HashCodes. Use ToHashCode to retrieve the computed hash code.</Value>
+				</Candidate>
+			</NamedResource>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Prism.Properties.Resources">
+			<NamedResource name="CannotRegisterCompositeCommandInItself" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Prism.Properties.Resources/CannotRegisterCompositeCommandInItself">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>Cannot register a CompositeCommand in itself.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="CannotRegisterSameCommandTwice" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Prism.Properties.Resources/CannotRegisterSameCommandTwice">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>Cannot register the same command twice in the same CompositeCommand.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DefaultDebugLoggerPattern" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Prism.Properties.Resources/DefaultDebugLoggerPattern">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>{1}: {2}. Priority: {3}. Timestamp:{0:u}.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DelegateCommandDelegatesCannotBeNull" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Prism.Properties.Resources/DelegateCommandDelegatesCannotBeNull">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>Neither the executeMethod nor the canExecuteMethod delegates can be null.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DelegateCommandInvalidGenericPayloadType" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Prism.Properties.Resources/DelegateCommandInvalidGenericPayloadType">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>T for DelegateCommand&lt;T&gt; is not an object nor Nullable.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EventAggregatorNotConstructedOnUIThread" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Prism.Properties.Resources/EventAggregatorNotConstructedOnUIThread">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>To use the UIThread option for subscribing, the EventAggregator must be constructed on the UI thread.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="InvalidDelegateRerefenceTypeException" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Prism.Properties.Resources/InvalidDelegateRerefenceTypeException">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>Invalid Delegate Reference Type Exception</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="InvalidPropertyNameException" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Prism.Properties.Resources/InvalidPropertyNameException">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>The entity does not contain a property with that name</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="PropertySupport_ExpressionNotProperty_Exception" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Prism.Properties.Resources/PropertySupport_ExpressionNotProperty_Exception">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>The member access expression does not access a property.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="PropertySupport_NotMemberAccessExpression_Exception" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Prism.Properties.Resources/PropertySupport_NotMemberAccessExpression_Exception">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>The expression is not a member access expression.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="PropertySupport_StaticExpression_Exception" uri="ms-resource://ConvergenceSystemsLimited.CS108CDemo/Prism.Properties.Resources/PropertySupport_StaticExpression_Exception">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>The referenced property is a static property.</Value>
+				</Candidate>
+			</NamedResource>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

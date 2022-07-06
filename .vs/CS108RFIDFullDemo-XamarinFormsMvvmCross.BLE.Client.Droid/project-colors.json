@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "9a31adb5-9fd7-474d-bd94-0bc7efb2d0ff": {
+      "ProjectGuid": "9a31adb5-9fd7-474d-bd94-0bc7efb2d0ff",
+      "DisplayName": "BTWapper",
+      "ColorIndex": 0
+    },
+    "995bc11d-75e8-4b06-9a4b-7424e4f67d96": {
+      "ProjectGuid": "995bc11d-75e8-4b06-9a4b-7424e4f67d96",
+      "DisplayName": "MvvmCross.Plugins.BLE.Droid",
+      "ColorIndex": 1
+    },
+    "a06042f5-f69d-4191-875e-5ade9cf42075": {
+      "ProjectGuid": "a06042f5-f69d-4191-875e-5ade9cf42075",
+      "DisplayName": "CS108RFIDFullDemo-XamarinFormsMvvmCross",
+      "ColorIndex": 2
+    },
+    "7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7": {
+      "ProjectGuid": "7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7",
+      "DisplayName": "BLE.Client.Droid",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

@@ -1,0 +1,116 @@
+{
+  "version": 2,
+  "dgSpecHash": "0PwvC55olVZ9HObjRdmtVCZkK1MnJPH3+5rpGdPt6js8p4zrHfexIijEYmafjf5jHYGJ4jMoeMSBY0qDYDZOng==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\trevo\\source\\repos\\RFID_BT_app\\CS108 Demo\\BLE.Client.iOS\\BLE.Client.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\trevo\\.nuget\\packages\\acr.support\\2.1.0\\acr.support.2.1.0.nupkg.sha512",
+    "C:\\Users\\trevo\\.nuget\\packages\\acr.userdialogs\\6.5.1\\acr.userdialogs.6.5.1.nupkg.sha512",
+    "C:\\Users\\trevo\\.nuget\\packages\\btprogresshud\\1.2.0.5\\btprogresshud.1.2.0.5.nupkg.sha512",
+    "C:\\Users\\trevo\\.nuget\\packages\\livechartscore\\2.0.0-beta.101\\livechartscore.2.0.0-beta.101.nupkg.sha512",
+    "C:\\Users\\trevo\\.nuget\\packages\\livechartscore.skiasharpview\\2.0.0-beta.101\\livechartscore.skiasharpview.2.0.0-beta.101.nupkg.sha512",
+    "C:\\Users\\trevo\\.nuget\\packages\\livechartscore.skiasharpview.uwp\\2.0.0-beta.101\\livechartscore.skiasharpview.uwp.2.0.0-beta.101.nupkg.sha512",
+    "C:\\Users\\trevo\\.nuget\\packages\\livechartscore.skiasharpview.xamarinforms\\2.0.0-beta.101\\livechartscore.skiasharpview.xamarinforms.2.0.0-beta.101.nupkg.sha512",
+    "C:\\Users\\trevo\\.nuget\\packages\\mvvmcross\\5.1.0\\mvvmcross.5.1.0.nupkg.sha512",
+    "C:\\Users\\trevo\\.nuget\\packages\\mvvmcross.binding\\5.1.0\\mvvmcross.binding.5.1.0.nupkg.sha512",
+    "C:\\Users\\trevo\\.nuget\\packages\\mvvmcross.core\\5.1.0\\mvvmcross.core.5.1.0.nupkg.sha512",
+    "C:\\Users\\trevo\\.nuget\\packages\\mvvmcross.forms\\5.1.0\\mvvmcross.forms.5.1.0.nupkg.sha512",
+    "C:\\Users\\trevo\\.nuget\\packages\\mvvmcross.platform\\5.1.0\\mvvmcross.platform.5.1.0.nupkg.sha512",
+    "C:\\Users\\trevo\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\trevo\\.nuget\\packages\\pclstorage\\1.0.2\\pclstorage.1.0.2.nupkg.sha512",
+    "C:\\Users\\trevo\\.nuget\\packages\\plugin.permissions\\2.0.1\\plugin.permissions.2.0.1.nupkg.sha512",
+    "C:\\Users\\trevo\\.nuget\\packages\\plugin.share\\7.0.1\\plugin.share.7.0.1.nupkg.sha512",
+    "C:\\Users\\trevo\\.nuget\\packages\\prism.core\\6.3.0\\prism.core.6.3.0.nupkg.sha512",
+    "C:\\Users\\trevo\\.nuget\\packages\\skiasharp\\2.88.0-preview.179\\skiasharp.2.88.0-preview.179.nupkg.sha512",
+    "C:\\Users\\trevo\\.nuget\\packages\\skiasharp.nativeassets.ios\\2.88.0-preview.179\\skiasharp.nativeassets.ios.2.88.0-preview.179.nupkg.sha512",
+    "C:\\Users\\trevo\\.nuget\\packages\\skiasharp.views\\2.88.0-preview.179\\skiasharp.views.2.88.0-preview.179.nupkg.sha512",
+    "C:\\Users\\trevo\\.nuget\\packages\\skiasharp.views.forms\\2.88.0-preview.179\\skiasharp.views.forms.2.88.0-preview.179.nupkg.sha512",
+    "C:\\Users\\trevo\\.nuget\\packages\\skiasharp.views.uno\\2.88.0-preview.179\\skiasharp.views.uno.2.88.0-preview.179.nupkg.sha512",
+    "C:\\Users\\trevo\\.nuget\\packages\\splat\\2.0.0\\splat.2.0.0.nupkg.sha512",
+    "C:\\Users\\trevo\\.nuget\\packages\\system.collections.immutable\\1.3.1\\system.collections.immutable.1.3.1.nupkg.sha512",
+    "C:\\Users\\trevo\\.nuget\\packages\\uno.diagnostics.eventing\\2.0.1\\uno.diagnostics.eventing.2.0.1.nupkg.sha512",
+    "C:\\Users\\trevo\\.nuget\\packages\\uno.foundation.logging\\4.0.8\\uno.foundation.logging.4.0.8.nupkg.sha512",
+    "C:\\Users\\trevo\\.nuget\\packages\\uno.sourcegenerationtasks\\4.0.0\\uno.sourcegenerationtasks.4.0.0.nupkg.sha512",
+    "C:\\Users\\trevo\\.nuget\\packages\\uno.ui\\4.0.8\\uno.ui.4.0.8.nupkg.sha512",
+    "C:\\Users\\trevo\\.nuget\\packages\\xam.plugins.settings\\3.0.1\\xam.plugins.settings.3.0.1.nupkg.sha512",
+    "C:\\Users\\trevo\\.nuget\\packages\\xamarin.essentials\\1.4.0\\xamarin.essentials.1.4.0.nupkg.sha512",
+    "C:\\Users\\trevo\\.nuget\\packages\\xamarin.forms\\5.0.0.2291\\xamarin.forms.5.0.0.2291.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Newtonsoft.Json from 13.0.1 to 12.0.2. Reference the package directly from the project to select a different version. \r\n BLEClientiOS -> BLE.Client -> LiveChartsCore 2.0.0-beta.101 -> Newtonsoft.Json (>= 13.0.1) \r\n BLEClientiOS -> Newtonsoft.Json (>= 12.0.2)",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Newtonsoft.Json from 13.0.1 to 12.0.2. Reference the package directly from the project to select a different version. \r\n BLEClientiOS -> BLE.Client -> LiveChartsCore.SkiaSharpView.UWP 2.0.0-beta.101 -> Newtonsoft.Json (= 13.0.1) \r\n BLEClientiOS -> Newtonsoft.Json (>= 12.0.2)",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Essentials from 1.6.0 to 1.4.0. Reference the package directly from the project to select a different version. \r\n BLEClientiOS -> BLE.Client -> LiveChartsCore.SkiaSharpView.XamarinForms 2.0.0-beta.101 -> Xamarin.Essentials (>= 1.6.0) \r\n BLEClientiOS -> Xamarin.Essentials (>= 1.4.0)",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package LiveChartsCore.SkiaSharpView.UWP 2.0.0-beta.101 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0). Package LiveChartsCore.SkiaSharpView.UWP 2.0.0-beta.101 supports: uap10.0 (UAP,Version=v10.0)",
+      "libraryId": "LiveChartsCore.SkiaSharpView.UWP",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package LiveChartsCore.SkiaSharpView.UWP 2.0.0-beta.101 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win. Package LiveChartsCore.SkiaSharpView.UWP 2.0.0-beta.101 supports: uap10.0 (UAP,Version=v10.0)",
+      "libraryId": "LiveChartsCore.SkiaSharpView.UWP",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package LiveChartsCore.SkiaSharpView.UWP 2.0.0-beta.101 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x64. Package LiveChartsCore.SkiaSharpView.UWP 2.0.0-beta.101 supports: uap10.0 (UAP,Version=v10.0)",
+      "libraryId": "LiveChartsCore.SkiaSharpView.UWP",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win-x64"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package LiveChartsCore.SkiaSharpView.UWP 2.0.0-beta.101 is not compatible with xamarinios10 (Xamarin.iOS,Version=v1.0) / win-x86. Package LiveChartsCore.SkiaSharpView.UWP 2.0.0-beta.101 supports: uap10.0 (UAP,Version=v10.0)",
+      "libraryId": "LiveChartsCore.SkiaSharpView.UWP",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+C:\Users\trevo\source\repos\RFID_BT_app\CS108XamarinFormsDemo\CS108XamarinFormsDemo\obj\Debug\netstandard2.0\CS108XamarinFormsDemo.csproj.AssemblyReference.cache
+C:\Users\trevo\source\repos\RFID_BT_app\CS108XamarinFormsDemo\CS108XamarinFormsDemo\obj\Debug\netstandard2.0\CS108XamarinFormsDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\trevo\source\repos\Arm Test\CS108XamarinFormsDemo\CS108XamarinFormsDemo\obj\Debug\netstandard2.0\CS108XamarinFormsDemo.csproj.AssemblyReference.cache
+C:\Users\trevo\source\repos\Arm Test\CS108XamarinFormsDemo\CS108XamarinFormsDemo\obj\Debug\netstandard2.0\CS108XamarinFormsDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\trevo\source\repos\RFID_Exercise\CS108XamarinFormsDemo\CS108XamarinFormsDemo\obj\Debug\netstandard2.0\CS108XamarinFormsDemo.csproj.AssemblyReference.cache
+C:\Users\trevo\source\repos\RFID_Exercise\CS108XamarinFormsDemo\CS108XamarinFormsDemo\obj\Debug\netstandard2.0\CS108XamarinFormsDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\trevo\source\repos\RFID_Exercise\CS108XamarinFormsDemo\CS108XamarinFormsDemo\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\trevo\source\repos\RFID_Exercise\CS108XamarinFormsDemo\CS108XamarinFormsDemo\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\trevo\source\repos\RFID_Exercise\CS108XamarinFormsDemo\CS108XamarinFormsDemo\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\trevo\source\repos\RFID_Exercise\CS108XamarinFormsDemo\CS108XamarinFormsDemo\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\trevo\source\repos\RFID_Exercise\CS108XamarinFormsDemo\CS108XamarinFormsDemo\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\trevo\source\repos\RFID_Exercise\CS108XamarinFormsDemo\CS108XamarinFormsDemo\obj\Debug\netstandard2.0\Views\MenuPage.xaml.g.cs
+C:\Users\trevo\source\repos\RFID_Exercise\CS108XamarinFormsDemo\CS108XamarinFormsDemo\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\trevo\source\repos\RFID_Exercise\CS108XamarinFormsDemo\CS108XamarinFormsDemo\obj\Debug\netstandard2.0\Views\PageMainMenu.xaml.g.cs
+C:\Users\trevo\source\repos\RFID_Exercise\CS108XamarinFormsDemo\CS108XamarinFormsDemo\obj\Debug\netstandard2.0\CS108XamarinFormsDemo.AssemblyInfoInputs.cache
+C:\Users\trevo\source\repos\RFID_Exercise\CS108XamarinFormsDemo\CS108XamarinFormsDemo\obj\Debug\netstandard2.0\CS108XamarinFormsDemo.AssemblyInfo.cs
+C:\Users\trevo\source\repos\RFID_Exercise\CS108XamarinFormsDemo\CS108XamarinFormsDemo\obj\Debug\netstandard2.0\CS108XamarinFormsDemo.csproj.CoreCompileInputs.cache
+C:\Users\trevo\source\repos\Exercise_No_Duty\CS108XamarinFormsDemo\CS108XamarinFormsDemo\obj\Debug\netstandard2.0\CS108XamarinFormsDemo.csproj.AssemblyReference.cache
+C:\Users\trevo\source\repos\Exercise_No_Duty\CS108XamarinFormsDemo\CS108XamarinFormsDemo\obj\Debug\netstandard2.0\CS108XamarinFormsDemo.GeneratedMSBuildEditorConfig.editorconfig

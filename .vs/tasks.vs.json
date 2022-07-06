@@ -1,0 +1,25 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-CS108RFIDFullDemo-XamarinFormsMvvmCross.BLE.Client.Droid",
+      "appliesTo": "CS108RFIDFullDemo-XamarinFormsMvvmCross.BLE.Client.Droid.sln",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-BLE.Client.Droid",
+      "appliesTo": "CS108 Demo/BLE.Client.Droid/BLE.Client.Droid.csproj",
+      "type": "msbuild"
+    },
+    {
+      "taskLabel": "task-CS108XamarinFormsDemo.Android",
+      "appliesTo": "CS108XamarinFormsDemo/CS108XamarinFormsDemo.Android/CS108XamarinFormsDemo.Android.csproj",
+      "type": "msbuild"
+    },
+    {
+      "taskLabel": "task-CS108XamarinFormsDemo.Android",
+      "appliesTo": "CS108XamarinFormsDemo/CS108XamarinFormsDemo.Android/CS108XamarinFormsDemo.Android.csproj",
+      "type": "msbuild"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "56c80b93-c494-4f6c-bf8f-6ba8b0a16d36": {
+      "ProjectGuid": "56c80b93-c494-4f6c-bf8f-6ba8b0a16d36",
+      "DisplayName": "CS108XamarinFormsDemo",
+      "ColorIndex": 0
+    },
+    "8f5cd148-5ce2-4970-a745-a586de4f5e51": {
+      "ProjectGuid": "8f5cd148-5ce2-4970-a745-a586de4f5e51",
+      "DisplayName": "CS108RFIDDemo-XamarinForms (UnderDevelopment)",
+      "ColorIndex": 1
+    },
+    "24ce3c36-16b9-426d-aa0c-5961ecf8d88c": {
+      "ProjectGuid": "24ce3c36-16b9-426d-aa0c-5961ecf8d88c",
+      "DisplayName": "CS108XamarinFormsDemo.Android",
+      "ColorIndex": 2
+    },
+    "6b39bae2-82ff-4904-b22d-f53414436813": {
+      "ProjectGuid": "6b39bae2-82ff-4904-b22d-f53414436813",
+      "DisplayName": "BLE.Client",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

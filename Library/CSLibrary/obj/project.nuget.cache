@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "vzZH9Ef1pzObKvr7KiAS01Q9YWTgmy3iotfwYPdZMgmpRq3V6bIygh9YZMQ94AYBLNf5YDn3cHj1RsrLNd8IRQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\trevo\\source\\repos\\Exercise_No_Duty\\Library\\CSLibrary\\CSLibrary-NETStandard.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\trevo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\trevo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

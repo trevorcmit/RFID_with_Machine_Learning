@@ -1,0 +1,17 @@
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\CS108DesktopDemo\bin\Release\CS108DesktopDemo.exe.config
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\CS108DesktopDemo\bin\Release\CS108DesktopDemo.exe
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\CS108DesktopDemo\bin\Release\CS108DesktopDemo.pdb
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\CS108DesktopDemo\bin\Release\CSLibrary.dll
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\CS108DesktopDemo\bin\Release\wclBluetoothFramework.dll
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\CS108DesktopDemo\bin\Release\wclCommunication.dll
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\CS108DesktopDemo\bin\Release\wclCommon.dll
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\CS108DesktopDemo\bin\Release\CSLibrary.pdb
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\CS108DesktopDemo\obj\Release\CS108DesktopDemo.csproj.AssemblyReference.cache
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\CS108DesktopDemo\obj\Release\CS108DesktopDemo.csproj.SuggestedBindingRedirects.cache
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\CS108DesktopDemo\obj\Release\CS108DesktopDemo.FormMain.resources
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\CS108DesktopDemo\obj\Release\CS108DesktopDemo.Properties.Resources.resources
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\CS108DesktopDemo\obj\Release\CS108DesktopDemo.csproj.GenerateResource.cache
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\CS108DesktopDemo\obj\Release\CS108DesktopDemo.csproj.CoreCompileInputs.cache
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\CS108DesktopDemo\obj\Release\CS108DesktopDemo.csproj.CopyComplete
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\CS108DesktopDemo\obj\Release\CS108DesktopDemo.exe
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\CS108DesktopDemo\obj\Release\CS108DesktopDemo.pdb

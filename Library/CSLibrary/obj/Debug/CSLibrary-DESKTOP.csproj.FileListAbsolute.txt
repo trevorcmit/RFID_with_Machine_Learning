@@ -1,0 +1,40 @@
+C:\Users\trevo\source\repos\RFID_BT_app\Library\CSLibrary\bin\Debug\CSLibrary.dll
+C:\Users\trevo\source\repos\RFID_BT_app\Library\CSLibrary\bin\Debug\CSLibrary.pdb
+C:\Users\trevo\source\repos\RFID_BT_app\Library\CSLibrary\bin\Debug\wclBluetoothFramework.dll
+C:\Users\trevo\source\repos\RFID_BT_app\Library\CSLibrary\bin\Debug\wclCommon.dll
+C:\Users\trevo\source\repos\RFID_BT_app\Library\CSLibrary\bin\Debug\wclCommunication.dll
+C:\Users\trevo\source\repos\RFID_BT_app\Library\CSLibrary\obj\Debug\CSLibrary-DESKTOP.csproj.AssemblyReference.cache
+C:\Users\trevo\source\repos\RFID_BT_app\Library\CSLibrary\obj\Debug\CSLibrary-DESKTOP.csproj.CoreCompileInputs.cache
+C:\Users\trevo\source\repos\RFID_BT_app\Library\CSLibrary\obj\Debug\CSLibrary-DESKTOP.csproj.CopyComplete
+C:\Users\trevo\source\repos\RFID_BT_app\Library\CSLibrary\obj\Debug\CSLibrary.dll
+C:\Users\trevo\source\repos\RFID_BT_app\Library\CSLibrary\obj\Debug\CSLibrary.pdb
+C:\Users\trevo\source\repos\Arm Test\Library\CSLibrary\bin\Debug\CSLibrary.dll
+C:\Users\trevo\source\repos\Arm Test\Library\CSLibrary\bin\Debug\CSLibrary.pdb
+C:\Users\trevo\source\repos\Arm Test\Library\CSLibrary\bin\Debug\wclBluetoothFramework.dll
+C:\Users\trevo\source\repos\Arm Test\Library\CSLibrary\bin\Debug\wclCommon.dll
+C:\Users\trevo\source\repos\Arm Test\Library\CSLibrary\bin\Debug\wclCommunication.dll
+C:\Users\trevo\source\repos\Arm Test\Library\CSLibrary\obj\Debug\CSLibrary-DESKTOP.csproj.AssemblyReference.cache
+C:\Users\trevo\source\repos\Arm Test\Library\CSLibrary\obj\Debug\CSLibrary-DESKTOP.csproj.CoreCompileInputs.cache
+C:\Users\trevo\source\repos\Arm Test\Library\CSLibrary\obj\Debug\CSLibrary-DESKTOP.csproj.CopyComplete
+C:\Users\trevo\source\repos\Arm Test\Library\CSLibrary\obj\Debug\CSLibrary.dll
+C:\Users\trevo\source\repos\Arm Test\Library\CSLibrary\obj\Debug\CSLibrary.pdb
+C:\Users\trevo\source\repos\RFID_Exercise\Library\CSLibrary\bin\Debug\CSLibrary.dll
+C:\Users\trevo\source\repos\RFID_Exercise\Library\CSLibrary\bin\Debug\CSLibrary.pdb
+C:\Users\trevo\source\repos\RFID_Exercise\Library\CSLibrary\bin\Debug\wclBluetoothFramework.dll
+C:\Users\trevo\source\repos\RFID_Exercise\Library\CSLibrary\bin\Debug\wclCommon.dll
+C:\Users\trevo\source\repos\RFID_Exercise\Library\CSLibrary\bin\Debug\wclCommunication.dll
+C:\Users\trevo\source\repos\RFID_Exercise\Library\CSLibrary\obj\Debug\CSLibrary-DESKTOP.csproj.AssemblyReference.cache
+C:\Users\trevo\source\repos\RFID_Exercise\Library\CSLibrary\obj\Debug\CSLibrary-DESKTOP.csproj.CoreCompileInputs.cache
+C:\Users\trevo\source\repos\RFID_Exercise\Library\CSLibrary\obj\Debug\CSLibrary-DESKTOP.csproj.CopyComplete
+C:\Users\trevo\source\repos\RFID_Exercise\Library\CSLibrary\obj\Debug\CSLibrary.dll
+C:\Users\trevo\source\repos\RFID_Exercise\Library\CSLibrary\obj\Debug\CSLibrary.pdb
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\CSLibrary\bin\Debug\CSLibrary.dll
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\CSLibrary\bin\Debug\CSLibrary.pdb
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\CSLibrary\bin\Debug\wclBluetoothFramework.dll
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\CSLibrary\bin\Debug\wclCommon.dll
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\CSLibrary\bin\Debug\wclCommunication.dll
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\CSLibrary\obj\Debug\CSLibrary-DESKTOP.csproj.AssemblyReference.cache
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\CSLibrary\obj\Debug\CSLibrary-DESKTOP.csproj.CoreCompileInputs.cache
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\CSLibrary\obj\Debug\CSLibrary-DESKTOP.csproj.CopyComplete
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\CSLibrary\obj\Debug\CSLibrary.dll
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\CSLibrary\obj\Debug\CSLibrary.pdb

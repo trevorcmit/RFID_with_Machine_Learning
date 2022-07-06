@@ -1,0 +1,10 @@
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\CSLibrary\bin\Release\CSLibrary.dll
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\CSLibrary\bin\Release\CSLibrary.pdb
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\CSLibrary\bin\Release\wclBluetoothFramework.dll
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\CSLibrary\bin\Release\wclCommon.dll
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\CSLibrary\bin\Release\wclCommunication.dll
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\CSLibrary\obj\Release\CSLibrary-DESKTOP.csproj.AssemblyReference.cache
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\CSLibrary\obj\Release\CSLibrary-DESKTOP.csproj.CoreCompileInputs.cache
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\CSLibrary\obj\Release\CSLibrary-DESKTOP.csproj.CopyComplete
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\CSLibrary\obj\Release\CSLibrary.dll
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\CSLibrary\obj\Release\CSLibrary.pdb

@@ -1,0 +1,70 @@
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\MvvmCross.Plugins.BLE\bin\Debug\netstandard2.0\MvvmCross.Plugins.BLE.deps.json
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\MvvmCross.Plugins.BLE\bin\Debug\netstandard2.0\MvvmCross.Plugins.BLE.dll
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\MvvmCross.Plugins.BLE\bin\Debug\netstandard2.0\MvvmCross.Plugins.BLE.pdb
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\MvvmCross.Plugins.BLE\obj\Debug\netstandard2.0\MvvmCross.Plugins.BLE.csproj.AssemblyReference.cache
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\MvvmCross.Plugins.BLE\obj\Debug\netstandard2.0\MvvmCross.Plugins.BLE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\MvvmCross.Plugins.BLE\obj\Debug\netstandard2.0\MvvmCross.Plugins.BLE.AssemblyInfoInputs.cache
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\MvvmCross.Plugins.BLE\obj\Debug\netstandard2.0\MvvmCross.Plugins.BLE.AssemblyInfo.cs
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\MvvmCross.Plugins.BLE\obj\Debug\netstandard2.0\MvvmCross.Plugins.BLE.csproj.CoreCompileInputs.cache
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\MvvmCross.Plugins.BLE\obj\Debug\netstandard2.0\MvvmCross.Plugins.BLE.dll
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\MvvmCross.Plugins.BLE\obj\Debug\netstandard2.0\MvvmCross.Plugins.BLE.pdb
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\MvvmCross.Plugins.BLE\bin\Debug\netstandard2.0\MvvmCross.Plugins.BLE.deps.json
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\MvvmCross.Plugins.BLE\bin\Debug\netstandard2.0\MvvmCross.Plugins.BLE.dll
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\MvvmCross.Plugins.BLE\bin\Debug\netstandard2.0\MvvmCross.Plugins.BLE.pdb
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\MvvmCross.Plugins.BLE\obj\Debug\netstandard2.0\MvvmCross.Plugins.BLE.csproj.AssemblyReference.cache
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\MvvmCross.Plugins.BLE\obj\Debug\netstandard2.0\MvvmCross.Plugins.BLE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\MvvmCross.Plugins.BLE\obj\Debug\netstandard2.0\MvvmCross.Plugins.BLE.AssemblyInfoInputs.cache
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\MvvmCross.Plugins.BLE\obj\Debug\netstandard2.0\MvvmCross.Plugins.BLE.AssemblyInfo.cs
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\MvvmCross.Plugins.BLE\obj\Debug\netstandard2.0\MvvmCross.Plugins.BLE.csproj.CoreCompileInputs.cache
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\MvvmCross.Plugins.BLE\obj\Debug\netstandard2.0\MvvmCross.Plugins.BLE.dll
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\MvvmCross.Plugins.BLE\obj\Debug\netstandard2.0\MvvmCross.Plugins.BLE.pdb
+C:\Users\trevo\source\repos\RFID_BT_app alpha\Library\BTWapper\MvvmCross.Plugins.BLE\bin\Debug\netstandard2.0\MvvmCross.Plugins.BLE.deps.json
+C:\Users\trevo\source\repos\RFID_BT_app alpha\Library\BTWapper\MvvmCross.Plugins.BLE\bin\Debug\netstandard2.0\MvvmCross.Plugins.BLE.dll
+C:\Users\trevo\source\repos\RFID_BT_app alpha\Library\BTWapper\MvvmCross.Plugins.BLE\bin\Debug\netstandard2.0\MvvmCross.Plugins.BLE.pdb
+C:\Users\trevo\source\repos\RFID_BT_app alpha\Library\BTWapper\MvvmCross.Plugins.BLE\obj\Debug\netstandard2.0\MvvmCross.Plugins.BLE.csproj.AssemblyReference.cache
+C:\Users\trevo\source\repos\RFID_BT_app alpha\Library\BTWapper\MvvmCross.Plugins.BLE\obj\Debug\netstandard2.0\MvvmCross.Plugins.BLE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\trevo\source\repos\RFID_BT_app alpha\Library\BTWapper\MvvmCross.Plugins.BLE\obj\Debug\netstandard2.0\MvvmCross.Plugins.BLE.AssemblyInfoInputs.cache
+C:\Users\trevo\source\repos\RFID_BT_app alpha\Library\BTWapper\MvvmCross.Plugins.BLE\obj\Debug\netstandard2.0\MvvmCross.Plugins.BLE.AssemblyInfo.cs
+C:\Users\trevo\source\repos\RFID_BT_app alpha\Library\BTWapper\MvvmCross.Plugins.BLE\obj\Debug\netstandard2.0\MvvmCross.Plugins.BLE.csproj.CoreCompileInputs.cache
+C:\Users\trevo\source\repos\RFID_BT_app alpha\Library\BTWapper\MvvmCross.Plugins.BLE\obj\Debug\netstandard2.0\MvvmCross.Plugins.BLE.dll
+C:\Users\trevo\source\repos\RFID_BT_app alpha\Library\BTWapper\MvvmCross.Plugins.BLE\obj\Debug\netstandard2.0\MvvmCross.Plugins.BLE.pdb
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\Library\BTWapper\MvvmCross.Plugins.BLE\bin\Debug\netstandard2.0\MvvmCross.Plugins.BLE.deps.json
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\Library\BTWapper\MvvmCross.Plugins.BLE\bin\Debug\netstandard2.0\MvvmCross.Plugins.BLE.dll
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\Library\BTWapper\MvvmCross.Plugins.BLE\bin\Debug\netstandard2.0\MvvmCross.Plugins.BLE.pdb
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\Library\BTWapper\MvvmCross.Plugins.BLE\obj\Debug\netstandard2.0\MvvmCross.Plugins.BLE.csproj.AssemblyReference.cache
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\Library\BTWapper\MvvmCross.Plugins.BLE\obj\Debug\netstandard2.0\MvvmCross.Plugins.BLE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\Library\BTWapper\MvvmCross.Plugins.BLE\obj\Debug\netstandard2.0\MvvmCross.Plugins.BLE.AssemblyInfoInputs.cache
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\Library\BTWapper\MvvmCross.Plugins.BLE\obj\Debug\netstandard2.0\MvvmCross.Plugins.BLE.AssemblyInfo.cs
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\Library\BTWapper\MvvmCross.Plugins.BLE\obj\Debug\netstandard2.0\MvvmCross.Plugins.BLE.csproj.CoreCompileInputs.cache
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\Library\BTWapper\MvvmCross.Plugins.BLE\obj\Debug\netstandard2.0\MvvmCross.Plugins.BLE.dll
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\Library\BTWapper\MvvmCross.Plugins.BLE\obj\Debug\netstandard2.0\MvvmCross.Plugins.BLE.pdb
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\MvvmCross.Plugins.BLE\bin\Debug\netstandard2.0\MvvmCross.Plugins.BLE.deps.json
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\MvvmCross.Plugins.BLE\bin\Debug\netstandard2.0\MvvmCross.Plugins.BLE.dll
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\MvvmCross.Plugins.BLE\bin\Debug\netstandard2.0\MvvmCross.Plugins.BLE.pdb
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\MvvmCross.Plugins.BLE\obj\Debug\netstandard2.0\MvvmCross.Plugins.BLE.csproj.AssemblyReference.cache
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\MvvmCross.Plugins.BLE\obj\Debug\netstandard2.0\MvvmCross.Plugins.BLE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\MvvmCross.Plugins.BLE\obj\Debug\netstandard2.0\MvvmCross.Plugins.BLE.AssemblyInfoInputs.cache
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\MvvmCross.Plugins.BLE\obj\Debug\netstandard2.0\MvvmCross.Plugins.BLE.AssemblyInfo.cs
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\MvvmCross.Plugins.BLE\obj\Debug\netstandard2.0\MvvmCross.Plugins.BLE.csproj.CoreCompileInputs.cache
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\MvvmCross.Plugins.BLE\obj\Debug\netstandard2.0\MvvmCross.Plugins.BLE.dll
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\MvvmCross.Plugins.BLE\obj\Debug\netstandard2.0\MvvmCross.Plugins.BLE.pdb
+C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\MvvmCross.Plugins.BLE\bin\Debug\netstandard2.0\MvvmCross.Plugins.BLE.deps.json
+C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\MvvmCross.Plugins.BLE\bin\Debug\netstandard2.0\MvvmCross.Plugins.BLE.dll
+C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\MvvmCross.Plugins.BLE\bin\Debug\netstandard2.0\MvvmCross.Plugins.BLE.pdb
+C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\MvvmCross.Plugins.BLE\obj\Debug\netstandard2.0\MvvmCross.Plugins.BLE.csproj.AssemblyReference.cache
+C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\MvvmCross.Plugins.BLE\obj\Debug\netstandard2.0\MvvmCross.Plugins.BLE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\MvvmCross.Plugins.BLE\obj\Debug\netstandard2.0\MvvmCross.Plugins.BLE.AssemblyInfoInputs.cache
+C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\MvvmCross.Plugins.BLE\obj\Debug\netstandard2.0\MvvmCross.Plugins.BLE.AssemblyInfo.cs
+C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\MvvmCross.Plugins.BLE\obj\Debug\netstandard2.0\MvvmCross.Plugins.BLE.csproj.CoreCompileInputs.cache
+C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\MvvmCross.Plugins.BLE\obj\Debug\netstandard2.0\MvvmCross.Plugins.BLE.dll
+C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\MvvmCross.Plugins.BLE\obj\Debug\netstandard2.0\MvvmCross.Plugins.BLE.pdb
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\MvvmCross.Plugins.BLE\bin\Debug\netstandard2.0\MvvmCross.Plugins.BLE.deps.json
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\MvvmCross.Plugins.BLE\bin\Debug\netstandard2.0\MvvmCross.Plugins.BLE.dll
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\MvvmCross.Plugins.BLE\bin\Debug\netstandard2.0\MvvmCross.Plugins.BLE.pdb
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\MvvmCross.Plugins.BLE\obj\Debug\netstandard2.0\MvvmCross.Plugins.BLE.csproj.AssemblyReference.cache
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\MvvmCross.Plugins.BLE\obj\Debug\netstandard2.0\MvvmCross.Plugins.BLE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\MvvmCross.Plugins.BLE\obj\Debug\netstandard2.0\MvvmCross.Plugins.BLE.AssemblyInfoInputs.cache
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\MvvmCross.Plugins.BLE\obj\Debug\netstandard2.0\MvvmCross.Plugins.BLE.AssemblyInfo.cs
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\MvvmCross.Plugins.BLE\obj\Debug\netstandard2.0\MvvmCross.Plugins.BLE.csproj.CoreCompileInputs.cache
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\MvvmCross.Plugins.BLE\obj\Debug\netstandard2.0\MvvmCross.Plugins.BLE.dll
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\MvvmCross.Plugins.BLE\obj\Debug\netstandard2.0\MvvmCross.Plugins.BLE.pdb

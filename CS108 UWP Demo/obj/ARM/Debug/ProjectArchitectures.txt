@@ -1,0 +1,1 @@
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\CS108 UWP Demo\CS108 UWP Wedge Demo.csproj;arm

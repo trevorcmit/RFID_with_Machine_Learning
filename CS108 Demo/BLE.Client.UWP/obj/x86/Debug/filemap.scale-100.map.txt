@@ -1,0 +1,7 @@
+﻿[ResourceMetadata]
+"ResourceId"			"filemap.scale-100"
+"ResourceDimensions"		"scale-100"
+
+[Files]
+"C:\Users\trevo\source\repos\RFID_BT_app Yoga\CS108 Demo\BLE.Client.UWP\obj\x86\Debug\filemap.scale-100.pri"			"resources.pri"
+"C:\Users\trevo\source\repos\RFID_BT_app Yoga\CS108 Demo\BLE.Client.UWP\obj\x86\Debug\PackageLayout\Assets\StoreLogo.scale-100.png"			"Assets\StoreLogo.scale-100.png"

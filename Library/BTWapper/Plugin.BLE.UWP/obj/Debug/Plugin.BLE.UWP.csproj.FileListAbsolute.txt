@@ -1,0 +1,196 @@
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\Plugin.BLE.UWP\bin\Debug\Plugin.BLE.dll
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\Plugin.BLE.UWP\bin\Debug\Plugin.BLE.pdb
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\Plugin.BLE.UWP\bin\Debug\Plugin.BLE.pri
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\Plugin.BLE.UWP\bin\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\Plugin.BLE.UWP\bin\Debug\Plugin.BLE.Abstractions.dll
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\Plugin.BLE.UWP\bin\Debug\Plugin.BLE.Abstractions.pdb
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\Plugin.BLE.UWP.csproj.AssemblyReference.cache
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\Plugin.BLE.UWP.csproj.CoreCompileInputs.cache
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\Plugin.BLE.UWP.csproj.CopyComplete
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\Microsoft.Toolkit.Uwp.pri.xml
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\Microsoft.Toolkit.Uwp.Connectivity.pri.xml
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\Plugin.BLE.dll
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\Plugin.BLE.pdb
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\priconfig.xml
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\priconfig.xml.intermediate
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\unfiltered.layout.resfiles
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\filtered.layout.resfiles
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\filtered.layout.resfiles.intermediate
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\excluded.layout.resfiles
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\excluded.layout.resfiles.intermediate
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\resources.resfiles
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\resources.resfiles.intermediate
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\pri.resfiles
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\pri.resfiles.intermediate
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\qualifiers.txt
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\qualifiers.txt.intermediate
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\Plugin.BLE.UWP\bin\Debug\Plugin.BLE.dll
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\Plugin.BLE.UWP\bin\Debug\Plugin.BLE.pdb
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\Plugin.BLE.UWP\bin\Debug\Plugin.BLE.pri
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\Plugin.BLE.UWP\bin\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\Plugin.BLE.UWP\bin\Debug\Plugin.BLE.Abstractions.dll
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\Plugin.BLE.UWP\bin\Debug\Plugin.BLE.Abstractions.pdb
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\Plugin.BLE.UWP.csproj.AssemblyReference.cache
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\Plugin.BLE.UWP.csproj.CoreCompileInputs.cache
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\Plugin.BLE.UWP.csproj.CopyComplete
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\Microsoft.Toolkit.Uwp.pri.xml
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\Microsoft.Toolkit.Uwp.Connectivity.pri.xml
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\Plugin.BLE.dll
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\Plugin.BLE.pdb
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\priconfig.xml
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\priconfig.xml.intermediate
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\unfiltered.layout.resfiles
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\filtered.layout.resfiles
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\filtered.layout.resfiles.intermediate
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\excluded.layout.resfiles
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\excluded.layout.resfiles.intermediate
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\resources.resfiles
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\resources.resfiles.intermediate
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\pri.resfiles
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\pri.resfiles.intermediate
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\qualifiers.txt
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\qualifiers.txt.intermediate
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\trevo\source\repos\RFID_BT_app alpha\Library\BTWapper\Plugin.BLE.UWP\bin\Debug\Plugin.BLE.dll
+C:\Users\trevo\source\repos\RFID_BT_app alpha\Library\BTWapper\Plugin.BLE.UWP\bin\Debug\Plugin.BLE.pdb
+C:\Users\trevo\source\repos\RFID_BT_app alpha\Library\BTWapper\Plugin.BLE.UWP\bin\Debug\Plugin.BLE.pri
+C:\Users\trevo\source\repos\RFID_BT_app alpha\Library\BTWapper\Plugin.BLE.UWP\bin\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\trevo\source\repos\RFID_BT_app alpha\Library\BTWapper\Plugin.BLE.UWP\bin\Debug\Plugin.BLE.Abstractions.dll
+C:\Users\trevo\source\repos\RFID_BT_app alpha\Library\BTWapper\Plugin.BLE.UWP\bin\Debug\Plugin.BLE.Abstractions.pdb
+C:\Users\trevo\source\repos\RFID_BT_app alpha\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\Plugin.BLE.UWP.csproj.AssemblyReference.cache
+C:\Users\trevo\source\repos\RFID_BT_app alpha\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\Plugin.BLE.UWP.csproj.CoreCompileInputs.cache
+C:\Users\trevo\source\repos\RFID_BT_app alpha\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\Plugin.BLE.UWP.csproj.CopyComplete
+C:\Users\trevo\source\repos\RFID_BT_app alpha\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\Microsoft.Toolkit.Uwp.pri.xml
+C:\Users\trevo\source\repos\RFID_BT_app alpha\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\Microsoft.Toolkit.Uwp.Connectivity.pri.xml
+C:\Users\trevo\source\repos\RFID_BT_app alpha\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\Plugin.BLE.dll
+C:\Users\trevo\source\repos\RFID_BT_app alpha\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\Plugin.BLE.pdb
+C:\Users\trevo\source\repos\RFID_BT_app alpha\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\priconfig.xml
+C:\Users\trevo\source\repos\RFID_BT_app alpha\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\priconfig.xml.intermediate
+C:\Users\trevo\source\repos\RFID_BT_app alpha\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\unfiltered.layout.resfiles
+C:\Users\trevo\source\repos\RFID_BT_app alpha\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\trevo\source\repos\RFID_BT_app alpha\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\filtered.layout.resfiles
+C:\Users\trevo\source\repos\RFID_BT_app alpha\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\filtered.layout.resfiles.intermediate
+C:\Users\trevo\source\repos\RFID_BT_app alpha\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\excluded.layout.resfiles
+C:\Users\trevo\source\repos\RFID_BT_app alpha\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\excluded.layout.resfiles.intermediate
+C:\Users\trevo\source\repos\RFID_BT_app alpha\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\resources.resfiles
+C:\Users\trevo\source\repos\RFID_BT_app alpha\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\resources.resfiles.intermediate
+C:\Users\trevo\source\repos\RFID_BT_app alpha\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\pri.resfiles
+C:\Users\trevo\source\repos\RFID_BT_app alpha\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\pri.resfiles.intermediate
+C:\Users\trevo\source\repos\RFID_BT_app alpha\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\qualifiers.txt
+C:\Users\trevo\source\repos\RFID_BT_app alpha\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\qualifiers.txt.intermediate
+C:\Users\trevo\source\repos\RFID_BT_app alpha\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\Library\BTWapper\Plugin.BLE.UWP\bin\Debug\Plugin.BLE.dll
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\Library\BTWapper\Plugin.BLE.UWP\bin\Debug\Plugin.BLE.pdb
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\Library\BTWapper\Plugin.BLE.UWP\bin\Debug\Plugin.BLE.pri
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\Library\BTWapper\Plugin.BLE.UWP\bin\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\Library\BTWapper\Plugin.BLE.UWP\bin\Debug\Plugin.BLE.Abstractions.dll
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\Library\BTWapper\Plugin.BLE.UWP\bin\Debug\Plugin.BLE.Abstractions.pdb
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\Plugin.BLE.UWP.csproj.AssemblyReference.cache
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\Plugin.BLE.UWP.csproj.CoreCompileInputs.cache
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\Plugin.BLE.UWP.csproj.CopyComplete
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\Microsoft.Toolkit.Uwp.pri.xml
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\Microsoft.Toolkit.Uwp.Connectivity.pri.xml
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\Plugin.BLE.dll
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\Plugin.BLE.pdb
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\priconfig.xml
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\priconfig.xml.intermediate
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\unfiltered.layout.resfiles
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\filtered.layout.resfiles
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\filtered.layout.resfiles.intermediate
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\excluded.layout.resfiles
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\excluded.layout.resfiles.intermediate
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\resources.resfiles
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\resources.resfiles.intermediate
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\pri.resfiles
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\pri.resfiles.intermediate
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\qualifiers.txt
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\qualifiers.txt.intermediate
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\Plugin.BLE.UWP\bin\Debug\Plugin.BLE.dll
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\Plugin.BLE.UWP\bin\Debug\Plugin.BLE.pdb
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\Plugin.BLE.UWP\bin\Debug\Plugin.BLE.pri
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\Plugin.BLE.UWP\bin\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\Plugin.BLE.UWP\bin\Debug\Plugin.BLE.Abstractions.dll
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\Plugin.BLE.UWP\bin\Debug\Plugin.BLE.Abstractions.pdb
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\Plugin.BLE.UWP.csproj.AssemblyReference.cache
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\Plugin.BLE.UWP.csproj.CoreCompileInputs.cache
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\Plugin.BLE.UWP.csproj.CopyComplete
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\Microsoft.Toolkit.Uwp.pri.xml
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\Microsoft.Toolkit.Uwp.Connectivity.pri.xml
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\Plugin.BLE.dll
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\Plugin.BLE.pdb
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\priconfig.xml
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\priconfig.xml.intermediate
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\unfiltered.layout.resfiles
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\filtered.layout.resfiles
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\filtered.layout.resfiles.intermediate
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\excluded.layout.resfiles
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\excluded.layout.resfiles.intermediate
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\resources.resfiles
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\resources.resfiles.intermediate
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\pri.resfiles
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\pri.resfiles.intermediate
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\qualifiers.txt
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\qualifiers.txt.intermediate
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\Plugin.BLE.UWP\bin\Debug\Plugin.BLE.dll
+C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\Plugin.BLE.UWP\bin\Debug\Plugin.BLE.pdb
+C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\Plugin.BLE.UWP\bin\Debug\Plugin.BLE.pri
+C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\Plugin.BLE.UWP\bin\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\Plugin.BLE.UWP\bin\Debug\Plugin.BLE.Abstractions.dll
+C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\Plugin.BLE.UWP\bin\Debug\Plugin.BLE.Abstractions.pdb
+C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\Plugin.BLE.UWP.csproj.AssemblyReference.cache
+C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\Plugin.BLE.UWP.csproj.CoreCompileInputs.cache
+C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\Plugin.BLE.UWP.csproj.CopyComplete
+C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\Microsoft.Toolkit.Uwp.pri.xml
+C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\Microsoft.Toolkit.Uwp.Connectivity.pri.xml
+C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\Plugin.BLE.dll
+C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\Plugin.BLE.pdb
+C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\priconfig.xml
+C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\priconfig.xml.intermediate
+C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\unfiltered.layout.resfiles
+C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\filtered.layout.resfiles
+C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\filtered.layout.resfiles.intermediate
+C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\excluded.layout.resfiles
+C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\excluded.layout.resfiles.intermediate
+C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\resources.resfiles
+C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\resources.resfiles.intermediate
+C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\pri.resfiles
+C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\pri.resfiles.intermediate
+C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\qualifiers.txt
+C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\qualifiers.txt.intermediate
+C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\Plugin.BLE.UWP\bin\Debug\Plugin.BLE.dll
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\Plugin.BLE.UWP\bin\Debug\Plugin.BLE.pdb
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\Plugin.BLE.UWP\bin\Debug\Plugin.BLE.pri
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\Plugin.BLE.UWP\bin\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\Plugin.BLE.UWP\bin\Debug\Plugin.BLE.Abstractions.dll
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\Plugin.BLE.UWP\bin\Debug\Plugin.BLE.Abstractions.pdb
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\Plugin.BLE.UWP.csproj.AssemblyReference.cache
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\Plugin.BLE.UWP.csproj.CoreCompileInputs.cache
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\Plugin.BLE.UWP.csproj.CopyComplete
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\Microsoft.Toolkit.Uwp.pri.xml
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\Microsoft.Toolkit.Uwp.Connectivity.pri.xml
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\Plugin.BLE.dll
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\Plugin.BLE.pdb
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\priconfig.xml
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\priconfig.xml.intermediate
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\unfiltered.layout.resfiles
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\filtered.layout.resfiles
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\filtered.layout.resfiles.intermediate
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\excluded.layout.resfiles
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\excluded.layout.resfiles.intermediate
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\resources.resfiles
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\resources.resfiles.intermediate
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\pri.resfiles
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\pri.resfiles.intermediate
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\qualifiers.txt
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\qualifiers.txt.intermediate
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\Plugin.BLE.UWP\obj\Debug\MultipleQualifiersPerDimensionFound.txt

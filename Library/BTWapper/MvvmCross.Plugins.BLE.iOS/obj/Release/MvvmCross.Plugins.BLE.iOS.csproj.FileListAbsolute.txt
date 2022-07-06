@@ -1,0 +1,14 @@
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\bin\Release\iOS\MvvmCross.Plugins.BLE.iOS.dll
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\MvvmCross.Plugins.BLE.iOS\obj\Release\actool\_PartialAppManifest.items
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\MvvmCross.Plugins.BLE.iOS\obj\Release\actool\_BundleResourceWithLogicalName.items
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\MvvmCross.Plugins.BLE.iOS\obj\Release\actool\_ProcessedImageAssetsPath.items
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\MvvmCross.Plugins.BLE.iOS\obj\Release\coremlc\_PartialAppManifest.items
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\MvvmCross.Plugins.BLE.iOS\obj\Release\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\MvvmCross.Plugins.BLE.iOS\obj\Release\coremlc\_ProcessedCoreMLModelsPath.items
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\MvvmCross.Plugins.BLE.iOS\obj\Release\_ProcessedBundleResourcesPath.items
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\MvvmCross.Plugins.BLE.iOS\obj\Release\_ProcessedContentPath.items
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\MvvmCross.Plugins.BLE.iOS\obj\Release\optimized\
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\MvvmCross.Plugins.BLE.iOS\obj\Release\MvvmCross.Plugins.BLE.iOS.csproj.AssemblyReference.cache
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\MvvmCross.Plugins.BLE.iOS\obj\Release\MvvmCross.Plugins.BLE.iOS.csproj.CoreCompileInputs.cache
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\MvvmCross.Plugins.BLE.iOS\obj\Release\MvvmCross.Plugins.BLE.iOS.csproj.CopyComplete
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\MvvmCross.Plugins.BLE.iOS\obj\Release\MvvmCross.Plugins.BLE.iOS.dll

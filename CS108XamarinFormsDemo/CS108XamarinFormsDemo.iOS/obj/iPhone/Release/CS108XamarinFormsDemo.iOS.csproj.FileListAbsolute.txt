@@ -1,0 +1,13 @@
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\CS108XamarinFormsDemo\CS108XamarinFormsDemo.iOS\obj\iPhone\Release\actool\_PartialAppManifest.items
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\CS108XamarinFormsDemo\CS108XamarinFormsDemo.iOS\obj\iPhone\Release\actool\_BundleResourceWithLogicalName.items
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\CS108XamarinFormsDemo\CS108XamarinFormsDemo.iOS\obj\iPhone\Release\actool\_ProcessedImageAssetsPath.items
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\CS108XamarinFormsDemo\CS108XamarinFormsDemo.iOS\obj\iPhone\Release\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\CS108XamarinFormsDemo\CS108XamarinFormsDemo.iOS\obj\iPhone\Release\ibtool\_ProcessedInterfaceDefinitionsPath.items
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\CS108XamarinFormsDemo\CS108XamarinFormsDemo.iOS\obj\iPhone\Release\coremlc\_PartialAppManifest.items
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\CS108XamarinFormsDemo\CS108XamarinFormsDemo.iOS\obj\iPhone\Release\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\CS108XamarinFormsDemo\CS108XamarinFormsDemo.iOS\obj\iPhone\Release\coremlc\_ProcessedCoreMLModelsPath.items
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\CS108XamarinFormsDemo\CS108XamarinFormsDemo.iOS\obj\iPhone\Release\_ProcessedBundleResourcesPath.items
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\CS108XamarinFormsDemo\CS108XamarinFormsDemo.iOS\obj\iPhone\Release\_ProcessedContentPath.items
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\CS108XamarinFormsDemo\CS108XamarinFormsDemo.iOS\obj\iPhone\Release\optimized\
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\CS108XamarinFormsDemo\CS108XamarinFormsDemo.iOS\obj\iPhone\Release\CS108XamarinFormsDemo.iOS.csproj.AssemblyReference.cache
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\CS108XamarinFormsDemo\CS108XamarinFormsDemo.iOS\obj\iPhone\Release\CS108XamarinFormsDemo.iOS.csproj.CoreCompileInputs.cache

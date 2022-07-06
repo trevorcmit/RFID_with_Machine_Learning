@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "O4x2eiH7tAm9++yTNaVEGFd4fmqIRiOVqkmh9KxlbpIanoNkBRvojCBLZB4FgR62MUqoVHvqoD7c+7ZnFVT3bg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\trevo\\source\\repos\\Exercise_No_Duty\\Library\\BTWapper\\MvvmCross.Plugins.BLE\\MvvmCross.Plugins.BLE.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\trevo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\trevo\\.nuget\\packages\\mvvmcross.platform\\5.1.0\\mvvmcross.platform.5.1.0.nupkg.sha512",
+    "C:\\Users\\trevo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'MvvmCross.Platform 5.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "libraryId": "MvvmCross.Platform",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+C:\Users\trevo\source\repos\RFID_BT_app\CS108DesktopDemo\bin\Debug\CS108DesktopDemo.exe.config
+C:\Users\trevo\source\repos\RFID_BT_app\CS108DesktopDemo\bin\Debug\CS108DesktopDemo.exe
+C:\Users\trevo\source\repos\RFID_BT_app\CS108DesktopDemo\bin\Debug\CS108DesktopDemo.pdb
+C:\Users\trevo\source\repos\RFID_BT_app\CS108DesktopDemo\bin\Debug\CSLibrary.dll
+C:\Users\trevo\source\repos\RFID_BT_app\CS108DesktopDemo\bin\Debug\wclBluetoothFramework.dll
+C:\Users\trevo\source\repos\RFID_BT_app\CS108DesktopDemo\bin\Debug\wclCommunication.dll
+C:\Users\trevo\source\repos\RFID_BT_app\CS108DesktopDemo\bin\Debug\wclCommon.dll
+C:\Users\trevo\source\repos\RFID_BT_app\CS108DesktopDemo\bin\Debug\CSLibrary.pdb
+C:\Users\trevo\source\repos\RFID_BT_app\CS108DesktopDemo\obj\Debug\CS108DesktopDemo.csproj.AssemblyReference.cache
+C:\Users\trevo\source\repos\RFID_BT_app\CS108DesktopDemo\obj\Debug\CS108DesktopDemo.csproj.SuggestedBindingRedirects.cache
+C:\Users\trevo\source\repos\RFID_BT_app\CS108DesktopDemo\obj\Debug\CS108DesktopDemo.FormMain.resources
+C:\Users\trevo\source\repos\RFID_BT_app\CS108DesktopDemo\obj\Debug\CS108DesktopDemo.Properties.Resources.resources
+C:\Users\trevo\source\repos\RFID_BT_app\CS108DesktopDemo\obj\Debug\CS108DesktopDemo.csproj.GenerateResource.cache
+C:\Users\trevo\source\repos\RFID_BT_app\CS108DesktopDemo\obj\Debug\CS108DesktopDemo.csproj.CoreCompileInputs.cache
+C:\Users\trevo\source\repos\RFID_BT_app\CS108DesktopDemo\obj\Debug\CS108DesktopDemo.csproj.CopyComplete
+C:\Users\trevo\source\repos\RFID_BT_app\CS108DesktopDemo\obj\Debug\CS108DesktopDemo.exe
+C:\Users\trevo\source\repos\RFID_BT_app\CS108DesktopDemo\obj\Debug\CS108DesktopDemo.pdb
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\CS108DesktopDemo\bin\Debug\CS108DesktopDemo.exe.config
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\CS108DesktopDemo\bin\Debug\CS108DesktopDemo.exe
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\CS108DesktopDemo\bin\Debug\CS108DesktopDemo.pdb
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\CS108DesktopDemo\bin\Debug\CSLibrary.dll
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\CS108DesktopDemo\bin\Debug\wclBluetoothFramework.dll
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\CS108DesktopDemo\bin\Debug\wclCommunication.dll
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\CS108DesktopDemo\bin\Debug\wclCommon.dll
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\CS108DesktopDemo\bin\Debug\CSLibrary.pdb
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\CS108DesktopDemo\obj\Debug\CS108DesktopDemo.csproj.AssemblyReference.cache
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\CS108DesktopDemo\obj\Debug\CS108DesktopDemo.csproj.SuggestedBindingRedirects.cache
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\CS108DesktopDemo\obj\Debug\CS108DesktopDemo.FormMain.resources
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\CS108DesktopDemo\obj\Debug\CS108DesktopDemo.Properties.Resources.resources
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\CS108DesktopDemo\obj\Debug\CS108DesktopDemo.csproj.GenerateResource.cache
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\CS108DesktopDemo\obj\Debug\CS108DesktopDemo.csproj.CoreCompileInputs.cache
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\CS108DesktopDemo\obj\Debug\CS108DesktopDemo.csproj.CopyComplete
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\CS108DesktopDemo\obj\Debug\CS108DesktopDemo.exe
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\CS108DesktopDemo\obj\Debug\CS108DesktopDemo.pdb

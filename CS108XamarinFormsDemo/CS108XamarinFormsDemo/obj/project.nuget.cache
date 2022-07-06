@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "O+ftMu/uC6U03aNjOzeoFI2g+pb1/52haozaWulCuYZKrYTdKsK8Pl3gmEBqMwqjkzzd3c2Ah/VQXaQuG7bJTw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\trevo\\source\\repos\\Exercise_No_Duty\\CS108XamarinFormsDemo\\CS108XamarinFormsDemo\\CS108XamarinFormsDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\trevo\\.nuget\\packages\\acr.userdialogs\\7.0.4\\acr.userdialogs.7.0.4.nupkg.sha512",
+    "C:\\Users\\trevo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\trevo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\trevo\\.nuget\\packages\\plugin.permissions\\3.0.0.12\\plugin.permissions.3.0.0.12.nupkg.sha512",
+    "C:\\Users\\trevo\\.nuget\\packages\\xamarin.forms\\5.0.0.2291\\xamarin.forms.5.0.0.2291.nupkg.sha512"
+  ],
+  "logs": []
+}

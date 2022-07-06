@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "IN07DR+ss0CSxq8VXezq8jlK0XPdTKSwaMiTJMzhQbbxMc5SiNf8T2qhh34ZHJ9VIFZ3ovOfnBi3GWRoe0VRsA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\trevo\\source\\repos\\RFID_BT_app\\CS108XamarinFormsDemo\\CS108XamarinFormsDemo.iOS\\CS108XamarinFormsDemo.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\trevo\\.nuget\\packages\\acr.userdialogs\\7.0.4\\acr.userdialogs.7.0.4.nupkg.sha512",
+    "C:\\Users\\trevo\\.nuget\\packages\\btprogresshud\\1.2.0.6\\btprogresshud.1.2.0.6.nupkg.sha512",
+    "C:\\Users\\trevo\\.nuget\\packages\\plugin.permissions\\3.0.0.12\\plugin.permissions.3.0.0.12.nupkg.sha512",
+    "C:\\Users\\trevo\\.nuget\\packages\\xamarin.forms\\5.0.0.2291\\xamarin.forms.5.0.0.2291.nupkg.sha512"
+  ],
+  "logs": []
+}

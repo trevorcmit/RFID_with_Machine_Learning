@@ -1,0 +1,1835 @@
+﻿++Solution 'CS108RFIDReader' ‎(17 of 21 projects)
+i:{00000000-0000-0000-0000-000000000000}:CS108RFIDReader.sln
+++CS108RFIDDemo-WindowsUI
+i:{00000000-0000-0000-0000-000000000000}:CS108RFIDDemo-WindowsUI
+++CS108 UWP Wedge Demo ‎(Universal Windows)
+i:{44bda114-b595-492d-b4b1-7ba3ed9d592f}:CS108 UWP Wedge Demo
+++Properties
+i:{bf5c0e49-5fd2-5ad0-be7f-0840814daeb6}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 uwp demo\properties\
+i:{38139270-f40e-43ca-91a5-c8cc4c4f4d7d}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108desktopdemo\properties\
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\properties\
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\properties\
+i:{995bc11d-75e8-4b06-9a4b-7424e4f67d96}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\mvvmcross.plugins.ble.droid\properties\
+i:{4c92155b-585d-49a0-b2b5-be69687be188}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\mvvmcross.plugins.ble.ios\properties\
+i:{f045b612-9b70-465e-8dbf-7135cb7f5ad2}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.android\properties\
+i:{aa85d854-436e-430a-9cd3-4c71518c273b}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.ios\properties\
+i:{ccd85512-a2d7-4076-b31d-7a24829058af}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.uwp\properties\
+i:{25e04e05-f867-4f64-813d-aafe0ba171b0}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.uwp\properties\
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.droid\properties\
+++References
+i:{bf5c0e49-5fd2-5ad0-be7f-0840814daeb6}:
+i:{38139270-f40e-43ca-91a5-c8cc4c4f4d7d}:
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:
+i:{995bc11d-75e8-4b06-9a4b-7424e4f67d96}:
+i:{4c92155b-585d-49a0-b2b5-be69687be188}:
+i:{f045b612-9b70-465e-8dbf-7135cb7f5ad2}:
+i:{aa85d854-436e-430a-9cd3-4c71518c273b}:
+i:{ccd85512-a2d7-4076-b31d-7a24829058af}:
+i:{25e04e05-f867-4f64-813d-aafe0ba171b0}:
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Assets
+i:{bf5c0e49-5fd2-5ad0-be7f-0840814daeb6}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 uwp demo\assets\
+i:{25e04e05-f867-4f64-813d-aafe0ba171b0}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.uwp\assets\
+++Styles
+i:{bf5c0e49-5fd2-5ad0-be7f-0840814daeb6}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 uwp demo\styles\
+++Constants.cs
+i:{bf5c0e49-5fd2-5ad0-be7f-0840814daeb6}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 uwp demo\constants.cs
+++CS108 UWP Demo_StoreKey.pfx
+i:{bf5c0e49-5fd2-5ad0-be7f-0840814daeb6}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 uwp demo\cs108 uwp demo_storekey.pfx
+++CS108 UWP Demo_TemporaryKey.pfx
+i:{bf5c0e49-5fd2-5ad0-be7f-0840814daeb6}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 uwp demo\cs108 uwp demo_temporarykey.pfx
+++DisplayHelpers.cs
+i:{bf5c0e49-5fd2-5ad0-be7f-0840814daeb6}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 uwp demo\displayhelpers.cs
+++Package.appxmanifest
+i:{bf5c0e49-5fd2-5ad0-be7f-0840814daeb6}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 uwp demo\package.appxmanifest
+i:{25e04e05-f867-4f64-813d-aafe0ba171b0}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.uwp\package.appxmanifest
+++Package.xml
+i:{bf5c0e49-5fd2-5ad0-be7f-0840814daeb6}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 uwp demo\package.xml
+++PresentationFormats.cs
+i:{bf5c0e49-5fd2-5ad0-be7f-0840814daeb6}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 uwp demo\presentationformats.cs
+++SampleConfiguration.cs
+i:{bf5c0e49-5fd2-5ad0-be7f-0840814daeb6}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 uwp demo\sampleconfiguration.cs
+++Scenario1_Discovery.xaml
+i:{bf5c0e49-5fd2-5ad0-be7f-0840814daeb6}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 uwp demo\scenario1_discovery.xaml
+++Scenario4_Barcode.xaml
+i:{bf5c0e49-5fd2-5ad0-be7f-0840814daeb6}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 uwp demo\scenario4_barcode.xaml
+++CSLibrary-UWP
+i:{bf5c0e49-5fd2-5ad0-be7f-0840814daeb6}:
+i:{7f10e7e4-52d4-4e60-a74d-e364539109dd}:CSLibrary-UWP
+++Microsoft.NETCore.UniversalWindowsPlatform
+i:{bf5c0e49-5fd2-5ad0-be7f-0840814daeb6}:
+i:{ccd85512-a2d7-4076-b31d-7a24829058af}:
+i:{25e04e05-f867-4f64-813d-aafe0ba171b0}:
+++Microsoft.UI.Xaml.Markup
+i:{bf5c0e49-5fd2-5ad0-be7f-0840814daeb6}:
+i:{ccd85512-a2d7-4076-b31d-7a24829058af}:
+i:{25e04e05-f867-4f64-813d-aafe0ba171b0}:
+++Universal Windows
+i:{bf5c0e49-5fd2-5ad0-be7f-0840814daeb6}:
+i:{ccd85512-a2d7-4076-b31d-7a24829058af}:
+i:{25e04e05-f867-4f64-813d-aafe0ba171b0}:
+++Scenario1_Discovery.xaml.cs
+i:{bf5c0e49-5fd2-5ad0-be7f-0840814daeb6}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 uwp demo\scenario1_discovery.xaml.cs
+++Scenario4_Barcode.xaml.cs
+i:{bf5c0e49-5fd2-5ad0-be7f-0840814daeb6}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 uwp demo\scenario4_barcode.xaml.cs
+++CS108RFIDDemo-WinForms
+i:{00000000-0000-0000-0000-000000000000}:CS108RFIDDemo-WinForms
+++CS108DesktopDemo
+i:{f8cedb9a-cd7b-43d6-a9ee-be7510054428}:CS108DesktopDemo
+++App.config
+i:{38139270-f40e-43ca-91a5-c8cc4c4f4d7d}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108desktopdemo\app.config
+++FormMain.cs
+i:{38139270-f40e-43ca-91a5-c8cc4c4f4d7d}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108desktopdemo\formmain.cs
+++Program.cs
+i:{38139270-f40e-43ca-91a5-c8cc4c4f4d7d}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108desktopdemo\program.cs
+++AssemblyInfo.cs
+i:{38139270-f40e-43ca-91a5-c8cc4c4f4d7d}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108desktopdemo\properties\assemblyinfo.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\properties\assemblyinfo.cs
+i:{995bc11d-75e8-4b06-9a4b-7424e4f67d96}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\mvvmcross.plugins.ble.droid\properties\assemblyinfo.cs
+i:{4c92155b-585d-49a0-b2b5-be69687be188}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\mvvmcross.plugins.ble.ios\properties\assemblyinfo.cs
+i:{f045b612-9b70-465e-8dbf-7135cb7f5ad2}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.android\properties\assemblyinfo.cs
+i:{aa85d854-436e-430a-9cd3-4c71518c273b}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.ios\properties\assemblyinfo.cs
+i:{ccd85512-a2d7-4076-b31d-7a24829058af}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.uwp\properties\assemblyinfo.cs
+i:{25e04e05-f867-4f64-813d-aafe0ba171b0}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.uwp\properties\assemblyinfo.cs
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.droid\properties\assemblyinfo.cs
+++Resources.resx
+i:{38139270-f40e-43ca-91a5-c8cc4c4f4d7d}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108desktopdemo\properties\resources.resx
+++Settings.settings
+i:{38139270-f40e-43ca-91a5-c8cc4c4f4d7d}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108desktopdemo\properties\settings.settings
+++CSLibrary-DESKTOP
+i:{38139270-f40e-43ca-91a5-c8cc4c4f4d7d}:
+i:{7f10e7e4-52d4-4e60-a74d-e364539109dd}:CSLibrary-DESKTOP
+++Microsoft.CSharp
+i:{38139270-f40e-43ca-91a5-c8cc4c4f4d7d}:
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:
+++System
+i:{38139270-f40e-43ca-91a5-c8cc4c4f4d7d}:
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:
+i:{995bc11d-75e8-4b06-9a4b-7424e4f67d96}:
+i:{4c92155b-585d-49a0-b2b5-be69687be188}:
+i:{f045b612-9b70-465e-8dbf-7135cb7f5ad2}:
+i:{aa85d854-436e-430a-9cd3-4c71518c273b}:
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++System.Core
+i:{38139270-f40e-43ca-91a5-c8cc4c4f4d7d}:
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:
+i:{995bc11d-75e8-4b06-9a4b-7424e4f67d96}:
+i:{4c92155b-585d-49a0-b2b5-be69687be188}:
+i:{f045b612-9b70-465e-8dbf-7135cb7f5ad2}:
+i:{aa85d854-436e-430a-9cd3-4c71518c273b}:
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++System.Data
+i:{38139270-f40e-43ca-91a5-c8cc4c4f4d7d}:
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:
+++System.Data.DataSetExtensions
+i:{38139270-f40e-43ca-91a5-c8cc4c4f4d7d}:
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:
+++System.Deployment
+i:{38139270-f40e-43ca-91a5-c8cc4c4f4d7d}:
+++System.Drawing
+i:{38139270-f40e-43ca-91a5-c8cc4c4f4d7d}:
+++System.Net.Http
+i:{38139270-f40e-43ca-91a5-c8cc4c4f4d7d}:
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:
+++System.Windows.Forms
+i:{38139270-f40e-43ca-91a5-c8cc4c4f4d7d}:
+++System.Xml
+i:{38139270-f40e-43ca-91a5-c8cc4c4f4d7d}:
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:
+i:{995bc11d-75e8-4b06-9a4b-7424e4f67d96}:
+i:{4c92155b-585d-49a0-b2b5-be69687be188}:
+i:{f045b612-9b70-465e-8dbf-7135cb7f5ad2}:
+i:{aa85d854-436e-430a-9cd3-4c71518c273b}:
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++System.Xml.Linq
+i:{38139270-f40e-43ca-91a5-c8cc4c4f4d7d}:
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:
+i:{995bc11d-75e8-4b06-9a4b-7424e4f67d96}:
+i:{f045b612-9b70-465e-8dbf-7135cb7f5ad2}:
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++FormMain.Designer.cs
+i:{38139270-f40e-43ca-91a5-c8cc4c4f4d7d}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108desktopdemo\formmain.designer.cs
+++FormMain.resx
+i:{38139270-f40e-43ca-91a5-c8cc4c4f4d7d}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108desktopdemo\formmain.resx
+++Resources.Designer.cs
+i:{38139270-f40e-43ca-91a5-c8cc4c4f4d7d}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108desktopdemo\properties\resources.designer.cs
+++Settings.Designer.cs
+i:{38139270-f40e-43ca-91a5-c8cc4c4f4d7d}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108desktopdemo\properties\settings.designer.cs
+++CS108RFIDDemo-XamarinForms (UnderDevelopment)
+i:{00000000-0000-0000-0000-000000000000}:CS108RFIDDemo-XamarinForms (UnderDevelopment)
+++CS108XamarinFormsDemo.Android (unloaded)
+i:{8f5cd148-5ce2-4970-a745-a586de4f5e51}:CS108XamarinFormsDemo.Android
+++CS108XamarinFormsDemo.UWP (unloaded)
+i:{8f5cd148-5ce2-4970-a745-a586de4f5e51}:CS108XamarinFormsDemo.UWP
+++CS108XamarinFormsDemo.iOS (unloaded)
+i:{8f5cd148-5ce2-4970-a745-a586de4f5e51}:CS108XamarinFormsDemo.iOS
+++CS108XamarinFormsDemo
+i:{8f5cd148-5ce2-4970-a745-a586de4f5e51}:CS108XamarinFormsDemo
+++Dependencies
+i:{56c80b93-c494-4f6c-bf8f-6ba8b0a16d36}:>2147
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:>2146
+i:{84a47667-760b-41f5-ad8f-c96c1ee2ca90}:>1399
+i:{e9f3dada-aff6-4239-979d-a326df912132}:>2149
+i:{66290d8c-9620-4449-8a47-baf7709375c6}:>1398
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:>2148
+++Extensions
+i:{56c80b93-c494-4f6c-bf8f-6ba8b0a16d36}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108xamarinformsdemo\cs108xamarinformsdemo\extensions\
+i:{f045b612-9b70-465e-8dbf-7135cb7f5ad2}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.android\extensions\
+i:{aa85d854-436e-430a-9cd3-4c71518c273b}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.ios\extensions\
+i:{66290d8c-9620-4449-8a47-baf7709375c6}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.abstractions\extensions\
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\extensions\
+++Models
+i:{56c80b93-c494-4f6c-bf8f-6ba8b0a16d36}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108xamarinformsdemo\cs108xamarinformsdemo\models\
+++Services
+i:{56c80b93-c494-4f6c-bf8f-6ba8b0a16d36}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108xamarinformsdemo\cs108xamarinformsdemo\services\
+++ViewModels
+i:{56c80b93-c494-4f6c-bf8f-6ba8b0a16d36}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108xamarinformsdemo\cs108xamarinformsdemo\viewmodels\
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\
+++Views
+i:{56c80b93-c494-4f6c-bf8f-6ba8b0a16d36}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108xamarinformsdemo\cs108xamarinformsdemo\views\
+++App.xaml
+i:{56c80b93-c494-4f6c-bf8f-6ba8b0a16d36}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108xamarinformsdemo\cs108xamarinformsdemo\app.xaml
+i:{25e04e05-f867-4f64-813d-aafe0ba171b0}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.uwp\app.xaml
+++InterfaceIAppVersion.cs
+i:{56c80b93-c494-4f6c-bf8f-6ba8b0a16d36}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108xamarinformsdemo\cs108xamarinformsdemo\interfaceiappversion.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\interfaceiappversion.cs
+++Packages
+i:{56c80b93-c494-4f6c-bf8f-6ba8b0a16d36}:packages
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:packages
+i:{84a47667-760b-41f5-ad8f-c96c1ee2ca90}:packages
+i:{e9f3dada-aff6-4239-979d-a326df912132}:packages
+i:{66290d8c-9620-4449-8a47-baf7709375c6}:packages
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:packages
+++Projects
+i:{56c80b93-c494-4f6c-bf8f-6ba8b0a16d36}:projects
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:projects
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:projects
+++IUserDialogsExtensions.cs
+i:{56c80b93-c494-4f6c-bf8f-6ba8b0a16d36}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108xamarinformsdemo\cs108xamarinformsdemo\extensions\iuserdialogsextensions.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\extensions\iuserdialogsextensions.cs
+++HomeMenuItem.cs
+i:{56c80b93-c494-4f6c-bf8f-6ba8b0a16d36}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108xamarinformsdemo\cs108xamarinformsdemo\models\homemenuitem.cs
+++Item.cs
+i:{56c80b93-c494-4f6c-bf8f-6ba8b0a16d36}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108xamarinformsdemo\cs108xamarinformsdemo\models\item.cs
+++IDataStore.cs
+i:{56c80b93-c494-4f6c-bf8f-6ba8b0a16d36}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108xamarinformsdemo\cs108xamarinformsdemo\services\idatastore.cs
+++MockDataStore.cs
+i:{56c80b93-c494-4f6c-bf8f-6ba8b0a16d36}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108xamarinformsdemo\cs108xamarinformsdemo\services\mockdatastore.cs
+++AboutViewModel.cs
+i:{56c80b93-c494-4f6c-bf8f-6ba8b0a16d36}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108xamarinformsdemo\cs108xamarinformsdemo\viewmodels\aboutviewmodel.cs
+++BaseViewModel.cs
+i:{56c80b93-c494-4f6c-bf8f-6ba8b0a16d36}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108xamarinformsdemo\cs108xamarinformsdemo\viewmodels\baseviewmodel.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\baseviewmodel.cs
+++ItemDetailViewModel.cs
+i:{56c80b93-c494-4f6c-bf8f-6ba8b0a16d36}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108xamarinformsdemo\cs108xamarinformsdemo\viewmodels\itemdetailviewmodel.cs
+++ItemsViewModel.cs
+i:{56c80b93-c494-4f6c-bf8f-6ba8b0a16d36}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108xamarinformsdemo\cs108xamarinformsdemo\viewmodels\itemsviewmodel.cs
+++ViewModelMainMenu.cs
+i:{56c80b93-c494-4f6c-bf8f-6ba8b0a16d36}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108xamarinformsdemo\cs108xamarinformsdemo\viewmodels\viewmodelmainmenu.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelmainmenu.cs
+++AboutPage.xaml
+i:{56c80b93-c494-4f6c-bf8f-6ba8b0a16d36}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108xamarinformsdemo\cs108xamarinformsdemo\views\aboutpage.xaml
+++BasePage.cs
+i:{56c80b93-c494-4f6c-bf8f-6ba8b0a16d36}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108xamarinformsdemo\cs108xamarinformsdemo\views\basepage.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\basepage.cs
+++ItemDetailPage.xaml
+i:{56c80b93-c494-4f6c-bf8f-6ba8b0a16d36}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108xamarinformsdemo\cs108xamarinformsdemo\views\itemdetailpage.xaml
+++ItemsPage.xaml
+i:{56c80b93-c494-4f6c-bf8f-6ba8b0a16d36}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108xamarinformsdemo\cs108xamarinformsdemo\views\itemspage.xaml
+++MainPage.xaml
+i:{56c80b93-c494-4f6c-bf8f-6ba8b0a16d36}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108xamarinformsdemo\cs108xamarinformsdemo\views\mainpage.xaml
+i:{25e04e05-f867-4f64-813d-aafe0ba171b0}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.uwp\mainpage.xaml
+++MenuPage.xaml
+i:{56c80b93-c494-4f6c-bf8f-6ba8b0a16d36}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108xamarinformsdemo\cs108xamarinformsdemo\views\menupage.xaml
+++NewItemPage.xaml
+i:{56c80b93-c494-4f6c-bf8f-6ba8b0a16d36}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108xamarinformsdemo\cs108xamarinformsdemo\views\newitempage.xaml
+++PageMainMenu.xaml
+i:{56c80b93-c494-4f6c-bf8f-6ba8b0a16d36}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108xamarinformsdemo\cs108xamarinformsdemo\views\pagemainmenu.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagemainmenu.xaml
+++App.xaml.cs
+i:{56c80b93-c494-4f6c-bf8f-6ba8b0a16d36}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108xamarinformsdemo\cs108xamarinformsdemo\app.xaml.cs
+i:{25e04e05-f867-4f64-813d-aafe0ba171b0}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.uwp\app.xaml.cs
+++Acr.UserDialogs (7.0.4)
+i:{56c80b93-c494-4f6c-bf8f-6ba8b0a16d36}:>2348
+++NETStandard.Library (2.0.3)
+i:{56c80b93-c494-4f6c-bf8f-6ba8b0a16d36}:>2347
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:>2354
+i:{84a47667-760b-41f5-ad8f-c96c1ee2ca90}:>2324
+i:{e9f3dada-aff6-4239-979d-a326df912132}:>2319
+i:{66290d8c-9620-4449-8a47-baf7709375c6}:>2344
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:>2330
+++Plugin.Permissions (3.0.0.12)
+i:{56c80b93-c494-4f6c-bf8f-6ba8b0a16d36}:>2346
+++Xamarin.Forms (5.0.0.2291)
+i:{56c80b93-c494-4f6c-bf8f-6ba8b0a16d36}:>2349
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:>2336
+++CSLibrary-NETStandard
+i:{56c80b93-c494-4f6c-bf8f-6ba8b0a16d36}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\bin\debug\netstandard2.0\cslibrary.dll
+i:{7f10e7e4-52d4-4e60-a74d-e364539109dd}:CSLibrary-NETStandard
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\bin\debug\netstandard2.0\cslibrary.dll
+++Plugin.BLE.Abstractions
+i:{56c80b93-c494-4f6c-bf8f-6ba8b0a16d36}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.abstractions\bin\debug\netstandard2.0\plugin.ble.abstractions.dll
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.abstractions\bin\debug\netstandard2.0\plugin.ble.abstractions.dll
+i:{995bc11d-75e8-4b06-9a4b-7424e4f67d96}:
+i:{4c92155b-585d-49a0-b2b5-be69687be188}:
+i:{f045b612-9b70-465e-8dbf-7135cb7f5ad2}:
+i:{aa85d854-436e-430a-9cd3-4c71518c273b}:
+i:{ccd85512-a2d7-4076-b31d-7a24829058af}:
+i:{9a31adb5-9fd7-474d-bd94-0bc7efb2d0ff}:Plugin.BLE.Abstractions
+i:{25e04e05-f867-4f64-813d-aafe0ba171b0}:
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.abstractions\bin\debug\netstandard2.0\plugin.ble.abstractions.dll
+++AboutPage.xaml.cs
+i:{56c80b93-c494-4f6c-bf8f-6ba8b0a16d36}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108xamarinformsdemo\cs108xamarinformsdemo\views\aboutpage.xaml.cs
+++ItemDetailPage.xaml.cs
+i:{56c80b93-c494-4f6c-bf8f-6ba8b0a16d36}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108xamarinformsdemo\cs108xamarinformsdemo\views\itemdetailpage.xaml.cs
+++ItemsPage.xaml.cs
+i:{56c80b93-c494-4f6c-bf8f-6ba8b0a16d36}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108xamarinformsdemo\cs108xamarinformsdemo\views\itemspage.xaml.cs
+++MainPage.xaml.cs
+i:{56c80b93-c494-4f6c-bf8f-6ba8b0a16d36}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108xamarinformsdemo\cs108xamarinformsdemo\views\mainpage.xaml.cs
+i:{25e04e05-f867-4f64-813d-aafe0ba171b0}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.uwp\mainpage.xaml.cs
+++MenuPage.xaml.cs
+i:{56c80b93-c494-4f6c-bf8f-6ba8b0a16d36}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108xamarinformsdemo\cs108xamarinformsdemo\views\menupage.xaml.cs
+++NewItemPage.xaml.cs
+i:{56c80b93-c494-4f6c-bf8f-6ba8b0a16d36}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108xamarinformsdemo\cs108xamarinformsdemo\views\newitempage.xaml.cs
+++PageMainMenu.xaml.cs
+i:{56c80b93-c494-4f6c-bf8f-6ba8b0a16d36}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108xamarinformsdemo\cs108xamarinformsdemo\views\pagemainmenu.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagemainmenu.xaml.cs
+++Library
+i:{00000000-0000-0000-0000-000000000000}:Library
+++Readme.txt
+i:{7f10e7e4-52d4-4e60-a74d-e364539109dd}:C:\Users\trevo\source\repos\RFID_BT_app alpha\Library\CSLibrary\Readme.txt
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\readme.txt
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\readme.txt
+++BarcodeReader
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\barcodereader\
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\barcodereader\
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\barcodereader\
+++Battery
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\battery\
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\battery\
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\battery\
+++BluetoothIC
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\bluetoothic\
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\bluetoothic\
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\bluetoothic\
+++BluetoothProtocol
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\bluetoothprotocol\
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\bluetoothprotocol\
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\bluetoothprotocol\
+++HAL
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\hal\
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\hal\
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\hal\
+++Notification
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\notification\
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\notification\
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\notification\
+++RFIDReader
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\
+++SiliconLabIC
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\siliconlabic\
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\siliconlabic\
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\siliconlabic\
+++Tools
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\tools\
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\tools\
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\tools\
+++CSLibrary.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\cslibrary.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\cslibrary.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\cslibrary.cs
+++wclBluetoothFramework
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:
+++wclCommon
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:
+++wclCommunication
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:
+++Constants
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\barcodereader\constants\
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\constants\
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\barcodereader\constants\
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\constants\
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\barcodereader\constants\
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\constants\
+++Events
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\barcodereader\events\
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\events\
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\barcodereader\events\
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\events\
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\barcodereader\events\
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\events\
+++Structures
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\barcodereader\structures\
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\structures\
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\barcodereader\structures\
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\structures\
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\barcodereader\structures\
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\structures\
+++ClassBarCode.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\barcodereader\classbarcode.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\barcodereader\classbarcode.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\barcodereader\classbarcode.cs
+++ClassBattery.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\battery\classbattery.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\battery\classbattery.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\battery\classbattery.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\classbattery.cs
+++ClassBluetoothIC.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\bluetoothic\classbluetoothic.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\bluetoothic\classbluetoothic.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\bluetoothic\classbluetoothic.cs
+++BTConnect.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\bluetoothprotocol\btconnect.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\bluetoothprotocol\btconnect.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\bluetoothprotocol\btconnect.cs
+++BTReceive.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\bluetoothprotocol\btreceive.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\bluetoothprotocol\btreceive.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\bluetoothprotocol\btreceive.cs
+++BTSend.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\bluetoothprotocol\btsend.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\bluetoothprotocol\btsend.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\bluetoothprotocol\btsend.cs
+++ClassBleDebug.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\bluetoothprotocol\classbledebug.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\bluetoothprotocol\classbledebug.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\bluetoothprotocol\classbledebug.cs
+++CSLibrary.Private.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\bluetoothprotocol\cslibrary.private.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\bluetoothprotocol\cslibrary.private.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\bluetoothprotocol\cslibrary.private.cs
+++btframework
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\hal\btframework\
+++ClassNotification.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\notification\classnotification.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\notification\classnotification.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\notification\classnotification.cs
+++Antenna
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\antenna\
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\antenna\
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\antenna\
+++ClassRFID.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.cs
+++ClassRFID.Private.ByPassRegister.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.private.bypassregister.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.private.bypassregister.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.private.bypassregister.cs
+++ClassRFID.Private.Country.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.private.country.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.private.country.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.private.country.cs
+++ClassRFID.Private.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.private.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.private.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.private.cs
+++ClassRFID.Private.FM13DT160.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.private.fm13dt160.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.private.fm13dt160.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.private.fm13dt160.cs
+++ClassRFID.Private.FrequencyChannel.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.private.frequencychannel.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.private.frequencychannel.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.private.frequencychannel.cs
+++ClassRFID.Private.Inventory.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.private.inventory.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.private.inventory.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.private.inventory.cs
+++ClassRFID.Private.MacRegister.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.private.macregister.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.private.macregister.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.private.macregister.cs
+++ClassRFID.Private.OEM.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.private.oem.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.private.oem.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.private.oem.cs
+++ClassRFID.Private.PowerManager.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.private.powermanager.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.private.powermanager.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.private.powermanager.cs
+++ClassRFID.Private.QTCommand.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.private.qtcommand.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.private.qtcommand.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.private.qtcommand.cs
+++ClassRFID.Private.Read.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.private.read.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.private.read.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.private.read.cs
+++ClassRFID.Private.Select.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.private.select.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.private.select.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.private.select.cs
+++ClassRFID.Private.Write.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.private.write.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.private.write.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.private.write.cs
+++ClassRFID.Public.Algorithm.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.public.algorithm.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.public.algorithm.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.public.algorithm.cs
+++ClassRFID.Public.Antenna.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.public.antenna.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.public.antenna.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.public.antenna.cs
+++ClassRFID.Public.Country.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.public.country.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.public.country.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.public.country.cs
+++ClassRFID.Public.FrequencyChannel.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.public.frequencychannel.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.public.frequencychannel.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.public.frequencychannel.cs
+++ClassRFID.Public.Operation.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.public.operation.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.public.operation.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.public.operation.cs
+++ClassRFID.Public.Power.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.public.power.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.public.power.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.public.power.cs
+++ClassRFID.Public.Profile.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.public.profile.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.public.profile.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.public.profile.cs
+++ClassRFID.Public.QTCommandParms.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.public.qtcommandparms.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.public.qtcommandparms.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.public.qtcommandparms.cs
+++ClassRFID.Public.SetLNA.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.public.setlna.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.public.setlna.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.public.setlna.cs
+++ClassEvent.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\siliconlabic\classevent.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\siliconlabic\classevent.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\siliconlabic\classevent.cs
+++ClassSiliconLabIC.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\siliconlabic\classsiliconlabic.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\siliconlabic\classsiliconlabic.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\siliconlabic\classsiliconlabic.cs
+++ClassCRC16.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\tools\classcrc16.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\tools\classcrc16.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\tools\classcrc16.cs
+++ClassFIFIQueue.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\tools\classfifiqueue.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\tools\classfifiqueue.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\tools\classfifiqueue.cs
+++ClassTimer.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\tools\classtimer.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\tools\classtimer.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\tools\classtimer.cs
+++HexEncoding.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\tools\hexencoding.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\tools\hexencoding.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\tools\hexencoding.cs
+++CSLibrary.Barcode.Constants.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\barcodereader\constants\cslibrary.barcode.constants.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\barcodereader\constants\cslibrary.barcode.constants.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\barcodereader\constants\cslibrary.barcode.constants.cs
+++CSLibrary.Barcode.EventArgs.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\barcodereader\events\cslibrary.barcode.eventargs.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\barcodereader\events\cslibrary.barcode.eventargs.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\barcodereader\events\cslibrary.barcode.eventargs.cs
+++CSLibrary.Barcode.Structures.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\barcodereader\structures\cslibrary.barcode.structures.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\barcodereader\structures\cslibrary.barcode.structures.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\barcodereader\structures\cslibrary.barcode.structures.cs
+++ClassDebug.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\hal\btframework\classdebug.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\hal\mvvmcross.plugin.ble\classdebug.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\hal\uwp\classdebug.cs
+++ClassDeviceFinder.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\hal\btframework\classdevicefinder.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\hal\mvvmcross.plugin.ble\classdevicefinder.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\hal\uwp\classdevicefinder.cs
+++CodeFileBLE.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\hal\btframework\codefileble.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\hal\mvvmcross.plugin.ble\codefileble.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\hal\uwp\codefileble.cs
+++Antenna.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\antenna\antenna.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\antenna\antenna.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\antenna\antenna.cs
+++AntennaConfig.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\antenna\antennaconfig.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\antenna\antennaconfig.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\antenna\antennaconfig.cs
+++AntennaList.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\antenna\antennalist.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\antenna\antennalist.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\antenna\antennalist.cs
+++AntennaListTypeConverter.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\antenna\antennalisttypeconverter.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\antenna\antennalisttypeconverter.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\antenna\antennalisttypeconverter.cs
+++AntennaStatus.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\antenna\antennastatus.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\antenna\antennastatus.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\antenna\antennastatus.cs
+++AntennaTypeConverter.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\antenna\antennatypeconverter.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\antenna\antennatypeconverter.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\antenna\antennatypeconverter.cs
+++AntennaPort.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\constants\antennaport.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\constants\antennaport.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\constants\antennaport.cs
+++AntennaSequenceMode.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\constants\antennasequencemode.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\constants\antennasequencemode.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\constants\antennasequencemode.cs
+++CSLibrary.Constants.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\constants\cslibrary.constants.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\constants\cslibrary.constants.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\constants\cslibrary.constants.cs
+++CSLibrary.Constants.Packet.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\constants\cslibrary.constants.packet.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\constants\cslibrary.constants.packet.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\constants\cslibrary.constants.packet.cs
+++FreqAgile.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\constants\freqagile.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\constants\freqagile.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\constants\freqagile.cs
+++Intel.Constants.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\constants\intel.constants.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\constants\intel.constants.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\constants\intel.constants.cs
+++SelectFlags.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\constants\selectflags.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\constants\selectflags.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\constants\selectflags.cs
+++CSLibrary.Events.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\events\cslibrary.events.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\events\cslibrary.events.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\events\cslibrary.events.cs
+++AntennaPortCollections.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\structures\antennaportcollections.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\structures\antennaportcollections.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\structures\antennaportcollections.cs
+++CSLibrary.Structures.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\structures\cslibrary.structures.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\structures\cslibrary.structures.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\structures\cslibrary.structures.cs
+++CSLibrary.Structures.TagKill.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\structures\cslibrary.structures.tagkill.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\structures\cslibrary.structures.tagkill.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\structures\cslibrary.structures.tagkill.cs
+++CSLibrary.Structures.TagLock.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\structures\cslibrary.structures.taglock.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\structures\cslibrary.structures.taglock.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\structures\cslibrary.structures.taglock.cs
+++CSLibrary.Structures.TagRead.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\structures\cslibrary.structures.tagread.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\structures\cslibrary.structures.tagread.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\structures\cslibrary.structures.tagread.cs
+++CSLibrary.Structures.TagWrite.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\structures\cslibrary.structures.tagwrite.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\structures\cslibrary.structures.tagwrite.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\structures\cslibrary.structures.tagwrite.cs
+++Intel.Structures.cs
+i:{3f5d0d75-9455-4797-9f63-28be05221609}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\structures\intel.structures.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\structures\intel.structures.cs
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\structures\intel.structures.cs
+++MvvmCross.Plugin.BLE
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\hal\mvvmcross.plugin.ble\
+++ClassRFID.Public.PowerManager.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.public.powermanager.cs
+++ClassRFID.Puiblic.EngineeringAPI.cs
+i:{669006cb-cd73-4cd8-b7be-66d190c7637f}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\rfidreader\classrfid.puiblic.engineeringapi.cs
+++UWP
+i:{c0bb13cd-7403-4079-9ecd-df5ac5f96078}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\cslibrary\hal\uwp\
+++BTWapper
+i:{7f10e7e4-52d4-4e60-a74d-e364539109dd}:BTWapper
+++MvvmCross.Plugins.BLE.Droid
+i:{9a31adb5-9fd7-474d-bd94-0bc7efb2d0ff}:MvvmCross.Plugins.BLE.Droid
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Resources
+i:{995bc11d-75e8-4b06-9a4b-7424e4f67d96}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\mvvmcross.plugins.ble.droid\resources\
+i:{f045b612-9b70-465e-8dbf-7135cb7f5ad2}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.android\resources\
+i:{aa85d854-436e-430a-9cd3-4c71518c273b}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.ios\resources\
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.droid\resources\
+++BlePluginBootstrap.cs.pp
+i:{995bc11d-75e8-4b06-9a4b-7424e4f67d96}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\mvvmcross.plugins.ble.droid\blepluginbootstrap.cs.pp
+i:{4c92155b-585d-49a0-b2b5-be69687be188}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\mvvmcross.plugins.ble.ios\blepluginbootstrap.cs.pp
+++packages.config
+i:{995bc11d-75e8-4b06-9a4b-7424e4f67d96}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\mvvmcross.plugins.ble.droid\packages.config
+i:{4c92155b-585d-49a0-b2b5-be69687be188}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\mvvmcross.plugins.ble.ios\packages.config
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.droid\packages.config
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\packages.config
+++Plugin.cs
+i:{995bc11d-75e8-4b06-9a4b-7424e4f67d96}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\mvvmcross.plugins.ble.droid\plugin.cs
+i:{4c92155b-585d-49a0-b2b5-be69687be188}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\mvvmcross.plugins.ble.ios\plugin.cs
+++Mono.Android
+i:{995bc11d-75e8-4b06-9a4b-7424e4f67d96}:
+i:{f045b612-9b70-465e-8dbf-7135cb7f5ad2}:
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Mono.Android.Export
+i:{995bc11d-75e8-4b06-9a4b-7424e4f67d96}:
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++mscorlib
+i:{995bc11d-75e8-4b06-9a4b-7424e4f67d96}:
+i:{f045b612-9b70-465e-8dbf-7135cb7f5ad2}:
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++MvvmCross.Platform
+i:{995bc11d-75e8-4b06-9a4b-7424e4f67d96}:
+i:{4c92155b-585d-49a0-b2b5-be69687be188}:
+i:{25e04e05-f867-4f64-813d-aafe0ba171b0}:
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++MvvmCross.Platform.Droid
+i:{995bc11d-75e8-4b06-9a4b-7424e4f67d96}:
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++MvvmCross.Plugins.BLE
+i:{995bc11d-75e8-4b06-9a4b-7424e4f67d96}:
+i:{4c92155b-585d-49a0-b2b5-be69687be188}:
+i:{9a31adb5-9fd7-474d-bd94-0bc7efb2d0ff}:MvvmCross.Plugins.BLE
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\mvvmcross.plugins.ble\bin\debug\netstandard2.0\mvvmcross.plugins.ble.dll
+++Plugin.BLE.Android
+i:{995bc11d-75e8-4b06-9a4b-7424e4f67d96}:
+i:{9a31adb5-9fd7-474d-bd94-0bc7efb2d0ff}:Plugin.BLE.Android
+++Resource.Designer.cs
+i:{995bc11d-75e8-4b06-9a4b-7424e4f67d96}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\mvvmcross.plugins.ble.droid\resources\resource.designer.cs
+i:{f045b612-9b70-465e-8dbf-7135cb7f5ad2}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.android\resources\resource.designer.cs
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.droid\resources\resource.designer.cs
+++MvvmCross.Plugins.BLE.iOS
+i:{9a31adb5-9fd7-474d-bd94-0bc7efb2d0ff}:MvvmCross.Plugins.BLE.iOS
+++Asset Catalogs
+i:{aa85d854-436e-430a-9cd3-4c71518c273b}:
+i:{4c92155b-585d-49a0-b2b5-be69687be188}:
+++Native References
+i:{4c92155b-585d-49a0-b2b5-be69687be188}:
+i:{aa85d854-436e-430a-9cd3-4c71518c273b}:
+++MvvmCross.Platform.iOS
+i:{4c92155b-585d-49a0-b2b5-be69687be188}:
+++Plugin.BLE.iOS
+i:{4c92155b-585d-49a0-b2b5-be69687be188}:
+i:{9a31adb5-9fd7-474d-bd94-0bc7efb2d0ff}:Plugin.BLE.iOS
+++Xamarin.iOS
+i:{4c92155b-585d-49a0-b2b5-be69687be188}:
+i:{aa85d854-436e-430a-9cd3-4c71518c273b}:
+++BroadcastReceivers
+i:{f045b612-9b70-465e-8dbf-7135cb7f5ad2}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.android\broadcastreceivers\
+++CallbackEventArgs
+i:{f045b612-9b70-465e-8dbf-7135cb7f5ad2}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.android\callbackeventargs\
+++Adapter.cs
+i:{f045b612-9b70-465e-8dbf-7135cb7f5ad2}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.android\adapter.cs
+i:{aa85d854-436e-430a-9cd3-4c71518c273b}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.ios\adapter.cs
+i:{ccd85512-a2d7-4076-b31d-7a24829058af}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.uwp\adapter.cs
+++BleImplementation.cs
+i:{f045b612-9b70-465e-8dbf-7135cb7f5ad2}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.android\bleimplementation.cs
+i:{aa85d854-436e-430a-9cd3-4c71518c273b}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.ios\bleimplementation.cs
+i:{ccd85512-a2d7-4076-b31d-7a24829058af}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.uwp\bleimplementation.cs
+++Characteristic.cs
+i:{f045b612-9b70-465e-8dbf-7135cb7f5ad2}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.android\characteristic.cs
+i:{aa85d854-436e-430a-9cd3-4c71518c273b}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.ios\characteristic.cs
+i:{ccd85512-a2d7-4076-b31d-7a24829058af}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.uwp\characteristic.cs
+++CrossBluetoothLE.cs
+i:{f045b612-9b70-465e-8dbf-7135cb7f5ad2}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble\crossbluetoothle.cs
+i:{aa85d854-436e-430a-9cd3-4c71518c273b}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble\crossbluetoothle.cs
+i:{ccd85512-a2d7-4076-b31d-7a24829058af}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.uwp\crossbluetoothle.cs
+i:{e9f3dada-aff6-4239-979d-a326df912132}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble\crossbluetoothle.cs
+++DefaultTrace.cs
+i:{f045b612-9b70-465e-8dbf-7135cb7f5ad2}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.android\defaulttrace.cs
+i:{aa85d854-436e-430a-9cd3-4c71518c273b}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.ios\defaulttrace.cs
+i:{ccd85512-a2d7-4076-b31d-7a24829058af}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.uwp\defaulttrace.cs
+++Descriptor.cs
+i:{f045b612-9b70-465e-8dbf-7135cb7f5ad2}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.android\descriptor.cs
+i:{aa85d854-436e-430a-9cd3-4c71518c273b}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.ios\descriptor.cs
+i:{ccd85512-a2d7-4076-b31d-7a24829058af}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.uwp\descriptor.cs
+++Device.cs
+i:{f045b612-9b70-465e-8dbf-7135cb7f5ad2}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.android\device.cs
+i:{aa85d854-436e-430a-9cd3-4c71518c273b}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.ios\device.cs
+i:{ccd85512-a2d7-4076-b31d-7a24829058af}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.uwp\device.cs
+++GattCallback.cs
+i:{f045b612-9b70-465e-8dbf-7135cb7f5ad2}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.android\gattcallback.cs
+++Service.cs
+i:{f045b612-9b70-465e-8dbf-7135cb7f5ad2}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.android\service.cs
+i:{aa85d854-436e-430a-9cd3-4c71518c273b}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.ios\service.cs
+i:{ccd85512-a2d7-4076-b31d-7a24829058af}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.uwp\service.cs
+++BluetoothStatusBroadcastReceiver.cs
+i:{f045b612-9b70-465e-8dbf-7135cb7f5ad2}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.android\broadcastreceivers\bluetoothstatusbroadcastreceiver.cs
+++BondStatusBroadcastReceiver.cs
+i:{f045b612-9b70-465e-8dbf-7135cb7f5ad2}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.android\broadcastreceivers\bondstatusbroadcastreceiver.cs
+++CharacteristicReadCallbackEventArgs.cs
+i:{f045b612-9b70-465e-8dbf-7135cb7f5ad2}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.android\callbackeventargs\characteristicreadcallbackeventargs.cs
+++CharacteristicWriteCallbackEventArgs.cs
+i:{f045b612-9b70-465e-8dbf-7135cb7f5ad2}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.android\callbackeventargs\characteristicwritecallbackeventargs.cs
+++DescriptorCallbackEventArgs.cs
+i:{f045b612-9b70-465e-8dbf-7135cb7f5ad2}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.android\callbackeventargs\descriptorcallbackeventargs.cs
+++MtuRequestCallbackEventArgs.cs
+i:{f045b612-9b70-465e-8dbf-7135cb7f5ad2}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.android\callbackeventargs\mturequestcallbackeventargs.cs
+++RssiReadCallbackEventArgs.cs
+i:{f045b612-9b70-465e-8dbf-7135cb7f5ad2}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.android\callbackeventargs\rssireadcallbackeventargs.cs
+++ServicesDiscoveredCallbackEventArgs.cs
+i:{f045b612-9b70-465e-8dbf-7135cb7f5ad2}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.android\callbackeventargs\servicesdiscoveredcallbackeventargs.cs
+++BluetoothStateExtension.cs
+i:{f045b612-9b70-465e-8dbf-7135cb7f5ad2}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.android\extensions\bluetoothstateextension.cs
+i:{aa85d854-436e-430a-9cd3-4c71518c273b}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.ios\extensions\bluetoothstateextension.cs
+++CharacteristicWriteTypeExtension.cs
+i:{f045b612-9b70-465e-8dbf-7135cb7f5ad2}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.android\extensions\characteristicwritetypeextension.cs
+i:{aa85d854-436e-430a-9cd3-4c71518c273b}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.ios\extensions\characteristicwritetypeextension.cs
+++GattWriteTypeExtension.cs
+i:{f045b612-9b70-465e-8dbf-7135cb7f5ad2}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.android\extensions\gattwritetypeextension.cs
+++ScanModeExtension.cs
+i:{f045b612-9b70-465e-8dbf-7135cb7f5ad2}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.android\extensions\scanmodeextension.cs
+++Extensions.cs
+i:{aa85d854-436e-430a-9cd3-4c71518c273b}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.ios\extensions.cs
+++CBCharacteristicWriteTypeExtension.cs
+i:{aa85d854-436e-430a-9cd3-4c71518c273b}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.ios\extensions\cbcharacteristicwritetypeextension.cs
+++Plugin.BLE.UWP ‎(Universal Windows)
+i:{9a31adb5-9fd7-474d-bd94-0bc7efb2d0ff}:Plugin.BLE.UWP
+++Plugin.BLE.UWP.rd.xml
+i:{ccd85512-a2d7-4076-b31d-7a24829058af}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.uwp\properties\plugin.ble.uwp.rd.xml
+++Microsoft.Toolkit.Uwp.Connectivity
+i:{ccd85512-a2d7-4076-b31d-7a24829058af}:
+++PluginLoader.cs
+i:{84a47667-760b-41f5-ad8f-c96c1ee2ca90}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\mvvmcross.plugins.ble\pluginloader.cs
+++MvvmCross.Platform (5.1.0)
+i:{84a47667-760b-41f5-ad8f-c96c1ee2ca90}:>2321
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:>2322
+++Plugin.BLE
+i:{9a31adb5-9fd7-474d-bd94-0bc7efb2d0ff}:Plugin.BLE
+++Contracts
+i:{66290d8c-9620-4449-8a47-baf7709375c6}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.abstractions\contracts\
+++EventArgs
+i:{66290d8c-9620-4449-8a47-baf7709375c6}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.abstractions\eventargs\
+++Exceptions
+i:{66290d8c-9620-4449-8a47-baf7709375c6}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.abstractions\exceptions\
+++Utils
+i:{66290d8c-9620-4449-8a47-baf7709375c6}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.abstractions\utils\
+++AdapterBase.cs
+i:{66290d8c-9620-4449-8a47-baf7709375c6}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.abstractions\adapterbase.cs
+++AdvertisementRecord.cs
+i:{66290d8c-9620-4449-8a47-baf7709375c6}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.abstractions\advertisementrecord.cs
+++BleImplementationBase.cs
+i:{66290d8c-9620-4449-8a47-baf7709375c6}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.abstractions\bleimplementationbase.cs
+++BluetoothKnownItemManager.cs
+i:{66290d8c-9620-4449-8a47-baf7709375c6}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.abstractions\bluetoothknownitemmanager.cs
+++CharacteristicBase.cs
+i:{66290d8c-9620-4449-8a47-baf7709375c6}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.abstractions\characteristicbase.cs
+++CharacteristicPropertyType.cs
+i:{66290d8c-9620-4449-8a47-baf7709375c6}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.abstractions\characteristicpropertytype.cs
+++CharacteristicWriteType.cs
+i:{66290d8c-9620-4449-8a47-baf7709375c6}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.abstractions\characteristicwritetype.cs
+++ConnectionInterval.cs
+i:{66290d8c-9620-4449-8a47-baf7709375c6}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.abstractions\connectioninterval.cs
+++ConnectParameter.cs
+i:{66290d8c-9620-4449-8a47-baf7709375c6}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.abstractions\connectparameter.cs
+++DescriptorBase.cs
+i:{66290d8c-9620-4449-8a47-baf7709375c6}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.abstractions\descriptorbase.cs
+++DeviceBase.cs
+i:{66290d8c-9620-4449-8a47-baf7709375c6}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.abstractions\devicebase.cs
+++DeviceBondState.cs
+i:{66290d8c-9620-4449-8a47-baf7709375c6}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.abstractions\devicebondstate.cs
+++DeviceState.cs
+i:{66290d8c-9620-4449-8a47-baf7709375c6}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.abstractions\devicestate.cs
+++KnownCharacteristic.cs
+i:{66290d8c-9620-4449-8a47-baf7709375c6}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.abstractions\knowncharacteristic.cs
+++KnownCharacteristics.cs
+i:{66290d8c-9620-4449-8a47-baf7709375c6}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.abstractions\knowncharacteristics.cs
+++KnownDescriptor.cs
+i:{66290d8c-9620-4449-8a47-baf7709375c6}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.abstractions\knowndescriptor.cs
+++KnownDescriptors.cs
+i:{66290d8c-9620-4449-8a47-baf7709375c6}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.abstractions\knowndescriptors.cs
+++KnownService.cs
+i:{66290d8c-9620-4449-8a47-baf7709375c6}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.abstractions\knownservice.cs
+++KnownServices.cs
+i:{66290d8c-9620-4449-8a47-baf7709375c6}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.abstractions\knownservices.cs
+++ServiceBase.cs
+i:{66290d8c-9620-4449-8a47-baf7709375c6}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.abstractions\servicebase.cs
+++Trace.cs
+i:{66290d8c-9620-4449-8a47-baf7709375c6}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.abstractions\trace.cs
+++BluetoothState.cs
+i:{66290d8c-9620-4449-8a47-baf7709375c6}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.abstractions\contracts\bluetoothstate.cs
+++IAdapter.cs
+i:{66290d8c-9620-4449-8a47-baf7709375c6}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.abstractions\contracts\iadapter.cs
+++IBluetoothLE.cs
+i:{66290d8c-9620-4449-8a47-baf7709375c6}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.abstractions\contracts\ibluetoothle.cs
+++ICharacteristic.cs
+i:{66290d8c-9620-4449-8a47-baf7709375c6}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.abstractions\contracts\icharacteristic.cs
+++IDescriptor.cs
+i:{66290d8c-9620-4449-8a47-baf7709375c6}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.abstractions\contracts\idescriptor.cs
+++IDevice.cs
+i:{66290d8c-9620-4449-8a47-baf7709375c6}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.abstractions\contracts\idevice.cs
+++IService.cs
+i:{66290d8c-9620-4449-8a47-baf7709375c6}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.abstractions\contracts\iservice.cs
+++ScanMode.cs
+i:{66290d8c-9620-4449-8a47-baf7709375c6}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.abstractions\contracts\scanmode.cs
+++BluetoothStateChangedArgs.cs
+i:{66290d8c-9620-4449-8a47-baf7709375c6}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.abstractions\eventargs\bluetoothstatechangedargs.cs
+++CharacteristicUpdatedEventArgs.cs
+i:{66290d8c-9620-4449-8a47-baf7709375c6}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.abstractions\eventargs\characteristicupdatedeventargs.cs
+++DeviceBondStateChangedEventArgs.cs
+i:{66290d8c-9620-4449-8a47-baf7709375c6}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.abstractions\eventargs\devicebondstatechangedeventargs.cs
+++DeviceErrorEventArgs.cs
+i:{66290d8c-9620-4449-8a47-baf7709375c6}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.abstractions\eventargs\deviceerroreventargs.cs
+++DeviceEventArgs.cs
+i:{66290d8c-9620-4449-8a47-baf7709375c6}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.abstractions\eventargs\deviceeventargs.cs
+++CharacteristicReadException.cs
+i:{66290d8c-9620-4449-8a47-baf7709375c6}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.abstractions\exceptions\characteristicreadexception.cs
+++DeviceConnectionException.cs
+i:{66290d8c-9620-4449-8a47-baf7709375c6}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.abstractions\exceptions\deviceconnectionexception.cs
+++DeviceDiscoverException.cs
+i:{66290d8c-9620-4449-8a47-baf7709375c6}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.abstractions\exceptions\devicediscoverexception.cs
+++AdapterExtenstion.cs
+i:{66290d8c-9620-4449-8a47-baf7709375c6}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.abstractions\extensions\adapterextenstion.cs
+++GuidExtension.cs
+i:{66290d8c-9620-4449-8a47-baf7709375c6}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.abstractions\extensions\guidextension.cs
+++BleCommandQueue.cs
+i:{66290d8c-9620-4449-8a47-baf7709375c6}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.abstractions\utils\blecommandqueue.cs
+++FakeAdapter.cs
+i:{66290d8c-9620-4449-8a47-baf7709375c6}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.abstractions\utils\fakeadapter.cs
+++TaskBuilder.cs
+i:{66290d8c-9620-4449-8a47-baf7709375c6}:c:\users\trevo\source\repos\rfid_bt_app alpha\library\btwapper\plugin.ble.abstractions\utils\taskbuilder.cs
+++CS108RFIDFullDemo-XamarinFormsMvvmCross
+i:{00000000-0000-0000-0000-000000000000}:CS108RFIDFullDemo-XamarinFormsMvvmCross
+++body.png
+i:{a06042f5-f69d-4191-875e-5ade9cf42075}:C:\Users\trevo\source\repos\RFID_BT_app alpha\CS108 Demo\BLE.Client\Pages\body.png
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\body.png
+++gray.png
+i:{a06042f5-f69d-4191-875e-5ade9cf42075}:C:\Users\trevo\source\repos\RFID_BT_app alpha\CS108 Demo\BLE.Client\Pages\gray.png
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\gray.png
+++green.png
+i:{a06042f5-f69d-4191-875e-5ade9cf42075}:C:\Users\trevo\source\repos\RFID_BT_app alpha\CS108 Demo\BLE.Client\Pages\green.png
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\green.png
+++red.png
+i:{a06042f5-f69d-4191-875e-5ade9cf42075}:C:\Users\trevo\source\repos\RFID_BT_app alpha\CS108 Demo\BLE.Client\Pages\red.png
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\red.png
+++BLE.Client.iOS (unloaded)
+i:{a06042f5-f69d-4191-875e-5ade9cf42075}:BLE.Client.iOS
+++BLE.Client.UWP ‎(Universal Windows)
+i:{a06042f5-f69d-4191-875e-5ade9cf42075}:BLE.Client.UWP
+++BLE.Client.UWP_StoreKey.pfx
+i:{25e04e05-f867-4f64-813d-aafe0ba171b0}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.uwp\ble.client.uwp_storekey.pfx
+++BLE.Client.UWP_TemporaryKey.pfx
+i:{25e04e05-f867-4f64-813d-aafe0ba171b0}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.uwp\ble.client.uwp_temporarykey.pfx
+++ClassIAppVersion.cs
+i:{25e04e05-f867-4f64-813d-aafe0ba171b0}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.uwp\classiappversion.cs
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.droid\classiappversion.cs
+++ClassISystemSound.cs
+i:{25e04e05-f867-4f64-813d-aafe0ba171b0}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.uwp\classisystemsound.cs
+++DebugTrace.cs
+i:{25e04e05-f867-4f64-813d-aafe0ba171b0}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.uwp\debugtrace.cs
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.droid\debugtrace.cs
+++Package.StoreAssociation.xml
+i:{25e04e05-f867-4f64-813d-aafe0ba171b0}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.uwp\package.storeassociation.xml
+++Setup.cs
+i:{25e04e05-f867-4f64-813d-aafe0ba171b0}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.uwp\setup.cs
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.droid\setup.cs
+++Default.rd.xml
+i:{25e04e05-f867-4f64-813d-aafe0ba171b0}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.uwp\properties\default.rd.xml
+++Acr.UserDialogs
+i:{25e04e05-f867-4f64-813d-aafe0ba171b0}:
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++BLE.Client
+i:{25e04e05-f867-4f64-813d-aafe0ba171b0}:
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+i:{a06042f5-f69d-4191-875e-5ade9cf42075}:BLE.Client
+++LiveChartsCore
+i:{25e04e05-f867-4f64-813d-aafe0ba171b0}:
+++LiveChartsCore.SkiaSharpView.UWP
+i:{25e04e05-f867-4f64-813d-aafe0ba171b0}:
+++LiveChartsCore.SkiaSharpView.XamarinForms
+i:{25e04e05-f867-4f64-813d-aafe0ba171b0}:
+++Microsoft.VCLibs
+i:{25e04e05-f867-4f64-813d-aafe0ba171b0}:
+++MvvmCross
+i:{25e04e05-f867-4f64-813d-aafe0ba171b0}:
+++MvvmCross.Binding
+i:{25e04e05-f867-4f64-813d-aafe0ba171b0}:
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++MvvmCross.Core
+i:{25e04e05-f867-4f64-813d-aafe0ba171b0}:
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++MvvmCross.Forms
+i:{25e04e05-f867-4f64-813d-aafe0ba171b0}:
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Plugin.BLE.UWP
+i:{25e04e05-f867-4f64-813d-aafe0ba171b0}:
+++Plugin.Permissions
+i:{25e04e05-f867-4f64-813d-aafe0ba171b0}:
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++SkiaSharp
+i:{25e04e05-f867-4f64-813d-aafe0ba171b0}:
+++SkiaSharp.Views.Uno
+i:{25e04e05-f867-4f64-813d-aafe0ba171b0}:
+++Xam.Plugins.Settings
+i:{25e04e05-f867-4f64-813d-aafe0ba171b0}:
+++Xamarin.Essentials
+i:{25e04e05-f867-4f64-813d-aafe0ba171b0}:
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.Forms
+i:{25e04e05-f867-4f64-813d-aafe0ba171b0}:
+++Assets/body.png
+i:{25e04e05-f867-4f64-813d-aafe0ba171b0}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.uwp\assets\assets/body.png
+++Assets/gray.png
+i:{25e04e05-f867-4f64-813d-aafe0ba171b0}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.uwp\assets\assets/gray.png
+++Assets/green.png
+i:{25e04e05-f867-4f64-813d-aafe0ba171b0}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.uwp\assets\assets/green.png
+++Assets/red.png
+i:{25e04e05-f867-4f64-813d-aafe0ba171b0}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.uwp\assets\assets/red.png
+++LockScreenLogo.scale-200.png
+i:{25e04e05-f867-4f64-813d-aafe0ba171b0}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.uwp\assets\lockscreenlogo.scale-200.png
+++SplashScreen.scale-200.png
+i:{25e04e05-f867-4f64-813d-aafe0ba171b0}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.uwp\assets\splashscreen.scale-200.png
+++Square150x150Logo.scale-200.png
+i:{25e04e05-f867-4f64-813d-aafe0ba171b0}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.uwp\assets\square150x150logo.scale-200.png
+++Square44x44Logo.scale-200.png
+i:{25e04e05-f867-4f64-813d-aafe0ba171b0}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.uwp\assets\square44x44logo.scale-200.png
+++Square44x44Logo.targetsize-24_altform-unplated.png
+i:{25e04e05-f867-4f64-813d-aafe0ba171b0}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.uwp\assets\square44x44logo.targetsize-24_altform-unplated.png
+++StoreLogo.scale-100.png
+i:{25e04e05-f867-4f64-813d-aafe0ba171b0}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.uwp\assets\storelogo.scale-100.png
+++StoreLogo.scale-200.png
+i:{25e04e05-f867-4f64-813d-aafe0ba171b0}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.uwp\assets\storelogo.scale-200.png
+++Wide310x150Logo.scale-200.png
+i:{25e04e05-f867-4f64-813d-aafe0ba171b0}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.uwp\assets\wide310x150logo.scale-200.png
+++BLE.Client.Droid
+i:{a06042f5-f69d-4191-875e-5ade9cf42075}:BLE.Client.Droid
+++Bootstrap
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.droid\bootstrap\
+++Helpers
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.droid\helpers\
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\helpers\
+++ClassSystemSound.cs
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.droid\classsystemsound.cs
+++LinkerPleaseInclude.cs
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.droid\linkerpleaseinclude.cs
+++MainActivity.cs
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.droid\mainactivity.cs
+++MainApplication.cs
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.droid\mainapplication.cs
+++SplashScreen.cs
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.droid\splashscreen.cs
+++AndroidManifest.xml
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.droid\properties\androidmanifest.xml
+++Acr.Support.Android
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Acr.UserDialogs.Interface
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++AndHUD
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++FormsViewGroup
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Java.Interop
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++MvvmCross.Binding.Droid
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++MvvmCross.Droid
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++MvvmCross.Forms.Droid
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++MvvmCross.Localization
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Newtonsoft.Json
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++PCLStorage
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++PCLStorage.Abstractions
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Plugin.CurrentActivity
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Plugin.Permissions.Abstractions
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Plugin.Settings
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Plugin.Settings.Abstractions
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Plugin.Share
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Plugin.Share.Abstractions
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Prism
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Splat
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++System.Numerics
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++System.Numerics.Vectors
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.Android.Arch.Core.Common
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.Android.Arch.Core.Runtime
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.Android.Arch.Lifecycle.Common
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.Android.Arch.Lifecycle.LiveData
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.Android.Arch.Lifecycle.LiveData.Core
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.Android.Arch.Lifecycle.Runtime
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.Android.Arch.Lifecycle.ViewModel
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.Android.Support.Animated.Vector.Drawable
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.Android.Support.Annotations
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.Android.Support.AsyncLayoutInflater
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.Android.Support.Collections
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.Android.Support.Compat
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.Android.Support.CoordinaterLayout
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.Android.Support.Core.UI
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.Android.Support.Core.Utils
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.Android.Support.CursorAdapter
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.Android.Support.CustomTabs
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.Android.Support.CustomView
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.Android.Support.Design
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.Android.Support.DocumentFile
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.Android.Support.DrawerLayout
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.Android.Support.Fragment
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.Android.Support.Interpolator
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.Android.Support.Loader
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.Android.Support.LocalBroadcastManager
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.Android.Support.Media.Compat
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.Android.Support.Print
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.Android.Support.SlidingPaneLayout
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.Android.Support.SwipeRefreshLayout
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.Android.Support.Transition
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.Android.Support.v4
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.Android.Support.v7.AppCompat
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.Android.Support.v7.CardView
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.Android.Support.v7.MediaRouter
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.Android.Support.v7.Palette
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.Android.Support.v7.RecyclerView
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.Android.Support.Vector.Drawable
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.Android.Support.VersionedParcelable
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.Android.Support.ViewPager
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.Activity
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.Annotation
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.Annotation.Experimental
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.AppCompat
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.AppCompat.AppCompatResources
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.Arch.Core.Common
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.Arch.Core.Runtime
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.AsyncLayoutInflater
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.Browser
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.CardView
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.Collection
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.Concurrent.Futures
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.ConstraintLayout
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.ConstraintLayout.Core
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.CoordinatorLayout
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.Core
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.CursorAdapter
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.CustomView
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.DocumentFile
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.DrawerLayout
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.DynamicAnimation
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.Fragment
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.Interpolator
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.Legacy.Support.Core.UI
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.Legacy.Support.Core.Utils
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.Legacy.Support.V4
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.Lifecycle.Common
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.Lifecycle.LiveData
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.Lifecycle.LiveData.Core
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.Lifecycle.Runtime
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.Lifecycle.ViewModel
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.Lifecycle.ViewModelSavedState
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.Loader
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.LocalBroadcastManager
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.Media
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.MediaRouter
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.MultiDex
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.Navigation.Common
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.Navigation.Runtime
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.Navigation.UI
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.Palette
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.Preference
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.Print
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.RecyclerView
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.SavedState
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.SlidingPaneLayout
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.SwipeRefreshLayout
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.Tracing.Tracing
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.Transition
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.VectorDrawable
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.VectorDrawable.Animated
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.VersionedParcelable
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.ViewPager
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.AndroidX.ViewPager2
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.Forms.Core
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.Forms.Platform
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.Forms.Platform.Android
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.Forms.Xaml
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.Google.Android.Material
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++Xamarin.Google.Guava.ListenableFuture
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:
+++BlePluginBootstrap.cs
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.droid\bootstrap\blepluginbootstrap.cs
+++Settings.cs
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.droid\helpers\settings.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\helpers\settings.cs
+++drawable
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.droid\resources\drawable\
+++drawable-hdpi
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.droid\resources\drawable-hdpi\
+++drawable-xhdpi
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.droid\resources\drawable-xhdpi\
+++drawable-xxhdpi
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.droid\resources\drawable-xxhdpi\
+++layout
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.droid\resources\layout\
+++raw
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.droid\resources\raw\
+++values
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.droid\resources\values\
+++icon.png
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.droid\resources\drawable\icon.png
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.droid\resources\drawable-hdpi\icon.png
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.droid\resources\drawable-xhdpi\icon.png
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.droid\resources\drawable-xxhdpi\icon.png
+++SplashScreen.axml
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.droid\resources\layout\splashscreen.axml
+++tabs.axml
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.droid\resources\layout\tabs.axml
+++toolbar.axml
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.droid\resources\layout\toolbar.axml
+++beep3s1khz.mp3
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.droid\resources\raw\beep3s1khz.mp3
+++beephigh.mp3
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.droid\resources\raw\beephigh.mp3
+++beeplow.mp3
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.droid\resources\raw\beeplow.mp3
+++colors.xml
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.droid\resources\values\colors.xml
+++SplashStyle.xml
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.droid\resources\values\splashstyle.xml
+++style.xml
+i:{7b0e4efd-eeb8-4ce9-9c8d-7a4bf734e9a7}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client.droid\resources\values\style.xml
+++Converters
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\converters\
+++Pages
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\
+++BaseTabbedPage.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\basetabbedpage.cs
+++DeviceListPage.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\devicelistpage.xaml
+++PageAbout.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pageabout.xaml
+++PageAxzonInventory.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pageaxzoninventory.xaml
+++PageAxzonSetting.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pageaxzonsetting.xaml
+++PageBarcodeScan.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagebarcodescan.xaml
+++PageBlockWrite.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pageblockwrite.xaml
+++PageCS83045DataLog.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagecs83045datalog.xaml
+++PageCS83045Inventory.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagecs83045inventory.xaml
+++PageCS83045Setting.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagecs83045setting.xaml
+++PageCS83045ViewLog.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagecs83045viewlog.xaml
+++PageCS9010Inventory.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagecs9010inventory.xaml
+++PageCTESIUSTempInventory.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagectesiustempinventory.xaml
+++PageEM4152Inventory.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pageem4152inventory.xaml
+++PageEM4152SenseCalibrate.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pageem4152sensecalibrate.xaml
+++PageEM4152SensorCalibrationWord.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pageem4152sensorcalibrationword.xaml
+++PageEM4152SensorControlWord1.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pageem4152sensorcontrolword1.xaml
+++PageEM4152SensorDataStored.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pageem4152sensordatastored.xaml
+++PageEM4152SystemConfigurationWord1.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pageem4152systemconfigurationword1.xaml
+++PageEM4152TamperLockWord.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pageem4152tamperlockword.xaml
+++PageFilter.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagefilter.xaml
+++PageFM13DT160DeepSleep.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagefm13dt160deepsleep.xaml
+++PageFM13DT160InitRegFile.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagefm13dt160initregfile.xaml
+++PageFM13DT160Inventory.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagefm13dt160inventory.xaml
+++PageFM13DT160LedCtrl.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagefm13dt160ledctrl.xaml
+++PageFM13DT160OpModeCheck.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagefm13dt160opmodecheck.xaml
+++PageFM13DT160ReadWriteMemory.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagefm13dt160readwritememory.xaml
+++PageFocusandFastIDInventory.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagefocusandfastidinventory.xaml
+++PageFocusandFastIDSetting.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagefocusandfastidsetting.xaml
+++PageGeiger.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagegeiger.xaml
+++PageInventory.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pageinventory.xaml
+++PageInventorynScan.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pageinventorynscan.xaml
+++PageMaxduraControls.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagemaxduracontrols.xaml
+++PageMaxduraInventory.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagemaxdurainventory.xaml
+++PageMultiBankInventory.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagemultibankinventory.xaml
+++PageMultiBankInventorySetting.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagemultibankinventorysetting.xaml
+++PagePerformanceTest.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pageperformancetest.xaml
+++PagePeriodicRead.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pageperiodicread.xaml
+++PagePhaseChannelInventory.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagephasechannelinventory.xaml
+++PagePostFilter.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagepostfilter.xaml
+++PagePreFilter.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pageprefilter.xaml
+++PageRead.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pageread.xaml
+++PageReadWrite.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagereadwrite.xaml
+++PageRegisterTag.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pageregistertag.xaml
+++PageRFMicronInventory.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagerfmicroninventory.xaml
+++PageRFMicronNickname.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagerfmicronnickname.xaml
+++PageRFMicronS2Inventory.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagerfmicrons2inventory.xaml
+++PageRFMicronS3Inventory.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagerfmicrons3inventory.xaml
+++PageRFMicroReadTemp.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagerfmicroreadtemp.xaml
+++PageRFMicroSetting.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagerfmicrosetting.xaml
+++PageSecurity.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagesecurity.xaml
+++PageSetting.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagesetting.xaml
+++PageSettingAdministration.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagesettingadministration.xaml
+++PageSettingAntenna.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagesettingantenna.xaml
+++PageSettingOperation.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagesettingoperation.xaml
+++PageSettingPowerSequencing.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagesettingpowersequencing.xaml
+++PageSmartracThermologgerClearLogger.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagesmartracthermologgerclearlogger.xaml
+++PageSmartracThermologgerInitLogger.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagesmartracthermologgerinitlogger.xaml
+++PageSmartracThermologgerInventory.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagesmartracthermologgerinventory.xaml
+++PageSmartracThermologgerReadCurrentValues.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagesmartracthermologgerreadcurrentvalues.xaml
+++PageSmartracThermologgerReadLifetimeStatistics.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagesmartracthermologgerreadlifetimestatistics.xaml
+++PageSmartracThermologgerReadLoggerStatus.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagesmartracthermologgerreadloggerstatus.xaml
+++PageSmartracThermologgerReadMeasurementObject.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagesmartracthermologgerreadmeasurementobject.xaml
+++PageSmartracThermologgerReadSystemInformation.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagesmartracthermologgerreadsysteminformation.xaml
+++PageSmartracThermologgerStartLogger.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagesmartracthermologgerstartlogger.xaml
+++PageSmartracThermologgerStopLogger.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagesmartracthermologgerstoplogger.xaml
+++PageSpecialFunctionsMenu.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagespecialfunctionsmenu.xaml
+++PageUCODEDNA.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pageucodedna.xaml
+++PageViewPage.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pageviewpage.xaml
+++PageWriteAnyEPC.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagewriteanyepc.xaml
+++PageXerxesAuthentication.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagexerxesauthentication.xaml
+++PageXerxesConfiguration.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagexerxesconfiguration.xaml
+++PageXerxesReadTemp.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagexerxesreadtemp.xaml
+++PageXerxesSetting.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagexerxessetting.xaml
+++PageXerxesTagList.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagexerxestaglist.xaml
+++ServiceListPage.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\servicelistpage.xaml
+++PagesViewModelsSet
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pagesviewmodelsset\
+++BleMvxApplication.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\blemvxapplication.cs
+++BleMvxFormsApp.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\blemvxformsapp.xaml
+++Calibre-Light.ttf
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\calibre-light.ttf
+++InterISystemSound.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\interisystemsound.cs
+++InverseBooleanValueConverter.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\converters\inversebooleanvalueconverter.cs
+++DeviceListPage.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\devicelistpage.xaml.cs
+++PageAbout.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pageabout.xaml.cs
+++PageAxzonInventory.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pageaxzoninventory.xaml.cs
+++PageAxzonSetting.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pageaxzonsetting.xaml.cs
+++PageBarcodeScan.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagebarcodescan.xaml.cs
+++PageBlockWrite.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pageblockwrite.xaml.cs
+++PageCS83045DataLog.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagecs83045datalog.xaml.cs
+++PageCS83045Inventory.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagecs83045inventory.xaml.cs
+++PageCS83045Setting.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagecs83045setting.xaml.cs
+++PageCS83045ViewLog.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagecs83045viewlog.xaml.cs
+++PageCS9010Inventory.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagecs9010inventory.xaml.cs
+++PageCTESIUSTempInventory.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagectesiustempinventory.xaml.cs
+++PageEM4152Inventory.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pageem4152inventory.xaml.cs
+++PageEM4152SenseCalibrate.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pageem4152sensecalibrate.xaml.cs
+++PageEM4152SensorCalibrationWord.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pageem4152sensorcalibrationword.xaml.cs
+++PageEM4152SensorControlWord1.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pageem4152sensorcontrolword1.xaml.cs
+++PageEM4152SensorDataStored.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pageem4152sensordatastored.xaml.cs
+++PageEM4152SystemConfigurationWord1.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pageem4152systemconfigurationword1.xaml.cs
+++PageEM4152TamperLockWord.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pageem4152tamperlockword.xaml.cs
+++PageFilter.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagefilter.xaml.cs
+++PageFM13DT160DeepSleep.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagefm13dt160deepsleep.xaml.cs
+++PageFM13DT160InitRegFile.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagefm13dt160initregfile.xaml.cs
+++PageFM13DT160Inventory.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagefm13dt160inventory.xaml.cs
+++PageFM13DT160LedCtrl.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagefm13dt160ledctrl.xaml.cs
+++PageFM13DT160OpModeCheck.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagefm13dt160opmodecheck.xaml.cs
+++PageFM13DT160ReadWriteMemory.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagefm13dt160readwritememory.xaml.cs
+++PageFocusandFastIDInventory.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagefocusandfastidinventory.xaml.cs
+++PageFocusandFastIDSetting.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagefocusandfastidsetting.xaml.cs
+++PageGeiger.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagegeiger.xaml.cs
+++PageInventory.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pageinventory.xaml.cs
+++PageInventorynScan.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pageinventorynscan.xaml.cs
+++PageMaxduraControls.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagemaxduracontrols.xaml.cs
+++PageMaxduraInventory.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagemaxdurainventory.xaml.cs
+++PageMultiBankInventory.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagemultibankinventory.xaml.cs
+++PageMultiBankInventorySetting.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagemultibankinventorysetting.xaml.cs
+++PagePerformanceTest.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pageperformancetest.xaml.cs
+++PagePeriodicRead.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pageperiodicread.xaml.cs
+++PagePhaseChannelInventory.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagephasechannelinventory.xaml.cs
+++PagePostFilter.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagepostfilter.xaml.cs
+++PagePreFilter.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pageprefilter.xaml.cs
+++PageRead.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pageread.xaml.cs
+++PageReadWrite.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagereadwrite.xaml.cs
+++PageRegisterTag.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pageregistertag.xaml.cs
+++PageRFMicronInventory.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagerfmicroninventory.xaml.cs
+++PageRFMicronNickName.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagerfmicronnickname.xaml.cs
+++PageRFMicronS2Inventory.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagerfmicrons2inventory.xaml.cs
+++PageRFMicronS3Inventory.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagerfmicrons3inventory.xaml.cs
+++PageRFMicroReadTemp.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagerfmicroreadtemp.xaml.cs
+++PageRFMicroSetting.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagerfmicrosetting.xaml.cs
+++PageSecurity.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagesecurity.xaml.cs
+++PageSetting.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagesetting.xaml.cs
+++PageSettingAdministration.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagesettingadministration.xaml.cs
+++PageSettingAntenna.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagesettingantenna.xaml.cs
+++PageSettingOperation.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagesettingoperation.xaml.cs
+++PageSettingPowerSequencing.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagesettingpowersequencing.xaml.cs
+++PageSmartracThermologgerClearLogger.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagesmartracthermologgerclearlogger.xaml.cs
+++PageSmartracThermologgerInitLogger.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagesmartracthermologgerinitlogger.xaml.cs
+++PageSmartracThermologgerInventory.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagesmartracthermologgerinventory.xaml.cs
+++PageSmartracThermologgerReadCurrentValues.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagesmartracthermologgerreadcurrentvalues.xaml.cs
+++PageSmartracThermologgerReadLifetimeStatistics.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagesmartracthermologgerreadlifetimestatistics.xaml.cs
+++PageSmartracThermologgerReadLoggerStatus.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagesmartracthermologgerreadloggerstatus.xaml.cs
+++PageSmartracThermologgerReadMeasurementObject.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagesmartracthermologgerreadmeasurementobject.xaml.cs
+++PageSmartracThermologgerReadSystemInformation.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagesmartracthermologgerreadsysteminformation.xaml.cs
+++PageSmartracThermologgerStartLogger.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagesmartracthermologgerstartlogger.xaml.cs
+++PageSmartracThermologgerStopLogger.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagesmartracthermologgerstoplogger.xaml.cs
+++PageSpecialFunctionsMenu.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagespecialfunctionsmenu.xaml.cs
+++PageUCODEDNA.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pageucodedna.xaml.cs
+++PageViewPage.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pageviewpage.xaml.cs
+++PageWriteAnyEPC.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagewriteanyepc.xaml.cs
+++PageXerxesAuthentication.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagexerxesauthentication.xaml.cs
+++PageXerxesConfiguration.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagexerxesconfiguration.xaml.cs
+++PageXerxesReadTemp.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagexerxesreadtemp.xaml.cs
+++PageXerxesSetting.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagexerxessetting.xaml.cs
+++PageXerxesTagList.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\pagexerxestaglist.xaml.cs
+++ServiceListPage.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\servicelistpage.xaml.cs
+++SpecialFuction
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pagesviewmodelsset\specialfuction\
+++DeviceListItemViewModel.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\devicelistitemviewmodel.cs
+++DeviceListViewModel.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\devicelistviewmodel.cs
+++EPC_data.txt
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\epc_data.txt
+++ViewModelAbout.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelabout.cs
+++ViewModelAxzonInventory.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelaxzoninventory.cs
+++ViewModelAxzonSetting.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelaxzonsetting.cs
+++ViewModelBlockWrite.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelblockwrite.cs
+++ViewModelCS83045Inventory.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelcs83045inventory.cs
+++ViewModelCS83045Setting.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelcs83045setting.cs
+++ViewModelCS83045ViewLog.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelcs83045viewlog.cs
+++ViewModelCS9010Inventory.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelcs9010inventory.cs
+++ViewModelCTESIUSTempInventory.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelctesiustempinventory.cs
+++ViewModelEM4152Inventory.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelem4152inventory.cs
+++ViewModelEM4152SenseCalibrate.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelem4152sensecalibrate.cs
+++ViewModelEM4152SensorCalibrationWord.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelem4152sensorcalibrationword.cs
+++ViewModelEM4152SensorControlWord1.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelem4152sensorcontrolword1.cs
+++ViewModelEM4152SensorDataStored.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelem4152sensordatastored.cs
+++ViewModelEM4152SystemConfigurationWord1.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelem4152systemconfigurationword1.cs
+++ViewModelEM4152TamperLockWord.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelem4152tamperlockword.cs
+++ViewModelFilter.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelfilter.cs
+++ViewModelFM13DT160DeepSleep.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelfm13dt160deepsleep.cs
+++ViewModelFM13DT160InitRegFile.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelfm13dt160initregfile.cs
+++ViewModelFM13DT160Inventory.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelfm13dt160inventory.cs
+++ViewModelFM13DT160LedCtrl.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelfm13dt160ledctrl.cs
+++ViewModelFM13DT160OpModeCheck.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelfm13dt160opmodecheck.cs
+++ViewModelFM13DT160ReadWriteMemory.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelfm13dt160readwritememory.cs
+++ViewModelFocusandFastIDInventory.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelfocusandfastidinventory.cs
+++ViewModelFocusandFastIDSetting.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelfocusandfastidsetting.cs
+++ViewModelGeiger.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelgeiger.cs
+++ViewModelInventorynScan.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelinventorynscan.cs
+++ViewModelMaxduraControls.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelmaxduracontrols.cs
+++ViewModelMaxduraInventory.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelmaxdurainventory.cs
+++ViewModelMultiBankInventory.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelmultibankinventory.cs
+++ViewModelMultiBankInventorySetting.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelmultibankinventorysetting.cs
+++ViewModelPerformanceTest.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelperformancetest.cs
+++ViewModelPeriodicRead.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelperiodicread.cs
+++ViewModelPhaseChannelInventory.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelphasechannelinventory.cs
+++ViewModelRead.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelread.cs
+++ViewModelReadWrite.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelreadwrite.cs
+++ViewModelRegisterTag.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelregistertag.cs
+++ViewModelRFMicroInventory.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelrfmicroinventory.cs
+++ViewModelRFMicroNickname.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelrfmicronickname.cs
+++ViewModelRFMicroReadTemp.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelrfmicroreadtemp.cs
+++ViewModelRFMicroS2Inventory.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelrfmicros2inventory.cs
+++ViewModelRFMicroS3Inventory.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelrfmicros3inventory.cs
+++ViewModelRFMicroSetting .cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelrfmicrosetting .cs
+++ViewModelSecurity.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelsecurity.cs
+++ViewModelSetting.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelsetting.cs
+++ViewModelSmartracThermologgerClearLogger.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelsmartracthermologgerclearlogger.cs
+++ViewModelSmartracThermologgerInitLogger.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelsmartracthermologgerinitlogger.cs
+++ViewModelSmartracThermologgerInventory.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelsmartracthermologgerinventory.cs
+++ViewModelSmartracThermologgerReadCurrentValues.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelsmartracthermologgerreadcurrentvalues.cs
+++ViewModelSmartracThermologgerReadLifetimeStatistics.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelsmartracthermologgerreadlifetimestatistics.cs
+++ViewModelSmartracThermologgerReadLoggerStatus.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelsmartracthermologgerreadloggerstatus.cs
+++ViewModelSmartracThermologgerReadMeasurementObject.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelsmartracthermologgerreadmeasurementobject.cs
+++ViewModelSmartracThermologgerReadSystemInformation.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelsmartracthermologgerreadsysteminformation.cs
+++ViewModelSmartracThermologgerStartLogger.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelsmartracthermologgerstartlogger.cs
+++ViewModelSmartracThermologgerStopLogger.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelsmartracthermologgerstoplogger.cs
+++ViewModelSpecialFunctionsMenu.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelspecialfunctionsmenu.cs
+++ViewModelUCODEDNA.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelucodedna.cs
+++ViewModelViewPage.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelviewpage.cs
+++ViewModelWriteAnyEPC.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelwriteanyepc.cs
+++ViewModelXerxesAuthentication.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelxerxesauthentication.cs
+++ViewModelXerxesConfiguration.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelxerxesconfiguration.cs
+++ViewModelXerxesReadTemp.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelxerxesreadtemp.cs
+++ViewModelXerxesTagList.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\viewmodels\viewmodelxerxestaglist.cs
+++BleMvxFormsApp.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\blemvxformsapp.xaml.cs
+++Acr.UserDialogs (6.5.1)
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:>2335
+++LiveChartsCore (2.0.0-beta.101)
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:>2327
+++LiveChartsCore.SkiaSharpView.XamarinForms (2.0.0-beta.101)
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:>2337
+++MvvmCross (5.1.0)
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:>2332
+++MvvmCross.Binding (5.1.0)
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:>2328
+++MvvmCross.Core (5.1.0)
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:>2331
+++MvvmCross.Forms (5.1.0)
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:>2338
+++Newtonsoft.Json (13.0.1)
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:>2325
+++PCLStorage (1.0.2)
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:>2326
+++Plugin.Permissions (2.0.1)
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:>2320
+++Plugin.Share (7.0.1)
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:>2339
+++Prism.Core (6.3.0)
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:>2334
+++Splat (2.0.0)
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:>2333
+++Xam.Plugins.Settings (3.0.1)
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:>2323
+++Xamarin.Essentials (1.6.0)
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:>2329
+++Monza4 QT
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pagesviewmodelsset\specialfuction\monza4 qt\
+++Temperature tag with location demo for Tablet
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pagesviewmodelsset\specialfuction\temperature tag with location demo for tablet\
+++InventorySelectionMenu
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pagesviewmodelsset\specialfuction\monza4 qt\inventoryselectionmenu\
+++PrivateModeInventory
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pagesviewmodelsset\specialfuction\monza4 qt\privatemodeinventory\
+++PublicModeInventory
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pagesviewmodelsset\specialfuction\monza4 qt\publicmodeinventory\
+++ReadPublicModeData
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pagesviewmodelsset\specialfuction\monza4 qt\readpublicmodedata\
+++ReadWritePrivateModeData
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pagesviewmodelsset\specialfuction\monza4 qt\readwriteprivatemodedata\
+++PageTempGPSInventory.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pagesviewmodelsset\specialfuction\temperature tag with location demo for tablet\pagetempgpsinventory.xaml
+++PageTempGPSSetting.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pagesviewmodelsset\specialfuction\temperature tag with location demo for tablet\pagetempgpssetting.xaml
+++ViewModelTempGPSInventory.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pagesviewmodelsset\specialfuction\temperature tag with location demo for tablet\viewmodeltempgpsinventory.cs
+++ViewModelTempGPSSetting .cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pagesviewmodelsset\specialfuction\temperature tag with location demo for tablet\viewmodeltempgpssetting .cs
+++PageQTInventorySlectionMenu.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pagesviewmodelsset\specialfuction\monza4 qt\inventoryselectionmenu\pageqtinventoryslectionmenu.xaml
+++ViewModelQTInventorySlectionMenu.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pagesviewmodelsset\specialfuction\monza4 qt\inventoryselectionmenu\viewmodelqtinventoryslectionmenu.cs
+++PageQTPrivateModeInventory.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pagesviewmodelsset\specialfuction\monza4 qt\privatemodeinventory\pageqtprivatemodeinventory.xaml
+++ViewModelQTPrivateModeInventory.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pagesviewmodelsset\specialfuction\monza4 qt\privatemodeinventory\viewmodelqtprivatemodeinventory.cs
+++PageQTPublicModeInventory.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pagesviewmodelsset\specialfuction\monza4 qt\publicmodeinventory\pageqtpublicmodeinventory.xaml
+++ViewModelQTPublicModeInventory.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pagesviewmodelsset\specialfuction\monza4 qt\publicmodeinventory\viewmodelqtpublicmodeinventory.cs
+++PageQTReadPublicModeData.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pagesviewmodelsset\specialfuction\monza4 qt\readpublicmodedata\pageqtreadpublicmodedata.xaml
+++ViewModelQTReadPublicModeData.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pagesviewmodelsset\specialfuction\monza4 qt\readpublicmodedata\viewmodelqtreadpublicmodedata.cs
+++PageQTReadWritePrivateModeData.xaml
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pagesviewmodelsset\specialfuction\monza4 qt\readwriteprivatemodedata\pageqtreadwriteprivatemodedata.xaml
+++ViewModelQTReadWritePrivateModeData.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pagesviewmodelsset\specialfuction\monza4 qt\readwriteprivatemodedata\viewmodelqtreadwriteprivatemodedata.cs
+++PageTempGPSInventory.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pagesviewmodelsset\specialfuction\temperature tag with location demo for tablet\pagetempgpsinventory.xaml.cs
+++PageTempGPSSetting.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pagesviewmodelsset\specialfuction\temperature tag with location demo for tablet\pagetempgpssetting.xaml.cs
+++PageQTInventorySlectionMenu.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pagesviewmodelsset\specialfuction\monza4 qt\inventoryselectionmenu\pageqtinventoryslectionmenu.xaml.cs
+++PageQTPrivateModeInventory.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pagesviewmodelsset\specialfuction\monza4 qt\privatemodeinventory\pageqtprivatemodeinventory.xaml.cs
+++PageQTPublicModeInventory.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pagesviewmodelsset\specialfuction\monza4 qt\publicmodeinventory\pageqtpublicmodeinventory.xaml.cs
+++PageQTReadPublicModeData.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pagesviewmodelsset\specialfuction\monza4 qt\readpublicmodedata\pageqtreadpublicmodedata.xaml.cs
+++PageQTReadWritePrivateModeData.xaml.cs
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pagesviewmodelsset\specialfuction\monza4 qt\readwriteprivatemodedata\pageqtreadwriteprivatemodedata.xaml.cs
+++yogaphoto.png
+i:{6b39bae2-82ff-4904-b22d-f53414436813}:c:\users\trevo\source\repos\rfid_bt_app alpha\cs108 demo\ble.client\pages\yogaphoto.png

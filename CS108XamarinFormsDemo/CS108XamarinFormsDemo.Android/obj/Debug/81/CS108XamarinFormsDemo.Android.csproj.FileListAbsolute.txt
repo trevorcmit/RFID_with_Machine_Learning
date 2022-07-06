@@ -1,0 +1,3 @@
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\CS108XamarinFormsDemo\CS108XamarinFormsDemo.Android\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\CS108XamarinFormsDemo\CS108XamarinFormsDemo.Android\obj\Debug\81\build.props
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\CS108XamarinFormsDemo\CS108XamarinFormsDemo.Android\obj\Debug\81\adb.props

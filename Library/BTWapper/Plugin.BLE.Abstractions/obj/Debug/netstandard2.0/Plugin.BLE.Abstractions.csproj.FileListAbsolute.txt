@@ -1,0 +1,70 @@
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\Plugin.BLE.Abstractions\bin\Debug\netstandard2.0\Plugin.BLE.Abstractions.deps.json
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\Plugin.BLE.Abstractions\bin\Debug\netstandard2.0\Plugin.BLE.Abstractions.dll
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\Plugin.BLE.Abstractions\bin\Debug\netstandard2.0\Plugin.BLE.Abstractions.pdb
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\Plugin.BLE.Abstractions\obj\Debug\netstandard2.0\Plugin.BLE.Abstractions.csproj.AssemblyReference.cache
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\Plugin.BLE.Abstractions\obj\Debug\netstandard2.0\Plugin.BLE.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\Plugin.BLE.Abstractions\obj\Debug\netstandard2.0\Plugin.BLE.Abstractions.AssemblyInfoInputs.cache
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\Plugin.BLE.Abstractions\obj\Debug\netstandard2.0\Plugin.BLE.Abstractions.AssemblyInfo.cs
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\Plugin.BLE.Abstractions\obj\Debug\netstandard2.0\Plugin.BLE.Abstractions.csproj.CoreCompileInputs.cache
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\Plugin.BLE.Abstractions\obj\Debug\netstandard2.0\Plugin.BLE.Abstractions.dll
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\Library\BTWapper\Plugin.BLE.Abstractions\obj\Debug\netstandard2.0\Plugin.BLE.Abstractions.pdb
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\Plugin.BLE.Abstractions\bin\Debug\netstandard2.0\Plugin.BLE.Abstractions.deps.json
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\Plugin.BLE.Abstractions\bin\Debug\netstandard2.0\Plugin.BLE.Abstractions.dll
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\Plugin.BLE.Abstractions\bin\Debug\netstandard2.0\Plugin.BLE.Abstractions.pdb
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\Plugin.BLE.Abstractions\obj\Debug\netstandard2.0\Plugin.BLE.Abstractions.csproj.AssemblyReference.cache
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\Plugin.BLE.Abstractions\obj\Debug\netstandard2.0\Plugin.BLE.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\Plugin.BLE.Abstractions\obj\Debug\netstandard2.0\Plugin.BLE.Abstractions.AssemblyInfoInputs.cache
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\Plugin.BLE.Abstractions\obj\Debug\netstandard2.0\Plugin.BLE.Abstractions.AssemblyInfo.cs
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\Plugin.BLE.Abstractions\obj\Debug\netstandard2.0\Plugin.BLE.Abstractions.csproj.CoreCompileInputs.cache
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\Plugin.BLE.Abstractions\obj\Debug\netstandard2.0\Plugin.BLE.Abstractions.dll
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\Plugin.BLE.Abstractions\obj\Debug\netstandard2.0\Plugin.BLE.Abstractions.pdb
+C:\Users\trevo\source\repos\RFID_BT_app alpha\Library\BTWapper\Plugin.BLE.Abstractions\bin\Debug\netstandard2.0\Plugin.BLE.Abstractions.deps.json
+C:\Users\trevo\source\repos\RFID_BT_app alpha\Library\BTWapper\Plugin.BLE.Abstractions\bin\Debug\netstandard2.0\Plugin.BLE.Abstractions.dll
+C:\Users\trevo\source\repos\RFID_BT_app alpha\Library\BTWapper\Plugin.BLE.Abstractions\bin\Debug\netstandard2.0\Plugin.BLE.Abstractions.pdb
+C:\Users\trevo\source\repos\RFID_BT_app alpha\Library\BTWapper\Plugin.BLE.Abstractions\obj\Debug\netstandard2.0\Plugin.BLE.Abstractions.csproj.AssemblyReference.cache
+C:\Users\trevo\source\repos\RFID_BT_app alpha\Library\BTWapper\Plugin.BLE.Abstractions\obj\Debug\netstandard2.0\Plugin.BLE.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\trevo\source\repos\RFID_BT_app alpha\Library\BTWapper\Plugin.BLE.Abstractions\obj\Debug\netstandard2.0\Plugin.BLE.Abstractions.AssemblyInfoInputs.cache
+C:\Users\trevo\source\repos\RFID_BT_app alpha\Library\BTWapper\Plugin.BLE.Abstractions\obj\Debug\netstandard2.0\Plugin.BLE.Abstractions.AssemblyInfo.cs
+C:\Users\trevo\source\repos\RFID_BT_app alpha\Library\BTWapper\Plugin.BLE.Abstractions\obj\Debug\netstandard2.0\Plugin.BLE.Abstractions.csproj.CoreCompileInputs.cache
+C:\Users\trevo\source\repos\RFID_BT_app alpha\Library\BTWapper\Plugin.BLE.Abstractions\obj\Debug\netstandard2.0\Plugin.BLE.Abstractions.dll
+C:\Users\trevo\source\repos\RFID_BT_app alpha\Library\BTWapper\Plugin.BLE.Abstractions\obj\Debug\netstandard2.0\Plugin.BLE.Abstractions.pdb
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\Library\BTWapper\Plugin.BLE.Abstractions\bin\Debug\netstandard2.0\Plugin.BLE.Abstractions.deps.json
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\Library\BTWapper\Plugin.BLE.Abstractions\bin\Debug\netstandard2.0\Plugin.BLE.Abstractions.dll
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\Library\BTWapper\Plugin.BLE.Abstractions\bin\Debug\netstandard2.0\Plugin.BLE.Abstractions.pdb
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\Library\BTWapper\Plugin.BLE.Abstractions\obj\Debug\netstandard2.0\Plugin.BLE.Abstractions.csproj.AssemblyReference.cache
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\Library\BTWapper\Plugin.BLE.Abstractions\obj\Debug\netstandard2.0\Plugin.BLE.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\Library\BTWapper\Plugin.BLE.Abstractions\obj\Debug\netstandard2.0\Plugin.BLE.Abstractions.AssemblyInfoInputs.cache
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\Library\BTWapper\Plugin.BLE.Abstractions\obj\Debug\netstandard2.0\Plugin.BLE.Abstractions.AssemblyInfo.cs
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\Library\BTWapper\Plugin.BLE.Abstractions\obj\Debug\netstandard2.0\Plugin.BLE.Abstractions.csproj.CoreCompileInputs.cache
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\Library\BTWapper\Plugin.BLE.Abstractions\obj\Debug\netstandard2.0\Plugin.BLE.Abstractions.dll
+C:\Users\trevo\source\repos\RFID_BT_app Yoga\Library\BTWapper\Plugin.BLE.Abstractions\obj\Debug\netstandard2.0\Plugin.BLE.Abstractions.pdb
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\Plugin.BLE.Abstractions\bin\Debug\netstandard2.0\Plugin.BLE.Abstractions.deps.json
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\Plugin.BLE.Abstractions\bin\Debug\netstandard2.0\Plugin.BLE.Abstractions.dll
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\Plugin.BLE.Abstractions\bin\Debug\netstandard2.0\Plugin.BLE.Abstractions.pdb
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\Plugin.BLE.Abstractions\obj\Debug\netstandard2.0\Plugin.BLE.Abstractions.csproj.AssemblyReference.cache
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\Plugin.BLE.Abstractions\obj\Debug\netstandard2.0\Plugin.BLE.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\Plugin.BLE.Abstractions\obj\Debug\netstandard2.0\Plugin.BLE.Abstractions.AssemblyInfoInputs.cache
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\Plugin.BLE.Abstractions\obj\Debug\netstandard2.0\Plugin.BLE.Abstractions.AssemblyInfo.cs
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\Plugin.BLE.Abstractions\obj\Debug\netstandard2.0\Plugin.BLE.Abstractions.csproj.CoreCompileInputs.cache
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\Plugin.BLE.Abstractions\obj\Debug\netstandard2.0\Plugin.BLE.Abstractions.dll
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\Plugin.BLE.Abstractions\obj\Debug\netstandard2.0\Plugin.BLE.Abstractions.pdb
+C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\Plugin.BLE.Abstractions\bin\Debug\netstandard2.0\Plugin.BLE.Abstractions.deps.json
+C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\Plugin.BLE.Abstractions\bin\Debug\netstandard2.0\Plugin.BLE.Abstractions.dll
+C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\Plugin.BLE.Abstractions\bin\Debug\netstandard2.0\Plugin.BLE.Abstractions.pdb
+C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\Plugin.BLE.Abstractions\obj\Debug\netstandard2.0\Plugin.BLE.Abstractions.csproj.AssemblyReference.cache
+C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\Plugin.BLE.Abstractions\obj\Debug\netstandard2.0\Plugin.BLE.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\Plugin.BLE.Abstractions\obj\Debug\netstandard2.0\Plugin.BLE.Abstractions.AssemblyInfoInputs.cache
+C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\Plugin.BLE.Abstractions\obj\Debug\netstandard2.0\Plugin.BLE.Abstractions.AssemblyInfo.cs
+C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\Plugin.BLE.Abstractions\obj\Debug\netstandard2.0\Plugin.BLE.Abstractions.csproj.CoreCompileInputs.cache
+C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\Plugin.BLE.Abstractions\obj\Debug\netstandard2.0\Plugin.BLE.Abstractions.dll
+C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\Plugin.BLE.Abstractions\obj\Debug\netstandard2.0\Plugin.BLE.Abstractions.pdb
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\Plugin.BLE.Abstractions\bin\Debug\netstandard2.0\Plugin.BLE.Abstractions.deps.json
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\Plugin.BLE.Abstractions\bin\Debug\netstandard2.0\Plugin.BLE.Abstractions.dll
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\Plugin.BLE.Abstractions\bin\Debug\netstandard2.0\Plugin.BLE.Abstractions.pdb
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\Plugin.BLE.Abstractions\obj\Debug\netstandard2.0\Plugin.BLE.Abstractions.csproj.AssemblyReference.cache
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\Plugin.BLE.Abstractions\obj\Debug\netstandard2.0\Plugin.BLE.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\Plugin.BLE.Abstractions\obj\Debug\netstandard2.0\Plugin.BLE.Abstractions.AssemblyInfoInputs.cache
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\Plugin.BLE.Abstractions\obj\Debug\netstandard2.0\Plugin.BLE.Abstractions.AssemblyInfo.cs
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\Plugin.BLE.Abstractions\obj\Debug\netstandard2.0\Plugin.BLE.Abstractions.csproj.CoreCompileInputs.cache
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\Plugin.BLE.Abstractions\obj\Debug\netstandard2.0\Plugin.BLE.Abstractions.dll
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\Plugin.BLE.Abstractions\obj\Debug\netstandard2.0\Plugin.BLE.Abstractions.pdb

@@ -1,0 +1,3 @@
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\CS108 Demo\BLE.Client.Droid\obj\Debug\71\MonoAndroid,Version=v7.1.AssemblyAttributes.cs
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\CS108 Demo\BLE.Client.Droid\obj\Debug\71\build.props
+C:\Users\trevo\Source\Repos\CS108-Mobile-CSharp-DotNetStd-App\CS108 Demo\BLE.Client.Droid\obj\Debug\71\adb.props

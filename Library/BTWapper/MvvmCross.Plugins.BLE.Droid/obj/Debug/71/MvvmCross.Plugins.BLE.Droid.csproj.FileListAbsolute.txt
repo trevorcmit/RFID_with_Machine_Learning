@@ -1,0 +1,78 @@
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\bin\Debug\MvvmCross.Plugins.BLE.Droid.dll
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\bin\Debug\MvvmCross.Plugins.BLE.Droid.pdb
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\bin\Debug\MvvmCross.Plugins.BLE.Droid.apk
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\bin\Debug\MvvmCross.Plugins.BLE.Droid.aab
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\bin\Debug\MvvmCross.Plugins.BLE.Droid-Signed.aab
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\bin\Debug\MvvmCross.Plugins.BLE.Droid-Signed.apk
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\bin\Debug\MvvmCross.Plugins.BLE.Droid-Signed.apk.idsig
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\bin\Debug\MvvmCross.Platform.dll
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\bin\Debug\MvvmCross.Platform.Droid.dll
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\bin\Debug\MvvmCross.Plugins.BLE.dll
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\bin\Debug\Plugin.BLE.Abstractions.dll
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\bin\Debug\Plugin.BLE.dll
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\bin\Debug\MvvmCross.Plugins.BLE.pdb
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\bin\Debug\Plugin.BLE.Abstractions.pdb
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\bin\Debug\Plugin.BLE.pdb
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\bin\Debug\MvvmCross.Platform.pdb
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\bin\Debug\MvvmCross.Platform.dll.mdb
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\bin\Debug\MvvmCross.Platform.Droid.pdb
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\bin\Debug\MvvmCross.Platform.Droid.dll.mdb
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\obj\Debug\71\MonoAndroid,Version=v7.1.AssemblyAttributes.cs
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\obj\Debug\71\build.props
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\obj\Debug\71\adb.props
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\obj\Debug\71\MvvmCross.Plugins.BLE.Droid.csproj.AssemblyReference.cache
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\obj\Debug\71\stamp\_BuildLibraryImportsCache.stamp
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\obj\Debug\71\res.flag
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\obj\Debug\71\R.txt
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\obj\Debug\71\R.cs.flag
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\obj\Debug\71\MvvmCross.Plugins.BLE.Droid.csproj.CoreCompileInputs.cache
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\obj\Debug\71\MvvmCross.Plugins.BLE.Droid.csproj.CopyComplete
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\obj\Debug\71\MvvmCross.Plugins.BLE.Droid.dll
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\obj\Debug\71\MvvmCross.Plugins.BLE.Droid.pdb
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\obj\Debug\71\android\bin\MvvmCross.Plugins.BLE.Droid.apk
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\obj\Debug\71\android\bin\base.zip
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\obj\Debug\71\android\bin\MvvmCross.Plugins.BLE.Droid.aab
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\obj\Debug\71\android\bin\MvvmCross.Plugins.BLE.Droid.apks
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\obj\Debug\71\uploadflags.txt
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\obj\Debug\71\stamp\_CleanIntermediateIfNeeded.stamp
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\obj\Debug\71\stamp\_ConvertResourcesCases.stamp
+C:\Users\trevo\source\repos\RFID_BT_app\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\obj\Debug\71\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\bin\Debug\MvvmCross.Plugins.BLE.Droid.dll
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\bin\Debug\MvvmCross.Plugins.BLE.Droid.pdb
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\bin\Debug\MvvmCross.Plugins.BLE.Droid.apk
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\bin\Debug\MvvmCross.Plugins.BLE.Droid.aab
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\bin\Debug\MvvmCross.Plugins.BLE.Droid-Signed.aab
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\bin\Debug\MvvmCross.Plugins.BLE.Droid-Signed.apk
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\bin\Debug\MvvmCross.Plugins.BLE.Droid-Signed.apk.idsig
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\bin\Debug\MvvmCross.Platform.dll
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\bin\Debug\MvvmCross.Platform.Droid.dll
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\bin\Debug\MvvmCross.Plugins.BLE.dll
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\bin\Debug\Plugin.BLE.Abstractions.dll
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\bin\Debug\Plugin.BLE.dll
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\bin\Debug\MvvmCross.Plugins.BLE.pdb
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\bin\Debug\Plugin.BLE.Abstractions.pdb
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\bin\Debug\Plugin.BLE.pdb
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\bin\Debug\MvvmCross.Platform.pdb
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\bin\Debug\MvvmCross.Platform.dll.mdb
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\bin\Debug\MvvmCross.Platform.Droid.pdb
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\bin\Debug\MvvmCross.Platform.Droid.dll.mdb
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\obj\Debug\71\MonoAndroid,Version=v7.1.AssemblyAttributes.cs
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\obj\Debug\71\build.props
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\obj\Debug\71\adb.props
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\obj\Debug\71\MvvmCross.Plugins.BLE.Droid.csproj.AssemblyReference.cache
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\obj\Debug\71\stamp\_BuildLibraryImportsCache.stamp
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\obj\Debug\71\res.flag
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\obj\Debug\71\R.txt
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\obj\Debug\71\R.cs.flag
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\obj\Debug\71\MvvmCross.Plugins.BLE.Droid.csproj.CoreCompileInputs.cache
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\obj\Debug\71\MvvmCross.Plugins.BLE.Droid.csproj.CopyComplete
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\obj\Debug\71\MvvmCross.Plugins.BLE.Droid.dll
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\obj\Debug\71\MvvmCross.Plugins.BLE.Droid.pdb
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\obj\Debug\71\android\bin\MvvmCross.Plugins.BLE.Droid.apk
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\obj\Debug\71\android\bin\base.zip
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\obj\Debug\71\android\bin\MvvmCross.Plugins.BLE.Droid.aab
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\obj\Debug\71\android\bin\MvvmCross.Plugins.BLE.Droid.apks
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\obj\Debug\71\uploadflags.txt
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\obj\Debug\71\stamp\_CleanIntermediateIfNeeded.stamp
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\obj\Debug\71\stamp\_ConvertResourcesCases.stamp
+C:\Users\trevo\source\repos\Arm Test\Library\BTWapper\MvvmCross.Plugins.BLE.Droid\obj\Debug\71\stamp\_ResolveLibraryProjectImports.stamp

@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Roots >
+  <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="Points" />
+    <RootPropertyPathName Name="Background" />
+    <RootPropertyPathName Name="ChartPoint" />
+    <RootPropertyPathName Name="AsTooltipString" />
+    <RootPropertyPathName Name="FontFamily" />
+    <RootPropertyPathName Name="Foreground" />
+    <RootPropertyPathName Name="FontSize" />
+    <RootPropertyPathName Name="FontStyle" />
+    <RootPropertyPathName Name="FontStretch" />
+    <RootPropertyPathName Name="Context" />
+    <RootPropertyPathName Name="Series" />
+    <RootPropertyPathName Name="CanvasSchedule" />
+    <RootPropertyPathName Name="PaintSchedules" />
+    <RootPropertyPathName Name="Width" />
+    <RootPropertyPathName Name="Height" />
+    <RootPropertyPathName Name="ActualTemplate" />
+    <RootPropertyPathName Name="SeriesCollection" />
+    <RootPropertyPathName Name="Orientation" />
+    <RootPropertyPathName Name="Name" />
+  </Roots.PropertyPathNames>
+  <Roots.RootTypes>
+    <RootType FullName="Windows.UI.Xaml.Controls.UserControl">
+      <RootProperty Name="Resources" />
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.DataTemplate">
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ItemsControl">
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="ItemsPanel" />
+      <RootProperty Name="ItemTemplate" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.Binding">
+      <RootProperty Name="ElementName" />
+      <RootProperty Name="Path" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ItemsPanelTemplate">
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Orientation" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="Children" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Border">
+      <RootProperty Name="Padding" />
+      <RootProperty Name="Child" />
+    </RootType>
+    <RootType FullName="LiveChartsCore.SkiaSharpView.UWP.MotionCanvas">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="PaintTasks" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="VerticalAlignment" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
+      <RootProperty Name="Text" />
+      <RootProperty Name="FontFamily" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="FontStyle" />
+      <RootProperty Name="FontStretch" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ContentControl">
+      <RootProperty Name="ContentTemplate" />
+    </RootType>
+    <RootType FullName="LiveChartsCore.SkiaSharpView.UWP.DefaultTooltip" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Grid">
+      <RootProperty Name="Children" />
+      <RootProperty Name="ColumnDefinitions" />
+      <RootProperty Name="RowDefinitions" />
+      <RootMethod Name="GetRow" />
+      <RootMethod Name="SetRow" />
+      <RootMethod Name="GetColumn" />
+      <RootMethod Name="SetColumn" />
+    </RootType>
+    <RootType FullName="LiveChartsCore.SkiaSharpView.UWP.GeoMap" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ToolTipService">
+      <RootMethod Name="GetToolTip" />
+      <RootMethod Name="SetToolTip" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ToolTip">
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="Padding" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
+      <RootProperty Name="Width" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
+      <RootProperty Name="Height" />
+    </RootType>
+    <RootType FullName="LiveChartsCore.SkiaSharpView.UWP.DefaultLegend">
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="HorizontalAlignment" />
+    </RootType>
+    <RootType FullName="LiveChartsCore.SkiaSharpView.UWP.PolarChart" />
+    <RootType FullName="LiveChartsCore.SkiaSharpView.UWP.CartesianChart" />
+    <RootType FullName="SkiaSharp.Views.UWP.SKXamlCanvas" />
+    <RootType FullName="LiveChartsCore.SkiaSharpView.UWP.PieChart" />
+  </Roots.RootTypes>
+</Roots>
