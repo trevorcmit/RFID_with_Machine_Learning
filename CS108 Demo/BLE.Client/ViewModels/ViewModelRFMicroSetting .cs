@@ -1,5 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿// using System;
+// using System.Collections.Generic;
 using Acr.UserDialogs;
 using MvvmCross.Core.ViewModels;
 using Plugin.BLE.Abstractions.Contracts;

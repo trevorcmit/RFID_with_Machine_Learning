@@ -55,18 +55,14 @@ namespace BLE.Client.ViewModels {
 
         protected async Task<ICharacteristic> GetCharacteristicFromBundleAsync(IMvxBundle parameters) {
             var service = await GetServiceFromBundleAsync(parameters);
-            if (service == null || !parameters.Data.ContainsKey(CharacteristicIdKey)) {
-                return null;
-            }
+            if (service == null || !parameters.Data.ContainsKey(CharacteristicIdKey)) {return null;}
             var characteristicId = parameters.Data[CharacteristicIdKey];
             return await service.GetCharacteristicAsync(Guid.Parse(characteristicId));
         }
 
         protected async Task<IDescriptor> GetDescriptorFromBundleAsync(IMvxBundle parameters) {
             var characteristic = await GetCharacteristicFromBundleAsync(parameters);
-            if (characteristic == null || !parameters.Data.ContainsKey(DescriptorIdKey)) {
-                return null;
-            }
+            if (characteristic == null || !parameters.Data.ContainsKey(DescriptorIdKey)) {return null;}
             var descriptorId = parameters.Data[DescriptorIdKey];
             return await characteristic.GetDescriptorAsync(Guid.Parse(descriptorId));
         }

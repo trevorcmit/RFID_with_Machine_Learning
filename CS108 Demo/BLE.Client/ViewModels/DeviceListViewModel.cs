@@ -52,9 +52,7 @@ namespace BLE.Client.ViewModels {
         public DeviceListItemViewModel SelectedDevice {
             get {return null;}
             set {
-                if (value != null) {
-                    HandleSelectedDevice(value);
-                }
+                if (value != null) {HandleSelectedDevice(value);}
                 RaisePropertyChanged();
             }
         }
@@ -81,8 +79,6 @@ namespace BLE.Client.ViewModels {
             Adapter.ScanTimeoutElapsed += Adapter_ScanTimeoutElapsed;
             Adapter.DeviceDisconnected += OnDeviceDisconnected;
             Adapter.DeviceConnectionLost += OnDeviceConnectionLost;
-            //Adapter.DeviceConnected += (sender, e) => Adapter.DisconnectDeviceAsync(e.Device);
-
             BleMvxApplication._reader.DisconnectAsync();
         }
 
@@ -95,13 +91,11 @@ namespace BLE.Client.ViewModels {
 
         private void OnDeviceConnectionLost(object sender, DeviceErrorEventArgs e) {
             Devices.FirstOrDefault(d => d.Id == e.Device.Id)?.Update();
-
             _userDialogs.HideLoading();
             _userDialogs.ErrorToast("Error", $"Connection LOST {e.Device.Name} Please reconnect reader", TimeSpan.FromMilliseconds(5000));
         }
 
-        private void OnStateChanged(object sender, BluetoothStateChangedArgs e)
-        {
+        private void OnStateChanged(object sender, BluetoothStateChangedArgs e) {
             RaisePropertyChanged(nameof(IsStateOn));
             RaisePropertyChanged(nameof(StateText));
         }
@@ -138,8 +132,7 @@ namespace BLE.Client.ViewModels {
 
             CleanupCancellationToken();
 
-            if (_scanAgain)
-                ScanForDevices();
+            if (_scanAgain) ScanForDevices();
         }
 
         private void OnDeviceDiscovered(object sender, DeviceEventArgs args) {

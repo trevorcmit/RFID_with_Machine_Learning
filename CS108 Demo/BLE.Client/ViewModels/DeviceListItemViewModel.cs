@@ -17,9 +17,7 @@ namespace BLE.Client.ViewModels {
         }
 
         public void Update(IDevice newDevice = null) {
-            if (newDevice != null) {
-                Device = newDevice;
-            }
+            if (newDevice != null) {Device = newDevice;}
             RaisePropertyChanged(nameof(IsConnected));
             RaisePropertyChanged(nameof(Rssi));
         }

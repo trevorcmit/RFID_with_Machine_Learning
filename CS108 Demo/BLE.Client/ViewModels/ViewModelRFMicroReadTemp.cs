@@ -13,16 +13,16 @@ namespace BLE.Client.ViewModels {
     public class ViewModelRFMicroReadTemp : BaseViewModel {
         private readonly IUserDialogs _userDialogs;
 
-        public string entrySelectedEPC {get; set; }
-        public string entrySelectedPWD {get; set; }
+        public string entrySelectedEPC {get; set;}
+        public string entrySelectedPWD {get; set;}
 
-        public string entryUpperRSSILimit {get; set; }
-        public string entryLowerRSSILimit {get; set; }
-        public string entryRWTagID {get; set; }
-        public string entryCalibration {get; set; }
-        public string entrySensorCode {get; set; }
-        public string entryRssiCode {get; set; }
-        public string entryTemperatureCode {get; set; }
+        public string entryUpperRSSILimit {get; set;}
+        public string entryLowerRSSILimit {get; set;}
+        public string entryRWTagID {get; set;}
+        public string entryCalibration {get; set;}
+        public string entrySensorCode {get; set;}
+        public string entryRssiCode {get; set;}
+        public string entryTemperatureCode {get; set;}
 
         public string labelRWTagIDStatus {get; set;} = "";
         public string labelCalibrationStatus {get; set;} = "";

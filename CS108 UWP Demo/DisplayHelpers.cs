@@ -104,7 +104,7 @@ namespace SDKTemplate {
 
         public IReadOnlyDictionary<string, object> Properties => DeviceInformation.Properties;
 
-        public BitmapImage GlyphBitmapImage { get; private set; }
+        public BitmapImage GlyphBitmapImage {get; private set;}
 
         public event PropertyChangedEventHandler PropertyChanged;
 

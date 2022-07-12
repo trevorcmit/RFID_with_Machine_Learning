@@ -1,11 +1,4 @@
-﻿// using System;
-// using System.Collections.Generic;
-// using System.Linq;
-// using System.Text;
-// using System.Threading.Tasks;
-
-
-namespace BLE.Client {
+﻿namespace BLE.Client {
     public static class ClassBattery {
         public enum BATTERYMODE {
             INVENTORY = 1,

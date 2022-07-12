@@ -18,19 +18,19 @@ namespace BLE.Client.ViewModels {
     public class ViewModelRFMicroS2Inventory : BaseViewModel {
         public class RFMicroTagInfoViewModel : BindableBase {
             private string _EPC;
-            public string EPC { get { return this._EPC; } set { this.SetProperty(ref this._EPC, value); } }
+            public string EPC {get { return this._EPC;} set {this.SetProperty(ref this._EPC, value);}}
 
             private string _NickName;
-            public string NickName { get { return this._NickName; } set { this.SetProperty(ref this._NickName, value); } }
+            public string NickName { get {return this._NickName; } set { this.SetProperty(ref this._NickName, value);}}
 
             private string _DisplayName;
-            public string DisplayName { get { return this._DisplayName; } set { this.SetProperty(ref this._DisplayName, value); } }
+            public string DisplayName {get {return this._DisplayName; } set { this.SetProperty(ref this._DisplayName, value);}}
 
             private uint _OCRSSI;
-            public uint OCRSSI { get { return this._OCRSSI; } set { this.SetProperty(ref this._OCRSSI, value); } }
+            public uint OCRSSI { get { return this._OCRSSI; } set {this.SetProperty(ref this._OCRSSI, value); } }
 
             private string _GOODOCRSSI;
-            public string GOODOCRSSI { get { return this._GOODOCRSSI; } set { this.SetProperty(ref this._GOODOCRSSI, value); } }
+            public string GOODOCRSSI { get { return this._GOODOCRSSI;} set {this.SetProperty(ref this._GOODOCRSSI, value);} }
 
             public double _sensorValueSum;
             private string _sensorAvgValue;
@@ -43,29 +43,26 @@ namespace BLE.Client.ViewModels {
             public string RSSIColor { get { return this._RSSIColor; } set { this.SetProperty(ref this._RSSIColor, value); } }
 
             private string _valueColor;
-            public string valueColor { get { return this._valueColor; } set { this.SetProperty(ref this._valueColor, value); } }
+            public string valueColor {get { return this._valueColor; } set { this.SetProperty(ref this._valueColor, value); } }
 
-            public RFMicroTagInfoViewModel()
-            {
-            }
+            public RFMicroTagInfoViewModel() {}
         }
 
         private readonly IUserDialogs _userDialogs;
 
         #region -------------- RFID inventory -----------------
 
-        public ICommand OnStartInventoryButtonCommand { protected set; get; }
-        public ICommand OnClearButtonCommand { protected set; get; }
-        public ICommand OnShareDataCommand { protected set; get; }
+        public ICommand OnStartInventoryButtonCommand {protected set; get;}
+        public ICommand OnClearButtonCommand {protected set; get;}
+        public ICommand OnShareDataCommand {protected set; get;}
         
 
         private ObservableCollection<RFMicroTagInfoViewModel> _TagInfoList = new ObservableCollection<RFMicroTagInfoViewModel>();
-        public ObservableCollection<RFMicroTagInfoViewModel> TagInfoList { get { return _TagInfoList; } set { SetProperty(ref _TagInfoList, value); } }
+        public ObservableCollection<RFMicroTagInfoViewModel> TagInfoList {get {return _TagInfoList;} set { SetProperty(ref _TagInfoList, value); } }
 
-        public string SensorValueTitle { get {
+        public string SensorValueTitle {get {
                 // 0 = Average value, 1 = RAW, 2 = Temperature F, 3 = Temperature C, 4 = Dry/Wet
-                switch (BleMvxApplication._rfMicro_SensorUnit)
-                {
+                switch (BleMvxApplication._rfMicro_SensorUnit) {
                     case 0:
                         return "RAW";
                     case 1:
@@ -82,19 +79,19 @@ namespace BLE.Client.ViewModels {
         }
 
         private string _startInventoryButtonText = "Start Inventory";
-        public string startInventoryButtonText { get { return _startInventoryButtonText; } }
+        public string startInventoryButtonText {get {return _startInventoryButtonText; } }
 
         bool _tagCount = false;
 
         private string _tagPerSecondText = "0 tags/s";
-        public string tagPerSecondText { get { return _tagPerSecondText; } }
+        public string tagPerSecondText {get { return _tagPerSecondText; }}
         private string _numberOfTagsText = "0 tags";
-        public string numberOfTagsText { get { return _numberOfTagsText; } }
+        public string numberOfTagsText {get {return _numberOfTagsText;} }
         private string _labelVoltage = "";
-        public string labelVoltage { get { return _labelVoltage; } }
+        public string labelVoltage { get { return _labelVoltage; }}
 
         private int _ListViewRowHeight = -1;
-        public int ListViewRowHeight { get { return _ListViewRowHeight; } set { _ListViewRowHeight = value; } }
+        public int ListViewRowHeight { get { return _ListViewRowHeight;} set {_ListViewRowHeight = value;} }
 
         public bool _startInventory = true;
 
@@ -104,10 +101,10 @@ namespace BLE.Client.ViewModels {
 
         DateTime InventoryStartTime;
         private double _InventoryTime = 0;
-        public string InventoryTime { get { return ((uint)_InventoryTime).ToString() + "s"; } }
+        public string InventoryTime {get {return ((uint)_InventoryTime).ToString() + "s"; } }
 
         private string _currentPower;
-        public string currentPower { get { return _currentPower; } set { _currentPower = value; } }
+        public string currentPower {get {return _currentPower; } set { _currentPower = value; } }
 
         private int _DefaultRowHight;
 

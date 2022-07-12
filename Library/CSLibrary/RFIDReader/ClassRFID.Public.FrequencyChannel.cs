@@ -1,71 +1,28 @@
-﻿/*
-Copyright (c) 2018 Convergence Systems Limited
+﻿using CSLibrary.Constants;
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-*/
-
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-using CSLibrary.Constants;
-using CSLibrary.Structures;
-
-namespace CSLibrary
-{
-    public partial class RFIDReader
-    {
+namespace CSLibrary {
+    public partial class RFIDReader {
         private RegionCode m_save_region_code = RegionCode.UNKNOWN;
         private bool m_save_fixed_channel = false;
         private bool m_save_agile_channel = false;
         private uint m_save_freq_channel = 0;
         private double m_save_selected_freq = 0;
 
-        /// <summary>
-        /// Get Current Selected Frequency Channel
-        /// </summary>
-        public uint SelectedChannel
-        {
-            get { return m_save_freq_channel; }
+        public uint SelectedChannel {
+            get {return m_save_freq_channel;}
         }
 
-        /// <summary>
-        /// Get current frequency 
-        /// </summary>
-        public double SelectedFrequencyBand
-        {
-            get { return m_save_selected_freq; }
+        public double SelectedFrequencyBand {
+            get {return m_save_selected_freq;}
         }
 
-        /// <summary>
-        /// Set Fixed Frequency Channel
-        /// All region can be used to set a fixed channel
-        /// </summary>
         /// <param name="prof">Region Code</param>
         /// <param name="channel">Channel number start from zero, you can get the available channels 
         /// from CSLibrary.HighLevelInterface.AvailableFrequencyTable(CSLibrary.Constants.RegionCode)</param>
-        public Result SetFixedChannel(RegionCode prof = RegionCode.CURRENT, uint channel = 0)
-        {
+        public Result SetFixedChannel(RegionCode prof = RegionCode.CURRENT, uint channel = 0) {
 
-            if (m_save_fixed_channel == true && m_save_region_code == prof && m_save_freq_channel == channel)
-            {
+            if (m_save_fixed_channel == true && m_save_region_code == prof && m_save_freq_channel == channel) {
                 if (currentInventoryFreqRevIndex == null)
                     currentInventoryFreqRevIndex = new uint[1] { channel };
                 return Result.OK;
@@ -73,13 +30,10 @@ namespace CSLibrary
 
             uint Reg0x700 = 0;
 
-            //DEBUG_WriteLine(DEBUGLEVEL.API, "HighLevelInterface.SetFixedChannel(RegionCode prof, uint channel, LBT LBTcfg)");
 
-            if (IsHoppingChannelOnly)
-                return Result.INVALID_PARAMETER;
+            if (IsHoppingChannelOnly) return Result.INVALID_PARAMETER;
 
-            if (!GetActiveRegionCode().Contains(prof))
-                return Result.INVALID_PARAMETER;
+            if (!GetActiveRegionCode().Contains(prof)) return Result.INVALID_PARAMETER;
 
             // disable agile mode
             MacReadRegister(MACREGISTER.HST_ANT_CYCLES /*0x700*/, ref Reg0x700);
@@ -95,12 +49,10 @@ namespace CSLibrary
                 uint i = 0;
 
                 // Check Parameters
-                if (!FreqChnWithinRange(channel, prof) || freqTable == null)
-                    return Result.INVALID_PARAMETER;
+                if (!FreqChnWithinRange(channel, prof) || freqTable == null) return Result.INVALID_PARAMETER;
 
                 int Index = FreqSortedIdxTbls(prof, channel);
-                if (Index < 0)
-                    return Result.INVALID_PARAMETER;
+                if (Index < 0) return Result.INVALID_PARAMETER;
 
                 //Enable channel
                 SetFrequencyBand(0, BandState.ENABLE, freqTable[Index], GetPllcc(prof));
@@ -108,9 +60,8 @@ namespace CSLibrary
                 //ThrowException(SetFrequencyBand(0, BandState.ENABLE, freqTable[Index]));
                 i = 1;
 
-                //Disable channels
-                for (uint j = i; j < MAXFRECHANNEL; j++)
-                {
+                // Disable channels
+                for (uint j = i; j < MAXFRECHANNEL; j++) {
                     SetFrequencyBand(j, BandState.DISABLE, 0, 0);
                 }
 
@@ -124,15 +75,8 @@ namespace CSLibrary
 
             }
 #if nouse
-            catch (ReaderException ex)
-            {
-                //if (FireIfReset(ex.ErrorCode) == Result.OK)
-                //{
-                //    goto AGAIN;
-                //}
-            }
-            catch
-            {
+            catch (ReaderException ex) {}
+            catch {
                 m_Result = Result.SYSTEM_CATCH_EXCEPTION;
             }
 #endif
@@ -140,16 +84,11 @@ namespace CSLibrary
             currentInventoryFreqRevIndex = new uint[1] { channel };
 
             return Result.OK;
-            //return m_Result;
         }
 
-        /// <summary>
-        /// Set to the specific frequency profile
-        /// </summary>
         /// <param name="prof">Country Profile</param>
         /// <returns>Result</returns>
-        public Result SetHoppingChannels(RegionCode prof)
-        {
+        public Result SetHoppingChannels(RegionCode prof) {
             if (!(m_save_fixed_channel == true || m_save_agile_channel == true) && m_save_region_code == prof)
             {
                 if (currentInventoryFreqRevIndex == null)
@@ -157,8 +96,7 @@ namespace CSLibrary
                 return Result.OK;
             }
 
-            if (IsFixedChannelOnly || !GetActiveRegionCode().Contains(prof))
-                return Result.INVALID_PARAMETER;
+            if (IsFixedChannelOnly || !GetActiveRegionCode().Contains(prof)) return Result.INVALID_PARAMETER;
 
             uint TotalCnt = FreqChnCnt(prof);
             uint[] freqTable = FreqTable(prof);
@@ -187,24 +125,16 @@ namespace CSLibrary
             return Result.OK;
         }
 
-        /// <summary>
-        /// Reset current frequency profile
-        /// </summary>
         /// <returns></returns>
         public Result SetHoppingChannels()
         {
             return SetHoppingChannels(m_save_region_code);
         }
 
-        /// <summary>
-        /// Set to frequency agile mode
-        /// </summary>
         /// <param name="prof">Country Profile</param>
         /// <returns>Result</returns>
-        public Result SetAgileChannels(RegionCode prof)
-        {
-            if (!(m_save_fixed_channel == true || m_save_agile_channel == false) && m_save_region_code == prof)
-            {
+        public Result SetAgileChannels(RegionCode prof) {
+            if (!(m_save_fixed_channel == true || m_save_agile_channel == false) && m_save_region_code == prof) {
                 if (currentInventoryFreqRevIndex == null)
                     currentInventoryFreqRevIndex = FreqIndex(m_save_region_code);
                 return Result.OK;
@@ -218,8 +148,7 @@ namespace CSLibrary
             uint[] freqTable = FreqTable(prof);
 
             //Enable channels
-            for (uint i = 0; i < TotalCnt; i++)
-            {
+            for (uint i = 0; i < TotalCnt; i++) {
                 SetFrequencyBand(i, BandState.ENABLE, freqTable[i], GetPllcc(prof));
             }
             //Disable channels
@@ -242,10 +171,8 @@ namespace CSLibrary
             return Result.OK;
         }
 
-        internal Result InitDefaultChannel()
-        {
-            switch (m_save_country_code)
-            {
+        internal Result InitDefaultChannel() {
+            switch (m_save_country_code) {
                 case 1:     // ETSI
                     m_save_region_code = RegionCode.ETSI;
                     m_save_fixed_channel = true;

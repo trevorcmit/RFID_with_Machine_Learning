@@ -25,8 +25,10 @@
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)xamarin.forms\5.0.0.2291\buildTransitive\Xamarin.Forms.props" Condition="Exists('$(NuGetPackageRoot)xamarin.forms\5.0.0.2291\buildTransitive\Xamarin.Forms.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.netcore.universalwindowsplatform\6.2.13\build\Microsoft.NETCore.UniversalWindowsPlatform.props" Condition="Exists('$(NuGetPackageRoot)microsoft.netcore.universalwindowsplatform\6.2.13\build\Microsoft.NETCore.UniversalWindowsPlatform.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgUwpDesktop Condition=" '$(PkgUwpDesktop)' == '' ">C:\Users\trevo\.nuget\packages\uwpdesktop\10.0.14393.3</PkgUwpDesktop>
     <PkgMicrosoft_Bcl_Build Condition=" '$(PkgMicrosoft_Bcl_Build)' == '' ">C:\Users\trevo\.nuget\packages\microsoft.bcl.build\1.0.10</PkgMicrosoft_Bcl_Build>
   </PropertyGroup>
 </Project>

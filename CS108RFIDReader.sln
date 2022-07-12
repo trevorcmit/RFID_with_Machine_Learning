@@ -67,10 +67,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS108XamarinFormsDemo.iOS", "CS108XamarinFormsDemo\CS108XamarinFormsDemo.iOS\CS108XamarinFormsDemo.iOS.csproj", "{75EB31EB-EF3F-4907-BED0-F67115CD7168}"
 EndProject
 Global
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		Library\CSLibrary\CSLibrary-UWP.projitems*{bf5c0e49-5fd2-5ad0-be7f-0840814daeb6}*SharedItemsImports = 4
-		Library\CSLibrary\CSLibrary-UWP.projitems*{c0bb13cd-7403-4079-9ecd-df5ac5f96078}*SharedItemsImports = 13
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
 		Ad-Hoc|ARM = Ad-Hoc|ARM
@@ -1319,5 +1315,9 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DE030460-9303-4C62-87D1-6004DC601CB3}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Library\CSLibrary\CSLibrary-UWP.projitems*{bf5c0e49-5fd2-5ad0-be7f-0840814daeb6}*SharedItemsImports = 4
+		Library\CSLibrary\CSLibrary-UWP.projitems*{c0bb13cd-7403-4079-9ecd-df5ac5f96078}*SharedItemsImports = 13
 	EndGlobalSection
 EndGlobal

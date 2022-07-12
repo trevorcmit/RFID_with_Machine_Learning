@@ -1,0 +1,21 @@
+WinMetadata\Windows.winmd
+DirectML.dll
+DirectML.pdb
+Assets\gray.png
+Assets\green.png
+Assets\left arm.png
+Assets\LockScreenLogo.scale-200.png
+Assets\model.onnx
+Assets\red.png
+Assets\right arm.png
+Assets\SplashScreen.scale-200.png
+Assets\Square150x150Logo.scale-200.png
+Assets\Square44x44Logo.scale-200.png
+Assets\Square44x44Logo.targetsize-24_altform-unplated.png
+Assets\StoreLogo.scale-100.png
+Assets\StoreLogo.scale-200.png
+Assets\Wide310x150Logo.scale-200.png
+App.xbf
+BLE.Client.UWP.xr.xml
+MainPage.xbf
+Properties\Default.rd.xml

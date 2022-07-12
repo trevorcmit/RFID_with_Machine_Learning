@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client.UWP\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>04AD6158D0667F54C2426297785A0F8AFFBFF70EC521299734463511417B3005</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>56912B7E9C63E81CC35CA9F484D8E13C29EA15F664A379506FB78C234F6CD2A0</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>ConvergenceSystemsLimited.CS108CDemo_3.1.14.0_x86__vm1nazfwf4e5a</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>ConvergenceSystemsLimited.CS108CDemo_vm1nazfwf4e5a!App</RegisteredUserModeAppID>
     <RegisteredPackageID>ConvergenceSystemsLimited.CS108CDemo</RegisteredPackageID>
@@ -30,13 +30,17 @@
     <AppXManifest Include="C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-07-06T22:29:14.271</Modified>
+      <Modified>2022-07-12T17:56:59.919</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client.UWP\bin\x86\Debug\BLE.Client.UWP.exe">
       <PackagePath>entrypoint\BLE.Client.UWP.exe</PackagePath>
-      <Modified>2022-07-06T22:29:04.974</Modified>
+      <Modified>2022-07-12T17:56:54.921</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\trevo\.nuget\packages\microsoft.ai.machinelearning\1.11.0\build\uap10.0\..\..\runtimes\win-x86\_native\onnxruntime.dll">
+      <PackagePath>onnxruntime.dll</PackagePath>
+      <Modified>2022-03-19T00:22:26.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\trevo\.nuget\packages\acr.userdialogs\6.5.1\lib\uap10.0\Acr.UserDialogs.Interface.dll">
       <PackagePath>Acr.UserDialogs.Interface.dll</PackagePath>
@@ -58,6 +62,10 @@
       <PackagePath>CsvHelper.dll</PackagePath>
       <Modified>2021-11-23T21:13:42.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\trevo\.nuget\packages\google.protobuf\3.19.4\lib\netstandard2.0\Google.Protobuf.dll">
+      <PackagePath>Google.Protobuf.dll</PackagePath>
+      <Modified>2022-01-28T08:49:20.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\trevo\.nuget\packages\harfbuzzsharp\2.8.2-preview.254\lib\uap10.0.16299\HarfBuzzSharp.dll">
       <PackagePath>HarfBuzzSharp.dll</PackagePath>
       <Modified>2022-04-13T14:38:06.000</Modified>
@@ -74,10 +82,6 @@
       <PackagePath>LiveChartsCore.SkiaSharpView.dll</PackagePath>
       <Modified>2022-05-15T05:32:46.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\trevo\.nuget\packages\livechartscore.skiasharpview.uwp\2.0.0-beta.101\lib\uap10.0\LiveChartsCore.SkiaSharpView.UWP.dll">
-      <PackagePath>LiveChartsCore.SkiaSharpView.UWP.dll</PackagePath>
-      <Modified>2021-12-05T04:45:52.000</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\trevo\.nuget\packages\livechartscore.skiasharpview.xamarinforms\2.0.0-beta.230\lib\netstandard2.0\LiveChartsCore.SkiaSharpView.XamarinForms.dll">
       <PackagePath>LiveChartsCore.SkiaSharpView.XamarinForms.dll</PackagePath>
       <Modified>2022-05-15T05:33:06.000</Modified>
@@ -89,6 +93,54 @@
     <AppxPackagedFile Include="C:\Users\trevo\.nuget\packages\microsoft.bcl.hashcode\1.0.0\lib\netstandard2.0\Microsoft.Bcl.HashCode.dll">
       <PackagePath>Microsoft.Bcl.HashCode.dll</PackagePath>
       <Modified>2019-09-13T02:27:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\trevo\.nuget\packages\microsoft.ml\1.7.1\runtimes\win-x86\native\LdaNative.dll">
+      <PackagePath>LdaNative.dll</PackagePath>
+      <Modified>2022-03-09T01:08:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\trevo\.nuget\packages\microsoft.ml\1.7.1\lib\netstandard2.0\Microsoft.ML.Core.dll">
+      <PackagePath>Microsoft.ML.Core.dll</PackagePath>
+      <Modified>2022-03-09T01:13:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\trevo\.nuget\packages\microsoft.ml\1.7.1\lib\netstandard2.0\Microsoft.ML.Data.dll">
+      <PackagePath>Microsoft.ML.Data.dll</PackagePath>
+      <Modified>2022-03-09T01:13:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\trevo\.nuget\packages\microsoft.ml\1.7.1\lib\netstandard2.0\Microsoft.ML.KMeansClustering.dll">
+      <PackagePath>Microsoft.ML.KMeansClustering.dll</PackagePath>
+      <Modified>2022-03-09T01:14:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\trevo\.nuget\packages\microsoft.ml\1.7.1\lib\netstandard2.0\Microsoft.ML.PCA.dll">
+      <PackagePath>Microsoft.ML.PCA.dll</PackagePath>
+      <Modified>2022-03-09T01:14:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\trevo\.nuget\packages\microsoft.ml\1.7.1\lib\netstandard2.0\Microsoft.ML.StandardTrainers.dll">
+      <PackagePath>Microsoft.ML.StandardTrainers.dll</PackagePath>
+      <Modified>2022-03-09T01:14:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\trevo\.nuget\packages\microsoft.ml\1.7.1\lib\netstandard2.0\Microsoft.ML.Transforms.dll">
+      <PackagePath>Microsoft.ML.Transforms.dll</PackagePath>
+      <Modified>2022-03-09T01:14:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\trevo\.nuget\packages\microsoft.ml\1.7.1\lib\netstandard2.0\Microsoft.ML.dll">
+      <PackagePath>Microsoft.ML.dll</PackagePath>
+      <Modified>2022-03-09T01:14:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\trevo\.nuget\packages\microsoft.ml.cpumath\1.7.1\runtimes\win-x86\nativeassets\netstandard2.0\CpuMathNative.dll">
+      <PackagePath>CpuMathNative.dll</PackagePath>
+      <Modified>2022-03-09T01:08:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\trevo\.nuget\packages\microsoft.ml.cpumath\1.7.1\lib\netstandard2.0\Microsoft.ML.CpuMath.dll">
+      <PackagePath>Microsoft.ML.CpuMath.dll</PackagePath>
+      <Modified>2022-03-09T01:13:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\trevo\.nuget\packages\microsoft.ml.dataview\1.7.1\lib\netstandard2.0\Microsoft.ML.DataView.dll">
+      <PackagePath>Microsoft.ML.DataView.dll</PackagePath>
+      <Modified>2022-03-09T01:13:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\trevo\.nuget\packages\microsoft.ml.tensorflow\1.7.1\lib\netstandard2.0\Microsoft.ML.TensorFlow.dll">
+      <PackagePath>Microsoft.ML.TensorFlow.dll</PackagePath>
+      <Modified>2022-03-09T01:14:36.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\trevo\.nuget\packages\microsoft.toolkit\5.1.1\lib\netstandard2.0\Microsoft.Toolkit.dll">
       <PackagePath>Microsoft.Toolkit.dll</PackagePath>
@@ -142,6 +194,10 @@
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
       <Modified>2021-03-17T20:03:36.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\trevo\.nuget\packages\numsharp.lite\0.1.8\lib\netstandard2.0\NumSharp.Lite.dll">
+      <PackagePath>NumSharp.Lite.dll</PackagePath>
+      <Modified>2020-09-06T13:54:22.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\trevo\.nuget\packages\pclstorage\1.0.2\lib\portable-win8+wpa81\PCLStorage.Abstractions.dll">
       <PackagePath>PCLStorage.Abstractions.dll</PackagePath>
       <Modified>2015-01-18T10:36:20.000</Modified>
@@ -169,6 +225,10 @@
     <AppxPackagedFile Include="C:\Users\trevo\.nuget\packages\prism.core\6.3.0\lib\wpa81\Prism.dll">
       <PackagePath>Prism.dll</PackagePath>
       <Modified>2017-03-24T18:34:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\trevo\.nuget\packages\protobuf.text\0.4.0\lib\netstandard2.0\Protobuf.Text.dll">
+      <PackagePath>Protobuf.Text.dll</PackagePath>
+      <Modified>2020-02-10T02:57:00.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.13\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -214,9 +274,29 @@
       <PackagePath>Splat.dll</PackagePath>
       <Modified>2016-11-05T19:29:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\trevo\.nuget\packages\system.runtime.compilerservices.unsafe\4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
+    <AppxPackagedFile Include="C:\Users\trevo\.nuget\packages\system.codedom\4.4.0\lib\netstandard2.0\System.CodeDom.dll">
+      <PackagePath>System.CodeDom.dll</PackagePath>
+      <Modified>2017-07-19T10:01:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\trevo\.nuget\packages\system.io.filesystem.accesscontrol\4.5.0\runtimes\win\lib\netstandard2.0\System.IO.FileSystem.AccessControl.dll">
+      <PackagePath>System.IO.FileSystem.AccessControl.dll</PackagePath>
+      <Modified>2018-05-15T13:29:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\trevo\.nuget\packages\system.runtime.compilerservices.unsafe\4.5.3\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
       <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
-      <Modified>2018-09-18T19:38:10.000</Modified>
+      <Modified>2020-02-19T10:05:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\trevo\.nuget\packages\system.threading.channels\4.7.1\lib\netstandard2.0\System.Threading.Channels.dll">
+      <PackagePath>System.Threading.Channels.dll</PackagePath>
+      <Modified>2020-04-14T22:39:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\trevo\.nuget\packages\tensorflow.net\0.20.1\lib\netstandard2.0\TensorFlow.NET.dll">
+      <PackagePath>TensorFlow.NET.dll</PackagePath>
+      <Modified>2020-09-29T19:56:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\trevo\.nuget\packages\tensorflowsharp\1.15.1\lib\netstandard2.0\TensorFlowSharp.dll">
+      <PackagePath>TensorFlowSharp.dll</PackagePath>
+      <Modified>2019-12-04T03:41:48.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\trevo\.nuget\packages\uno.diagnostics.eventing\2.0.1\lib\netstandard2.0\Uno.Diagnostics.Eventing.dll">
       <PackagePath>Uno.Diagnostics.Eventing.dll</PackagePath>
@@ -264,27 +344,43 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client\bin\Debug\netstandard2.0\BLE.Client.dll">
       <PackagePath>BLE.Client.dll</PackagePath>
-      <Modified>2022-07-06T22:28:50.941</Modified>
+      <Modified>2022-07-12T17:56:44.926</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\Plugin.BLE.Abstractions\bin\Debug\netstandard2.0\Plugin.BLE.Abstractions.dll">
       <PackagePath>Plugin.BLE.Abstractions.dll</PackagePath>
-      <Modified>2022-07-06T22:28:42.850</Modified>
+      <Modified>2022-07-12T17:56:40.819</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\Plugin.BLE.UWP\bin\Debug\Plugin.BLE.dll">
       <PackagePath>Plugin.BLE.dll</PackagePath>
-      <Modified>2022-07-06T22:28:45.644</Modified>
+      <Modified>2022-07-12T17:56:42.147</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client\bin\Debug\netstandard2.0\CSLibrary.dll">
       <PackagePath>CSLibrary.dll</PackagePath>
-      <Modified>2022-07-06T22:28:47.972</Modified>
+      <Modified>2022-07-12T17:56:42.824</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\trevo\.nuget\packages\microsoft.ai.machinelearning\1.11.0\runtimes\win-x86\_native\microsoft.ai.machinelearning.dll">
+      <PackagePath>microsoft.ai.machinelearning.dll</PackagePath>
+      <Modified>2022-03-19T00:22:46.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\trevo\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
       <Modified>2016-11-30T02:58:38.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\trevo\.nuget\packages\microsoft.ai.machinelearning\1.11.0\winmds\Microsoft.AI.MachineLearning.Experimental.winmd">
+      <PackagePath>Microsoft.AI.MachineLearning.Experimental.winmd</PackagePath>
+      <Modified>2022-03-18T23:57:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\trevo\.nuget\packages\microsoft.ai.machinelearning\1.11.0\winmds\Microsoft.AI.MachineLearning.winmd">
+      <PackagePath>Microsoft.AI.MachineLearning.winmd</PackagePath>
+      <Modified>2022-03-18T23:57:18.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2020-12-02T09:52:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client\bin\Debug\netstandard2.0\Windows.AI.MachineLearning.MachineLearningContract.winmd">
+      <PackagePath>Windows.AI.MachineLearning.MachineLearningContract.winmd</PackagePath>
+      <Modified>2019-03-18T17:38:48.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\trevo\.nuget\packages\acr.userdialogs\6.5.1\lib\uap10.0\Acr.UserDialogs\Acr.UserDialogs.xr.xml">
       <PackagePath>Acr.UserDialogs\Acr.UserDialogs.xr.xml</PackagePath>
@@ -293,10 +389,6 @@
     <AppxPackagedFile Include="C:\Users\trevo\.nuget\packages\coding4fun.toolkit.controls\2.1.8\lib\netcore451\Coding4Fun.Toolkit.Controls\Coding4Fun.Toolkit.Controls.xr.xml">
       <PackagePath>Coding4Fun.Toolkit.Controls\Coding4Fun.Toolkit.Controls.xr.xml</PackagePath>
       <Modified>2016-05-12T15:21:28.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\trevo\.nuget\packages\livechartscore.skiasharpview.uwp\2.0.0-beta.101\lib\uap10.0\LiveChartsCore.SkiaSharpView.UWP\LiveChartsCore.SkiaSharpView.UWP.xr.xml">
-      <PackagePath>LiveChartsCore.SkiaSharpView.UWP\LiveChartsCore.SkiaSharpView.UWP.xr.xml</PackagePath>
-      <Modified>2021-12-04T21:06:36.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\trevo\.nuget\packages\uno.ui\4.0.8\lib\UAP\Uno.UI.Toolkit\Uno.UI.Toolkit.xr.xml">
       <PackagePath>Uno.UI.Toolkit\Uno.UI.Toolkit.xr.xml</PackagePath>
@@ -310,6 +402,18 @@
       <PackagePath>Coding4Fun.Toolkit.Controls\Themes\Generic.xbf</PackagePath>
       <Modified>2016-05-12T15:21:28.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client.UWP\Assets\model.onnx">
+      <PackagePath>Assets\model.onnx</PackagePath>
+      <Modified>2022-07-11T16:54:42.885</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\trevo\.nuget\packages\microsoft.ai.directml\1.8.0\bin\x86-win\DirectML.dll">
+      <PackagePath>DirectML.dll</PackagePath>
+      <Modified>2021-11-19T03:35:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client.UWP\Assets\left arm.png">
+      <PackagePath>Assets\left arm.png</PackagePath>
+      <Modified>2022-07-12T14:50:55.931</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client.UWP\Assets\gray.png">
       <PackagePath>Assets\gray.png</PackagePath>
       <Modified>2022-06-20T20:44:51.903</Modified>
@@ -322,65 +426,9 @@
       <PackagePath>Assets\red.png</PackagePath>
       <Modified>2022-06-20T20:44:51.972</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client.UWP\Assets\gray LeftCalf.png">
-      <PackagePath>Assets\gray LeftCalf.png</PackagePath>
-      <Modified>2022-06-20T20:44:51.843</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client.UWP\Assets\gray LeftGlute.png">
-      <PackagePath>Assets\gray LeftGlute.png</PackagePath>
-      <Modified>2022-06-20T20:44:51.851</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client.UWP\Assets\gray LeftQuad.png">
-      <PackagePath>Assets\gray LeftQuad.png</PackagePath>
-      <Modified>2022-06-20T20:44:51.866</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client.UWP\Assets\gray RightCalf.png">
-      <PackagePath>Assets\gray RightCalf.png</PackagePath>
-      <Modified>2022-06-20T20:44:51.881</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client.UWP\Assets\gray RightGlute.png">
-      <PackagePath>Assets\gray RightGlute.png</PackagePath>
-      <Modified>2022-06-20T20:44:51.889</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client.UWP\Assets\gray RightQuad.png">
-      <PackagePath>Assets\gray RightQuad.png</PackagePath>
-      <Modified>2022-06-20T20:44:51.902</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client.UWP\Assets\green LeftCalf.png">
-      <PackagePath>Assets\green LeftCalf.png</PackagePath>
-      <Modified>2022-06-20T20:44:51.909</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client.UWP\Assets\green LeftQuad.png">
-      <PackagePath>Assets\green LeftQuad.png</PackagePath>
-      <Modified>2022-06-20T20:44:51.916</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client.UWP\Assets\green RightCalf.png">
-      <PackagePath>Assets\green RightCalf.png</PackagePath>
-      <Modified>2022-06-20T20:44:51.925</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client.UWP\Assets\red LeftCalf.png">
-      <PackagePath>Assets\red LeftCalf.png</PackagePath>
-      <Modified>2022-06-20T20:44:51.937</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client.UWP\Assets\red LeftGlute.png">
-      <PackagePath>Assets\red LeftGlute.png</PackagePath>
-      <Modified>2022-06-20T20:44:51.940</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client.UWP\Assets\red LeftQuad.png">
-      <PackagePath>Assets\red LeftQuad.png</PackagePath>
-      <Modified>2022-06-20T20:44:51.949</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client.UWP\Assets\red RightCalf.png">
-      <PackagePath>Assets\red RightCalf.png</PackagePath>
-      <Modified>2022-06-20T20:44:51.955</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client.UWP\Assets\red RightGlute.png">
-      <PackagePath>Assets\red RightGlute.png</PackagePath>
-      <Modified>2022-06-20T20:44:51.956</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client.UWP\Assets\red RightQuad.png">
-      <PackagePath>Assets\red RightQuad.png</PackagePath>
-      <Modified>2022-06-20T20:44:51.970</Modified>
+    <AppxPackagedFile Include="C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client.UWP\Assets\right arm.png">
+      <PackagePath>Assets\right arm.png</PackagePath>
+      <Modified>2022-07-12T14:50:55.929</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client.UWP\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
@@ -430,11 +478,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-07-06T22:29:04.728</Modified>
+      <Modified>2022-07-12T17:56:54.806</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2022-07-06T22:29:04.728</Modified>
+      <Modified>2022-07-12T17:56:54.806</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -450,11 +498,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-07-06T22:29:09.667</Modified>
+      <Modified>2022-07-12T17:56:57.669</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client.UWP\bin\x86\Debug\Core\BLE.Client.UWP.exe">
       <PackagePath>BLE.Client.UWP.exe</PackagePath>
-      <Modified>2022-07-06T22:29:14.246</Modified>
+      <Modified>2022-07-12T17:56:59.919</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
@@ -503,57 +551,57 @@
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\trevo\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.30527.2</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.30527.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\trevo\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\trevo\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.30527.2</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.30527.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\trevo\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\trevo\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
       <Name>Microsoft.NET.CoreRuntime.2.2</Name>
       <Version>2.2.30527.2</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.30527.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\trevo\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\trevo\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.30316.1</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.30316.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\trevo\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\trevo\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.30316.1</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.30316.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\trevo\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+    <ResolvedSDKReference Include="C:\Users\trevo\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
       <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
       <Version>2.2.30316.1</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.30316.1, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <AppxLocation>C:\Users\trevo\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.13\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>

@@ -134,6 +134,10 @@
               "target": "Package",
               "version": "[7.0.4, )"
             },
+            "Microsoft.Windows.SDK.Contracts": {
+              "target": "Package",
+              "version": "[10.0.22621.1, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -144,12 +148,17 @@
               "target": "Package",
               "version": "[3.0.0.12, )"
             },
+            "System.Runtime.InteropServices.WindowsRuntime": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[5.0.0.2291, )"
             }
           },
           "imports": [
+            "uap10.0.22621",
             "net461",
             "net462",
             "net47",

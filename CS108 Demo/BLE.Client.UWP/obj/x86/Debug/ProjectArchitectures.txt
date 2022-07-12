@@ -1,0 +1,2 @@
+C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client.UWP\BLE.Client.UWP.csproj;x86
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\Plugin.BLE.UWP\Plugin.BLE.UWP.csproj;neutral

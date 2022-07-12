@@ -15,5 +15,3 @@ C:\Users\trevo\source\repos\RFID_Exercise\CS108XamarinFormsDemo\CS108XamarinForm
 C:\Users\trevo\source\repos\RFID_Exercise\CS108XamarinFormsDemo\CS108XamarinFormsDemo\obj\Debug\netstandard2.0\CS108XamarinFormsDemo.AssemblyInfoInputs.cache
 C:\Users\trevo\source\repos\RFID_Exercise\CS108XamarinFormsDemo\CS108XamarinFormsDemo\obj\Debug\netstandard2.0\CS108XamarinFormsDemo.AssemblyInfo.cs
 C:\Users\trevo\source\repos\RFID_Exercise\CS108XamarinFormsDemo\CS108XamarinFormsDemo\obj\Debug\netstandard2.0\CS108XamarinFormsDemo.csproj.CoreCompileInputs.cache
-C:\Users\trevo\source\repos\Exercise_No_Duty\CS108XamarinFormsDemo\CS108XamarinFormsDemo\obj\Debug\netstandard2.0\CS108XamarinFormsDemo.csproj.AssemblyReference.cache
-C:\Users\trevo\source\repos\Exercise_No_Duty\CS108XamarinFormsDemo\CS108XamarinFormsDemo\obj\Debug\netstandard2.0\CS108XamarinFormsDemo.GeneratedMSBuildEditorConfig.editorconfig

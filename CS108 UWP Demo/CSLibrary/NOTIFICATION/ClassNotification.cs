@@ -1,52 +1,42 @@
 ﻿using System;
-
 using CSLibrary.Barcode;
 using CSLibrary.Barcode.Constants;
 using CSLibrary.Barcode.Structures;
 
-namespace CSLibrary
-{
-    public partial class Notification
-    {
+
+namespace CSLibrary {
+    public partial class Notification {
         uint _batteryLevel = 0;
 
         // RFID event code
-        private class DOWNLINKCMD
-        {
-            public static readonly byte[] GETVOLTAGE = { 0xA0, 0x00 };
-            public static readonly byte[] GETTRIGGERSTATE = { 0xA0, 0x01 };
-            public static readonly byte[] STARTAUTOREPORTING = { 0xA0, 0x02 };
-            public static readonly byte[] STOPAUTOREPORTING = { 0xA0, 0x03 };
+        private class DOWNLINKCMD {
+            public static readonly byte[] GETVOLTAGE = {0xA0, 0x00};
+            public static readonly byte[] GETTRIGGERSTATE = {0xA0, 0x01};
+            public static readonly byte[] STARTAUTOREPORTING = {0xA0, 0x02};
+            public static readonly byte[] STOPAUTOREPORTING = {0xA0, 0x03};
         }
 
         private HighLevelInterface _deviceHandler;
 
-        /// <summary>
-        /// HotKey Event Argument
-        /// </summary>
-        public class HotKeyEventArgs : EventArgs
-        {
+        public class HotKeyEventArgs : EventArgs {
             Key m_KeyCode = Key.BUTTON;
             bool m_KeyDown = false;
 
-            public Key KeyCode { get { return m_KeyCode; } }
-            public bool KeyDown { get { return m_KeyDown; } }
+            public Key KeyCode {get {return m_KeyCode;}}
+            public bool KeyDown {get {return m_KeyDown;}}
 
-            public HotKeyEventArgs(Key KeyCode, bool KeyDown)
-            {
+            public HotKeyEventArgs(Key KeyCode, bool KeyDown) {
                 m_KeyCode = KeyCode;
                 m_KeyDown = KeyDown;
             }
         }
 
-        public class VoltageEventArgs : EventArgs
-        {
+        public class VoltageEventArgs : EventArgs {
             uint m_Voltage = 0;
 
-            public uint Voltage { get { return m_Voltage; } }
+            public uint Voltage {get {return m_Voltage;}}
 
-            public VoltageEventArgs(uint voltage)
-            {
+            public VoltageEventArgs(uint voltage) {
                 m_Voltage = voltage;
             }
         }
@@ -54,41 +44,28 @@ namespace CSLibrary
         public event EventHandler<VoltageEventArgs> OnVoltageEvent;
         public event EventHandler<HotKeyEventArgs> OnKeyEvent;
 
-        /// <summary>
-        /// Current Supported Virtual Key
-        /// </summary>
-        public enum Key : uint
-        {
-            /// <summary>
-            /// Button
-            /// </summary>
+        public enum Key : uint {
             BUTTON,
         }
 
-        internal Notification(HighLevelInterface handler)
-        {
+        internal Notification(HighLevelInterface handler) {
             _deviceHandler = handler;
         }
 
-        internal void SetAutoReport(bool OnOff)
-        {
-            if (OnOff)
-            {
+        internal void SetAutoReport(bool OnOff) {
+            if (OnOff) {
                 //_deviceHandler.SendAsync(0, 2, DOWNLINKCMD.STARTAUTOREPORTING, null, HighLevelInterface.BTWAITCOMMANDRESPONSETYPE.NOWAIT);
                 _deviceHandler.SendAsync(0, 2, DOWNLINKCMD.STARTAUTOREPORTING, null, HighLevelInterface.BTWAITCOMMANDRESPONSETYPE.WAIT_BTAPIRESPONSE);
             }
-            else
-            {
+            else {
                 _deviceHandler.SendAsync(0, 2, DOWNLINKCMD.STOPAUTOREPORTING, null, HighLevelInterface.BTWAITCOMMANDRESPONSETYPE.WAIT_BTAPIRESPONSE);
             }
         }
 
-        internal void DeviceRecvVoltage(uint voltagemV)
-        {
+        internal void DeviceRecvVoltage(uint voltagemV) {
             _batteryLevel = voltagemV;
 
-            if (OnVoltageEvent == null)
-                return;
+            if (OnVoltageEvent == null) return;
 
             OnVoltageEvent(_deviceHandler, new Notification.VoltageEventArgs(voltagemV));
         }

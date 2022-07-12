@@ -63,3 +63,16 @@ C:\Users\trevo\source\repos\Arm Test\Library\CSLibrary\obj\Debug\netstandard2.0\
 C:\Users\trevo\source\repos\Arm Test\Library\CSLibrary\obj\Debug\netstandard2.0\CSLibrary-NETStandard.csproj.CopyComplete
 C:\Users\trevo\source\repos\Arm Test\Library\CSLibrary\obj\Debug\netstandard2.0\CSLibrary.dll
 C:\Users\trevo\source\repos\Arm Test\Library\CSLibrary\obj\Debug\netstandard2.0\CSLibrary.pdb
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\CSLibrary\bin\Debug\netstandard2.0\CSLibrary.deps.json
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\CSLibrary\bin\Debug\netstandard2.0\CSLibrary.dll
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\CSLibrary\bin\Debug\netstandard2.0\CSLibrary.pdb
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\CSLibrary\bin\Debug\netstandard2.0\Plugin.BLE.Abstractions.dll
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\CSLibrary\bin\Debug\netstandard2.0\Plugin.BLE.Abstractions.pdb
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\CSLibrary\obj\Debug\netstandard2.0\CSLibrary-NETStandard.csproj.AssemblyReference.cache
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\CSLibrary\obj\Debug\netstandard2.0\CSLibrary-NETStandard.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\CSLibrary\obj\Debug\netstandard2.0\CSLibrary-NETStandard.AssemblyInfoInputs.cache
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\CSLibrary\obj\Debug\netstandard2.0\CSLibrary-NETStandard.AssemblyInfo.cs
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\CSLibrary\obj\Debug\netstandard2.0\CSLibrary-NETStandard.csproj.CoreCompileInputs.cache
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\CSLibrary\obj\Debug\netstandard2.0\CSLibrary-NETStandard.csproj.CopyComplete
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\CSLibrary\obj\Debug\netstandard2.0\CSLibrary.dll
+C:\Users\trevo\source\repos\Exercise_No_Duty\Library\CSLibrary\obj\Debug\netstandard2.0\CSLibrary.pdb

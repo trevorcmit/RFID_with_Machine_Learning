@@ -25,10 +25,8 @@ namespace BLE.Client {
 
         public int BatteryLevelIndicatorFormat = 1; // 0 = voltage, other = percentage 
 
-        //public int RFID_Power;
         public uint RFID_Profile;
         public int RFID_TagDelayTime;
-        //public UInt32 RFID_InventoryDuration;
         public CSLibrary.Constants.RadioOperationMode RFID_OperationMode;
         public uint RFID_TagPopulation;
         public bool RFID_ToggleTarget = true;
@@ -62,16 +60,13 @@ namespace BLE.Client {
         public bool RFID_SavetoCloud = true;
         public int RFID_CloudProtocol = 0;
         public string RFID_IPAddress;
-
         public bool RFID_Vibration = false;
         public bool RFID_VibrationTag = false;      // false = New, true = All
         public uint RFID_VibrationWindow = 2;       // 2 seconds
         public uint RFID_VibrationTime = 300;       // 300 ms
-
         public bool[] RFID_AntennaEnable = new bool[16] {true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false};
         public uint[] RFID_Antenna_Power = new uint[16] {300, 300, 300, 300, 300, 300, 300, 300, 300, 300, 300, 300, 300, 300, 300, 300};
         public uint[] RFID_Antenna_Dwell = new uint[16] {2000, 2000, 2000, 2000, 2000, 2000, 2000, 2000, 2000, 2000, 2000, 2000, 2000, 2000, 2000, 2000};
-
         public int RFID_PowerSequencing_NumberofPower = 0;
         public uint[] RFID_PowerSequencing_Level = new uint[16] {300, 300, 300, 300, 300, 300, 300, 300, 300, 300, 300, 300, 300, 300, 300, 300};
         public uint[] RFID_PowerSequencing_DWell = new uint[16] {2000, 2000, 2000, 2000, 2000, 2000, 2000, 2000, 2000, 2000, 2000, 2000, 2000, 2000, 2000, 2000};

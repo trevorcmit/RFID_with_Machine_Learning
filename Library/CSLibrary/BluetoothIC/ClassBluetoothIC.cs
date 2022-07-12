@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Text;
 
-using CSLibrary.Barcode;
-using CSLibrary.Barcode.Constants;
-using CSLibrary.Barcode.Structures;
 
 namespace CSLibrary {
     public partial class BluetoothIC {
@@ -12,9 +9,9 @@ namespace CSLibrary {
 
         // RFID event code
         private class DOWNLINKCMD {
-            public static readonly byte[] GETVERSION = { 0xC0, 0x00 };
-            public static readonly byte[] SETDEVICENAME = { 0xC0, 0x03 };
-            public static readonly byte[] GETDEVICENAME = { 0xC0, 0x04 };
+            public static readonly byte[] GETVERSION = {0xC0, 0x00};
+            public static readonly byte[] SETDEVICENAME = {0xC0, 0x03};
+            public static readonly byte[] GETDEVICENAME = {0xC0, 0x04};
         }
 
         private HighLevelInterface _deviceHandler;

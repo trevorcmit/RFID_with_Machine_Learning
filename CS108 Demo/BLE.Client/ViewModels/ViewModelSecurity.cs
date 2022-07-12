@@ -1,9 +1,6 @@
 ﻿using System;
-// using System.Collections.ObjectModel;
-// using System.Collections.Generic;
 using Acr.UserDialogs;
 using MvvmCross.Core.ViewModels;
-// using MvvmCross.Platform;
 using System.Windows.Input;
 using Xamarin.Forms;
 using Plugin.BLE.Abstractions.Contracts;

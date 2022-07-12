@@ -20,7 +20,9 @@
 
   <ItemGroup>
     <PackageReference Include="Acr.UserDialogs" Version="7.0.4" />
+    <PackageReference Include="Microsoft.Windows.SDK.Contracts" Version="10.0.22621.1" />
     <PackageReference Include="Plugin.Permissions" Version="3.0.0.12" />
+    <PackageReference Include="System.Runtime.InteropServices.WindowsRuntime" Version="4.3.0" />
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2291" />  
   </ItemGroup>
 

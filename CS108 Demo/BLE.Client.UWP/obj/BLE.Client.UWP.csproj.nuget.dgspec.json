@@ -61,17 +61,9 @@
               "target": "Package",
               "version": "[27.2.1, )"
             },
-            "LiveChartsCore": {
+            "Microsoft.AI.MachineLearning": {
               "target": "Package",
-              "version": "[2.0.0-beta.230, )"
-            },
-            "LiveChartsCore.SkiaSharpView.UWP": {
-              "target": "Package",
-              "version": "[2.0.0-beta.101, )"
-            },
-            "LiveChartsCore.SkiaSharpView.XamarinForms": {
-              "target": "Package",
-              "version": "[2.0.0-beta.230, )"
+              "version": "[1.11.0, )"
             },
             "Microsoft.NETCore.UniversalWindowsPlatform": {
               "target": "Package",
@@ -108,10 +100,6 @@
             "SkiaSharp.Views.Uno": {
               "target": "Package",
               "version": "[2.88.0-preview.254, )"
-            },
-            "TensorFlowSharp": {
-              "target": "Package",
-              "version": "[1.15.1, )"
             },
             "Xam.Plugins.Settings": {
               "target": "Package",
@@ -227,6 +215,14 @@
               "target": "Package",
               "version": "[2.0.0-beta.230, )"
             },
+            "Microsoft.ML.TensorFlow": {
+              "target": "Package",
+              "version": "[1.7.1, )"
+            },
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.13, )"
+            },
             "MvvmCross": {
               "target": "Package",
               "version": "[5.1.0, )"
@@ -276,6 +272,22 @@
             "Splat": {
               "target": "Package",
               "version": "[2.0.0, )"
+            },
+            "System.Runtime.InteropServices.WindowsRuntime": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Runtime.WindowsRuntime": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "TensorFlowSharp": {
+              "target": "Package",
+              "version": "[1.15.1, )"
+            },
+            "UwpDesktop": {
+              "target": "Package",
+              "version": "[10.0.14393.3, )"
             },
             "Xam.Plugins.Settings": {
               "target": "Package",

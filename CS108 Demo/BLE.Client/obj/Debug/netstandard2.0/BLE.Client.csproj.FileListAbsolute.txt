@@ -424,5 +424,48 @@ C:\Users\trevo\source\repos\RFID_Exercise\CS108 Demo\BLE.Client\obj\Debug\netsta
 C:\Users\trevo\source\repos\RFID_Exercise\CS108 Demo\BLE.Client\obj\Debug\netstandard2.0\BLE.Client.csproj.CopyComplete
 C:\Users\trevo\source\repos\RFID_Exercise\CS108 Demo\BLE.Client\obj\Debug\netstandard2.0\BLE.Client.dll
 C:\Users\trevo\source\repos\RFID_Exercise\CS108 Demo\BLE.Client\obj\Debug\netstandard2.0\BLE.Client.pdb
+C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client\bin\Debug\netstandard2.0\BLE.Client.deps.json
+C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client\bin\Debug\netstandard2.0\BLE.Client.dll
+C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client\bin\Debug\netstandard2.0\BLE.Client.pdb
+C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client\bin\Debug\netstandard2.0\CSLibrary.dll
+C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client\bin\Debug\netstandard2.0\MvvmCross.Plugins.BLE.dll
+C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client\bin\Debug\netstandard2.0\Plugin.BLE.Abstractions.dll
+C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client\bin\Debug\netstandard2.0\Windows.AI.MachineLearning.MachineLearningContract.winmd
+C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client\bin\Debug\netstandard2.0\Windows.Foundation.FoundationContract.winmd
+C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client\bin\Debug\netstandard2.0\Windows.Foundation.UniversalApiContract.winmd
+C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client\bin\Debug\netstandard2.0\Windows.Storage.Provider.CloudFilesContract.winmd
+C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client\bin\Debug\netstandard2.0\Windows.WinMD
+C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client\bin\Debug\netstandard2.0\MvvmCross.Plugins.BLE.pdb
+C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client\bin\Debug\netstandard2.0\Plugin.BLE.Abstractions.pdb
+C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client\bin\Debug\netstandard2.0\CSLibrary.pdb
 C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client\obj\Debug\netstandard2.0\BLE.Client.csproj.AssemblyReference.cache
 C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client\obj\Debug\netstandard2.0\BLE.Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client\obj\Debug\netstandard2.0\BleMvxFormsApp.xaml.g.cs
+C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client\obj\Debug\netstandard2.0\PagesViewModelsSet\SpecialFuction\Monza4 QT\InventorySelectionMenu\PageQTInventorySlectionMenu.xaml.g.cs
+C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client\obj\Debug\netstandard2.0\PagesViewModelsSet\SpecialFuction\Monza4 QT\PrivateModeInventory\PageQTPrivateModeInventory.xaml.g.cs
+C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client\obj\Debug\netstandard2.0\PagesViewModelsSet\SpecialFuction\Monza4 QT\PublicModeInventory\PageQTPublicModeInventory.xaml.g.cs
+C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client\obj\Debug\netstandard2.0\PagesViewModelsSet\SpecialFuction\Monza4 QT\ReadPublicModeData\PageQTReadPublicModeData.xaml.g.cs
+C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client\obj\Debug\netstandard2.0\PagesViewModelsSet\SpecialFuction\Monza4 QT\ReadWritePrivateModeData\PageQTReadWritePrivateModeData.xaml.g.cs
+C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client\obj\Debug\netstandard2.0\PagesViewModelsSet\SpecialFuction\Temperature tag with location demo for Tablet\PageTempGPSInventory.xaml.g.cs
+C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client\obj\Debug\netstandard2.0\PagesViewModelsSet\SpecialFuction\Temperature tag with location demo for Tablet\PageTempGPSSetting.xaml.g.cs
+C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client\obj\Debug\netstandard2.0\Pages\DeviceListPage.xaml.g.cs
+C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client\obj\Debug\netstandard2.0\Pages\PageAbout.xaml.g.cs
+C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client\obj\Debug\netstandard2.0\Pages\PageMainMenu.xaml.g.cs
+C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client\obj\Debug\netstandard2.0\Pages\PageRFMicronNickname.xaml.g.cs
+C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client\obj\Debug\netstandard2.0\Pages\PageRFMicronS2Inventory.xaml.g.cs
+C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client\obj\Debug\netstandard2.0\Pages\PageRFMicronS3Inventory.xaml.g.cs
+C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client\obj\Debug\netstandard2.0\Pages\PageRFMicroReadTemp.xaml.g.cs
+C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client\obj\Debug\netstandard2.0\Pages\PageRFMicroSetting.xaml.g.cs
+C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client\obj\Debug\netstandard2.0\Pages\PageSetting.xaml.g.cs
+C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client\obj\Debug\netstandard2.0\Pages\PageSettingAdministration.xaml.g.cs
+C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client\obj\Debug\netstandard2.0\Pages\PageSettingAntenna.xaml.g.cs
+C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client\obj\Debug\netstandard2.0\Pages\PageSettingOperation.xaml.g.cs
+C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client\obj\Debug\netstandard2.0\Pages\PageSettingPowerSequencing.xaml.g.cs
+C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client\obj\Debug\netstandard2.0\Pages\PageViewPage.xaml.g.cs
+C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client\obj\Debug\netstandard2.0\BLE.Client.AssemblyInfoInputs.cache
+C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client\obj\Debug\netstandard2.0\BLE.Client.AssemblyInfo.cs
+C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client\obj\Debug\netstandard2.0\BLE.Client.csproj.CoreCompileInputs.cache
+C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client\obj\Debug\netstandard2.0\BLE.Client.csproj.CopyComplete
+C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client\obj\Debug\netstandard2.0\BLE.Client.dll
+C:\Users\trevo\source\repos\Exercise_No_Duty\CS108 Demo\BLE.Client\obj\Debug\netstandard2.0\BLE.Client.pdb

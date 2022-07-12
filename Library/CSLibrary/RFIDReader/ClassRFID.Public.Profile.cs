@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using CSLibrary.Constants;
 
 
@@ -15,13 +11,13 @@ namespace CSLibrary {
         public uint[] GetActiveLinkProfile(CSLibrary.Constants.RegionCode region) {
             switch (region) {
                 case RegionCode.KR:
-                    return new uint[] { 0, 1, 2 };
+                    return new uint[] {0, 1, 2};
 
                 case RegionCode.JP:
-                    return new uint[] { 1, 2 };
+                    return new uint[] {1, 2};
 
                 default:
-                    return new uint[] { 0, 1, 2, 3 };
+                    return new uint[] {0, 1, 2, 3};
             }
         }
 

@@ -54,6 +54,19 @@
           "lib/netstandard2.0/CsvHelper.dll": {}
         }
       },
+      "Google.Protobuf/3.19.4": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Protobuf.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Protobuf.dll": {}
+        }
+      },
       "HarfBuzzSharp/2.8.2-preview.254": {
         "type": "package",
         "dependencies": {
@@ -120,22 +133,6 @@
           "lib/netstandard2.0/LiveChartsCore.SkiaSharpView.dll": {}
         }
       },
-      "LiveChartsCore.SkiaSharpView.UWP/2.0.0-beta.101": {
-        "type": "package",
-        "dependencies": {
-          "LiveChartsCore": "2.0.0-beta.101",
-          "LiveChartsCore.SkiaSharpView": "2.0.0-beta.101",
-          "Newtonsoft.Json": "[13.0.1]",
-          "SkiaSharp": "[2.88.0-preview.179]",
-          "SkiaSharp.Views.Uno": "[2.88.0-preview.179]"
-        },
-        "compile": {
-          "lib/uap10.0/LiveChartsCore.SkiaSharpView.UWP.dll": {}
-        },
-        "runtime": {
-          "lib/uap10.0/LiveChartsCore.SkiaSharpView.UWP.dll": {}
-        }
-      },
       "LiveChartsCore.SkiaSharpView.XamarinForms/2.0.0-beta.230": {
         "type": "package",
         "dependencies": {
@@ -149,6 +146,23 @@
         },
         "runtime": {
           "lib/netstandard2.0/LiveChartsCore.SkiaSharpView.XamarinForms.dll": {}
+        }
+      },
+      "Microsoft.AI.DirectML/1.8.0": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.AI.DirectML.props": {},
+          "build/Microsoft.AI.DirectML.targets": {}
+        }
+      },
+      "Microsoft.AI.MachineLearning/1.11.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AI.DirectML": "1.8.0"
+        },
+        "build": {
+          "build/uap10.0/Microsoft.AI.MachineLearning.props": {},
+          "build/uap10.0/Microsoft.AI.MachineLearning.targets": {}
         }
       },
       "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
@@ -197,6 +211,132 @@
         },
         "runtime": {
           "lib/netcore50/Microsoft.CSharp.dll": {}
+        }
+      },
+      "Microsoft.ML/1.7.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ML.CpuMath": "1.7.1",
+          "Microsoft.ML.DataView": "1.7.1",
+          "Newtonsoft.Json": "10.0.3",
+          "System.CodeDom": "4.4.0",
+          "System.Collections.Immutable": "1.5.0",
+          "System.Memory": "4.5.3",
+          "System.Reflection.Emit.Lightweight": "4.3.0",
+          "System.Threading.Channels": "4.7.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ML.Core.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.Data.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.KMeansClustering.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.PCA.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.StandardTrainers.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.Transforms.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.Core.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.Data.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.KMeansClustering.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.PCA.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.StandardTrainers.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.Transforms.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.dll": {}
+        },
+        "build": {
+          "build/netstandard2.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm/native/libLdaNative.so": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-arm64/native/libLdaNative.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-x64/native/libLdaNative.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-arm64/native/libLdaNative.dylib": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-x64/native/libLdaNative.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/LdaNative.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/LdaNative.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "Microsoft.ML.CpuMath/1.7.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ML.CpuMath.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.CpuMath.dll": {}
+        },
+        "build": {
+          "build/netstandard2.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/nativeassets/netstandard2.0/libCpuMathNative.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-x64/nativeassets/netstandard2.0/libCpuMathNative.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/nativeassets/netstandard2.0/CpuMathNative.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/nativeassets/netstandard2.0/CpuMathNative.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "Microsoft.ML.DataView/1.7.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Collections.Immutable": "1.5.0",
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ML.DataView.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.DataView.dll": {}
+        }
+      },
+      "Microsoft.ML.TensorFlow/1.7.1": {
+        "type": "package",
+        "dependencies": {
+          "Google.Protobuf": "3.19.4",
+          "Microsoft.ML": "1.7.1",
+          "System.IO.FileSystem.AccessControl": "4.5.0",
+          "System.Security.Principal.Windows": "4.5.0",
+          "TensorFlow.NET": "0.20.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ML.TensorFlow.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.TensorFlow.dll": {}
         }
       },
       "Microsoft.Net.Native.Compiler/2.2.11-rel-30601-02": {
@@ -542,6 +682,18 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "NumSharp.Lite/0.1.8": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/NumSharp.Lite.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/NumSharp.Lite.dll": {}
+        }
+      },
       "PCLStorage/1.0.2": {
         "type": "package",
         "compile": {
@@ -582,6 +734,18 @@
         },
         "runtime": {
           "lib/wpa81/Prism.dll": {}
+        }
+      },
+      "Protobuf.Text/0.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Protobuf": "3.11.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Protobuf.Text.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Protobuf.Text.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.11-rel-30601-02": {
@@ -844,6 +1008,15 @@
           "lib/Portable-Win81+Wpa81/Splat.dll": {}
         }
       },
+      "System.CodeDom/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.CodeDom.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.CodeDom.dll": {}
+        }
+      },
       "System.Collections/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -858,13 +1031,13 @@
           "lib/win8/_._": {}
         }
       },
-      "System.Collections.Immutable/1.3.1": {
+      "System.Collections.Immutable/1.5.0": {
         "type": "package",
         "compile": {
-          "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.dll": {}
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
         },
         "runtime": {
-          "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.dll": {}
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
         }
       },
       "System.Diagnostics.Contracts/4.3.0": {
@@ -956,6 +1129,21 @@
         },
         "runtime": {
           "lib/win8/_._": {}
+        }
+      },
+      "System.IO.FileSystem.AccessControl/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.IO.FileSystem.AccessControl.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.IO.FileSystem.AccessControl.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.IO.FileSystem.AccessControl.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
         }
       },
       "System.Linq/4.3.0": {
@@ -1067,7 +1255,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.0/_._": {}
+          "ref/netstandard1.0/System.Reflection.Emit.ILGeneration.dll": {}
         },
         "runtime": {
           "lib/netcore50/System.Reflection.Emit.ILGeneration.dll": {}
@@ -1088,7 +1276,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.0/_._": {}
+          "ref/netstandard1.0/System.Reflection.Emit.Lightweight.dll": {}
         },
         "runtime": {
           "lib/netcore50/System.Reflection.Emit.Lightweight.dll": {}
@@ -1183,7 +1371,7 @@
           "lib/win8/_._": {}
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+      "System.Runtime.CompilerServices.Unsafe/4.5.3": {
         "type": "package",
         "compile": {
           "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
@@ -1252,6 +1440,40 @@
           }
         }
       },
+      "System.Runtime.WindowsRuntime/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/uap10.0.16299/_._": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win-aot/lib/uap10.0.16299/_._": {
+            "assetType": "runtime",
+            "rid": "win-aot"
+          },
+          "runtimes/win/lib/uap10.0.16299/_._": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Security.Principal.Windows/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/uap10.0.16299/_._": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/uap10.0.16299/_._": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
       "System.Text.Encoding/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1285,6 +1507,18 @@
           }
         }
       },
+      "System.Threading.Channels/4.7.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Threading.Channels.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Threading.Channels.dll": {}
+        }
+      },
       "System.Threading.Tasks/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1299,10 +1533,10 @@
           "lib/win8/_._": {}
         }
       },
-      "System.Threading.Tasks.Extensions/4.5.2": {
+      "System.Threading.Tasks.Extensions/4.5.4": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+          "System.Runtime.CompilerServices.Unsafe": "4.5.3"
         },
         "compile": {
           "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
@@ -1318,6 +1552,20 @@
         },
         "runtime": {
           "lib/uap10.0.16299/_._": {}
+        }
+      },
+      "TensorFlow.NET/0.20.1": {
+        "type": "package",
+        "dependencies": {
+          "Google.Protobuf": "3.11.4",
+          "NumSharp.Lite": "0.1.8",
+          "Protobuf.Text": "0.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/TensorFlow.NET.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TensorFlow.NET.dll": {}
         }
       },
       "TensorFlowSharp/1.15.1": {
@@ -1405,6 +1653,12 @@
           "buildTransitive/uap10.0.17763/Uno.UI.targets": {}
         }
       },
+      "UwpDesktop/10.0.14393.3": {
+        "type": "package",
+        "build": {
+          "build/portable-net45+uap/_._": {}
+        }
+      },
       "Win2D.uwp/1.20.0": {
         "type": "package",
         "compile": {
@@ -1484,6 +1738,8 @@
           "CsvHelper": "27.2.1",
           "LiveChartsCore": "2.0.0-beta.230",
           "LiveChartsCore.SkiaSharpView.XamarinForms": "2.0.0-beta.230",
+          "Microsoft.ML.TensorFlow": "1.7.1",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.13",
           "MvvmCross": "5.1.0",
           "MvvmCross.Binding": "5.1.0",
           "MvvmCross.Core": "5.1.0",
@@ -1497,6 +1753,10 @@
           "Plugin.Share": "7.0.1",
           "Prism.Core": "6.3.0",
           "Splat": "2.0.0",
+          "System.Runtime.InteropServices.WindowsRuntime": "4.3.0",
+          "System.Runtime.WindowsRuntime": "4.7.0",
+          "TensorFlowSharp": "1.15.1",
+          "UwpDesktop": "10.0.14393.3",
           "Xam.Plugins.Settings": "3.0.1",
           "Xamarin.Essentials": "1.6.0",
           "Xamarin.Forms": "5.0.0.2291"
@@ -1613,6 +1873,19 @@
           "lib/netstandard2.0/CsvHelper.dll": {}
         }
       },
+      "Google.Protobuf/3.19.4": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Protobuf.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Protobuf.dll": {}
+        }
+      },
       "HarfBuzzSharp/2.8.2-preview.254": {
         "type": "package",
         "dependencies": {
@@ -1664,22 +1937,6 @@
           "lib/netstandard2.0/LiveChartsCore.SkiaSharpView.dll": {}
         }
       },
-      "LiveChartsCore.SkiaSharpView.UWP/2.0.0-beta.101": {
-        "type": "package",
-        "dependencies": {
-          "LiveChartsCore": "2.0.0-beta.101",
-          "LiveChartsCore.SkiaSharpView": "2.0.0-beta.101",
-          "Newtonsoft.Json": "[13.0.1]",
-          "SkiaSharp": "[2.88.0-preview.179]",
-          "SkiaSharp.Views.Uno": "[2.88.0-preview.179]"
-        },
-        "compile": {
-          "lib/uap10.0/LiveChartsCore.SkiaSharpView.UWP.dll": {}
-        },
-        "runtime": {
-          "lib/uap10.0/LiveChartsCore.SkiaSharpView.UWP.dll": {}
-        }
-      },
       "LiveChartsCore.SkiaSharpView.XamarinForms/2.0.0-beta.230": {
         "type": "package",
         "dependencies": {
@@ -1693,6 +1950,23 @@
         },
         "runtime": {
           "lib/netstandard2.0/LiveChartsCore.SkiaSharpView.XamarinForms.dll": {}
+        }
+      },
+      "Microsoft.AI.DirectML/1.8.0": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.AI.DirectML.props": {},
+          "build/Microsoft.AI.DirectML.targets": {}
+        }
+      },
+      "Microsoft.AI.MachineLearning/1.11.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AI.DirectML": "1.8.0"
+        },
+        "build": {
+          "build/uap10.0/Microsoft.AI.MachineLearning.props": {},
+          "build/uap10.0/Microsoft.AI.MachineLearning.targets": {}
         }
       },
       "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
@@ -1741,6 +2015,84 @@
         },
         "runtime": {
           "lib/netcore50/Microsoft.CSharp.dll": {}
+        }
+      },
+      "Microsoft.ML/1.7.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ML.CpuMath": "1.7.1",
+          "Microsoft.ML.DataView": "1.7.1",
+          "Newtonsoft.Json": "10.0.3",
+          "System.CodeDom": "4.4.0",
+          "System.Collections.Immutable": "1.5.0",
+          "System.Memory": "4.5.3",
+          "System.Reflection.Emit.Lightweight": "4.3.0",
+          "System.Threading.Channels": "4.7.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ML.Core.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.Data.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.KMeansClustering.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.PCA.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.StandardTrainers.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.Transforms.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.Core.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.Data.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.KMeansClustering.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.PCA.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.StandardTrainers.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.Transforms.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.dll": {}
+        },
+        "build": {
+          "build/netstandard2.0/_._": {}
+        }
+      },
+      "Microsoft.ML.CpuMath/1.7.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ML.CpuMath.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.CpuMath.dll": {}
+        },
+        "build": {
+          "build/netstandard2.0/_._": {}
+        }
+      },
+      "Microsoft.ML.DataView/1.7.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Collections.Immutable": "1.5.0",
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ML.DataView.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.DataView.dll": {}
+        }
+      },
+      "Microsoft.ML.TensorFlow/1.7.1": {
+        "type": "package",
+        "dependencies": {
+          "Google.Protobuf": "3.19.4",
+          "Microsoft.ML": "1.7.1",
+          "System.IO.FileSystem.AccessControl": "4.5.0",
+          "System.Security.Principal.Windows": "4.5.0",
+          "TensorFlow.NET": "0.20.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ML.TensorFlow.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.TensorFlow.dll": {}
         }
       },
       "Microsoft.Net.Native.Compiler/2.2.11-rel-30601-02": {
@@ -2087,6 +2439,18 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "NumSharp.Lite/0.1.8": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/NumSharp.Lite.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/NumSharp.Lite.dll": {}
+        }
+      },
       "PCLStorage/1.0.2": {
         "type": "package",
         "compile": {
@@ -2127,6 +2491,18 @@
         },
         "runtime": {
           "lib/wpa81/Prism.dll": {}
+        }
+      },
+      "Protobuf.Text/0.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Protobuf": "3.11.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Protobuf.Text.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Protobuf.Text.dll": {}
         }
       },
       "runtime.any.System.Collections/4.3.0": {
@@ -2636,6 +3012,15 @@
           "lib/Portable-Win81+Wpa81/Splat.dll": {}
         }
       },
+      "System.CodeDom/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.CodeDom.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.CodeDom.dll": {}
+        }
+      },
       "System.Collections/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -2651,13 +3036,13 @@
           "lib/win8/_._": {}
         }
       },
-      "System.Collections.Immutable/1.3.1": {
+      "System.Collections.Immutable/1.5.0": {
         "type": "package",
         "compile": {
-          "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.dll": {}
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
         },
         "runtime": {
-          "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.dll": {}
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
         }
       },
       "System.Diagnostics.Contracts/4.3.0": {
@@ -2740,6 +3125,15 @@
         },
         "runtime": {
           "lib/win8/_._": {}
+        }
+      },
+      "System.IO.FileSystem.AccessControl/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.IO.FileSystem.AccessControl.dll": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/netstandard2.0/System.IO.FileSystem.AccessControl.dll": {}
         }
       },
       "System.Linq/4.3.0": {
@@ -2857,7 +3251,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.0/_._": {}
+          "ref/netstandard1.0/System.Reflection.Emit.ILGeneration.dll": {}
         },
         "runtime": {
           "lib/netcore50/System.Reflection.Emit.ILGeneration.dll": {}
@@ -2872,7 +3266,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.0/_._": {}
+          "ref/netstandard1.0/System.Reflection.Emit.Lightweight.dll": {}
         },
         "runtime": {
           "lib/netcore50/System.Reflection.Emit.Lightweight.dll": {}
@@ -2959,7 +3353,7 @@
           "lib/win8/_._": {}
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+      "System.Runtime.CompilerServices.Unsafe/4.5.3": {
         "type": "package",
         "compile": {
           "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
@@ -3025,6 +3419,24 @@
           "lib/netcore50/System.Runtime.InteropServices.WindowsRuntime.dll": {}
         }
       },
+      "System.Runtime.WindowsRuntime/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/uap10.0.16299/_._": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/uap10.0.16299/_._": {}
+        }
+      },
+      "System.Security.Principal.Windows/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/uap10.0.16299/_._": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/uap10.0.16299/_._": {}
+        }
+      },
       "System.Text.Encoding/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -3053,6 +3465,18 @@
           "lib/netcore50/System.Threading.dll": {}
         }
       },
+      "System.Threading.Channels/4.7.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Threading.Channels.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Threading.Channels.dll": {}
+        }
+      },
       "System.Threading.Tasks/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -3068,10 +3492,10 @@
           "lib/win8/_._": {}
         }
       },
-      "System.Threading.Tasks.Extensions/4.5.2": {
+      "System.Threading.Tasks.Extensions/4.5.4": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+          "System.Runtime.CompilerServices.Unsafe": "4.5.3"
         },
         "compile": {
           "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
@@ -3087,6 +3511,20 @@
         },
         "runtime": {
           "lib/uap10.0.16299/_._": {}
+        }
+      },
+      "TensorFlow.NET/0.20.1": {
+        "type": "package",
+        "dependencies": {
+          "Google.Protobuf": "3.11.4",
+          "NumSharp.Lite": "0.1.8",
+          "Protobuf.Text": "0.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/TensorFlow.NET.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TensorFlow.NET.dll": {}
         }
       },
       "TensorFlowSharp/1.15.1": {
@@ -3150,6 +3588,12 @@
         },
         "build": {
           "buildTransitive/uap10.0.17763/Uno.UI.targets": {}
+        }
+      },
+      "UwpDesktop/10.0.14393.3": {
+        "type": "package",
+        "build": {
+          "build/portable-net45+uap/_._": {}
         }
       },
       "Win2D.uwp/1.20.0": {
@@ -3220,6 +3664,8 @@
           "CsvHelper": "27.2.1",
           "LiveChartsCore": "2.0.0-beta.230",
           "LiveChartsCore.SkiaSharpView.XamarinForms": "2.0.0-beta.230",
+          "Microsoft.ML.TensorFlow": "1.7.1",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.13",
           "MvvmCross": "5.1.0",
           "MvvmCross.Binding": "5.1.0",
           "MvvmCross.Core": "5.1.0",
@@ -3233,6 +3679,10 @@
           "Plugin.Share": "7.0.1",
           "Prism.Core": "6.3.0",
           "Splat": "2.0.0",
+          "System.Runtime.InteropServices.WindowsRuntime": "4.3.0",
+          "System.Runtime.WindowsRuntime": "4.7.0",
+          "TensorFlowSharp": "1.15.1",
+          "UwpDesktop": "10.0.14393.3",
           "Xam.Plugins.Settings": "3.0.1",
           "Xamarin.Essentials": "1.6.0",
           "Xamarin.Forms": "5.0.0.2291"
@@ -3349,6 +3799,19 @@
           "lib/netstandard2.0/CsvHelper.dll": {}
         }
       },
+      "Google.Protobuf/3.19.4": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Protobuf.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Protobuf.dll": {}
+        }
+      },
       "HarfBuzzSharp/2.8.2-preview.254": {
         "type": "package",
         "dependencies": {
@@ -3400,22 +3863,6 @@
           "lib/netstandard2.0/LiveChartsCore.SkiaSharpView.dll": {}
         }
       },
-      "LiveChartsCore.SkiaSharpView.UWP/2.0.0-beta.101": {
-        "type": "package",
-        "dependencies": {
-          "LiveChartsCore": "2.0.0-beta.101",
-          "LiveChartsCore.SkiaSharpView": "2.0.0-beta.101",
-          "Newtonsoft.Json": "[13.0.1]",
-          "SkiaSharp": "[2.88.0-preview.179]",
-          "SkiaSharp.Views.Uno": "[2.88.0-preview.179]"
-        },
-        "compile": {
-          "lib/uap10.0/LiveChartsCore.SkiaSharpView.UWP.dll": {}
-        },
-        "runtime": {
-          "lib/uap10.0/LiveChartsCore.SkiaSharpView.UWP.dll": {}
-        }
-      },
       "LiveChartsCore.SkiaSharpView.XamarinForms/2.0.0-beta.230": {
         "type": "package",
         "dependencies": {
@@ -3429,6 +3876,23 @@
         },
         "runtime": {
           "lib/netstandard2.0/LiveChartsCore.SkiaSharpView.XamarinForms.dll": {}
+        }
+      },
+      "Microsoft.AI.DirectML/1.8.0": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.AI.DirectML.props": {},
+          "build/Microsoft.AI.DirectML.targets": {}
+        }
+      },
+      "Microsoft.AI.MachineLearning/1.11.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AI.DirectML": "1.8.0"
+        },
+        "build": {
+          "build/uap10.0/Microsoft.AI.MachineLearning.props": {},
+          "build/uap10.0/Microsoft.AI.MachineLearning.targets": {}
         }
       },
       "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
@@ -3477,6 +3941,84 @@
         },
         "runtime": {
           "lib/netcore50/Microsoft.CSharp.dll": {}
+        }
+      },
+      "Microsoft.ML/1.7.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ML.CpuMath": "1.7.1",
+          "Microsoft.ML.DataView": "1.7.1",
+          "Newtonsoft.Json": "10.0.3",
+          "System.CodeDom": "4.4.0",
+          "System.Collections.Immutable": "1.5.0",
+          "System.Memory": "4.5.3",
+          "System.Reflection.Emit.Lightweight": "4.3.0",
+          "System.Threading.Channels": "4.7.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ML.Core.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.Data.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.KMeansClustering.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.PCA.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.StandardTrainers.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.Transforms.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.Core.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.Data.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.KMeansClustering.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.PCA.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.StandardTrainers.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.Transforms.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.dll": {}
+        },
+        "build": {
+          "build/netstandard2.0/_._": {}
+        }
+      },
+      "Microsoft.ML.CpuMath/1.7.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ML.CpuMath.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.CpuMath.dll": {}
+        },
+        "build": {
+          "build/netstandard2.0/_._": {}
+        }
+      },
+      "Microsoft.ML.DataView/1.7.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Collections.Immutable": "1.5.0",
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ML.DataView.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.DataView.dll": {}
+        }
+      },
+      "Microsoft.ML.TensorFlow/1.7.1": {
+        "type": "package",
+        "dependencies": {
+          "Google.Protobuf": "3.19.4",
+          "Microsoft.ML": "1.7.1",
+          "System.IO.FileSystem.AccessControl": "4.5.0",
+          "System.Security.Principal.Windows": "4.5.0",
+          "TensorFlow.NET": "0.20.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ML.TensorFlow.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.TensorFlow.dll": {}
         }
       },
       "Microsoft.Net.Native.Compiler/2.2.11-rel-30601-02": {
@@ -3823,6 +4365,18 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "NumSharp.Lite/0.1.8": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/NumSharp.Lite.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/NumSharp.Lite.dll": {}
+        }
+      },
       "PCLStorage/1.0.2": {
         "type": "package",
         "compile": {
@@ -3863,6 +4417,18 @@
         },
         "runtime": {
           "lib/wpa81/Prism.dll": {}
+        }
+      },
+      "Protobuf.Text/0.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Protobuf": "3.11.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Protobuf.Text.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Protobuf.Text.dll": {}
         }
       },
       "runtime.aot.System.Collections/4.3.0": {
@@ -4412,6 +4978,15 @@
           "lib/Portable-Win81+Wpa81/Splat.dll": {}
         }
       },
+      "System.CodeDom/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.CodeDom.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.CodeDom.dll": {}
+        }
+      },
       "System.Collections/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -4427,13 +5002,13 @@
           "lib/win8/_._": {}
         }
       },
-      "System.Collections.Immutable/1.3.1": {
+      "System.Collections.Immutable/1.5.0": {
         "type": "package",
         "compile": {
-          "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.dll": {}
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
         },
         "runtime": {
-          "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.dll": {}
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
         }
       },
       "System.Diagnostics.Contracts/4.3.0": {
@@ -4516,6 +5091,15 @@
         },
         "runtime": {
           "lib/win8/_._": {}
+        }
+      },
+      "System.IO.FileSystem.AccessControl/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.IO.FileSystem.AccessControl.dll": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/netstandard2.0/System.IO.FileSystem.AccessControl.dll": {}
         }
       },
       "System.Linq/4.3.0": {
@@ -4633,7 +5217,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.0/_._": {}
+          "ref/netstandard1.0/System.Reflection.Emit.ILGeneration.dll": {}
         },
         "runtime": {
           "runtimes/aot/lib/netcore50/_._": {}
@@ -4648,7 +5232,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.0/_._": {}
+          "ref/netstandard1.0/System.Reflection.Emit.Lightweight.dll": {}
         },
         "runtime": {
           "runtimes/aot/lib/netcore50/_._": {}
@@ -4735,7 +5319,7 @@
           "lib/win8/_._": {}
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+      "System.Runtime.CompilerServices.Unsafe/4.5.3": {
         "type": "package",
         "compile": {
           "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
@@ -4801,6 +5385,24 @@
           "runtimes/aot/lib/netcore50/System.Runtime.InteropServices.WindowsRuntime.dll": {}
         }
       },
+      "System.Runtime.WindowsRuntime/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/uap10.0.16299/_._": {}
+        },
+        "runtime": {
+          "runtimes/win-aot/lib/uap10.0.16299/_._": {}
+        }
+      },
+      "System.Security.Principal.Windows/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/uap10.0.16299/_._": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/uap10.0.16299/_._": {}
+        }
+      },
       "System.Text.Encoding/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -4845,6 +5447,18 @@
           "runtimes/aot/lib/netcore50/System.Threading.dll": {}
         }
       },
+      "System.Threading.Channels/4.7.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Threading.Channels.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Threading.Channels.dll": {}
+        }
+      },
       "System.Threading.Tasks/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -4860,10 +5474,10 @@
           "lib/win8/_._": {}
         }
       },
-      "System.Threading.Tasks.Extensions/4.5.2": {
+      "System.Threading.Tasks.Extensions/4.5.4": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+          "System.Runtime.CompilerServices.Unsafe": "4.5.3"
         },
         "compile": {
           "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
@@ -4879,6 +5493,20 @@
         },
         "runtime": {
           "lib/uap10.0.16299/_._": {}
+        }
+      },
+      "TensorFlow.NET/0.20.1": {
+        "type": "package",
+        "dependencies": {
+          "Google.Protobuf": "3.11.4",
+          "NumSharp.Lite": "0.1.8",
+          "Protobuf.Text": "0.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/TensorFlow.NET.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TensorFlow.NET.dll": {}
         }
       },
       "TensorFlowSharp/1.15.1": {
@@ -4942,6 +5570,12 @@
         },
         "build": {
           "buildTransitive/uap10.0.17763/Uno.UI.targets": {}
+        }
+      },
+      "UwpDesktop/10.0.14393.3": {
+        "type": "package",
+        "build": {
+          "build/portable-net45+uap/_._": {}
         }
       },
       "Win2D.uwp/1.20.0": {
@@ -5012,6 +5646,8 @@
           "CsvHelper": "27.2.1",
           "LiveChartsCore": "2.0.0-beta.230",
           "LiveChartsCore.SkiaSharpView.XamarinForms": "2.0.0-beta.230",
+          "Microsoft.ML.TensorFlow": "1.7.1",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.13",
           "MvvmCross": "5.1.0",
           "MvvmCross.Binding": "5.1.0",
           "MvvmCross.Core": "5.1.0",
@@ -5025,6 +5661,10 @@
           "Plugin.Share": "7.0.1",
           "Prism.Core": "6.3.0",
           "Splat": "2.0.0",
+          "System.Runtime.InteropServices.WindowsRuntime": "4.3.0",
+          "System.Runtime.WindowsRuntime": "4.7.0",
+          "TensorFlowSharp": "1.15.1",
+          "UwpDesktop": "10.0.14393.3",
           "Xam.Plugins.Settings": "3.0.1",
           "Xamarin.Essentials": "1.6.0",
           "Xamarin.Forms": "5.0.0.2291"
@@ -5141,6 +5781,19 @@
           "lib/netstandard2.0/CsvHelper.dll": {}
         }
       },
+      "Google.Protobuf/3.19.4": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Protobuf.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Protobuf.dll": {}
+        }
+      },
       "HarfBuzzSharp/2.8.2-preview.254": {
         "type": "package",
         "dependencies": {
@@ -5192,22 +5845,6 @@
           "lib/netstandard2.0/LiveChartsCore.SkiaSharpView.dll": {}
         }
       },
-      "LiveChartsCore.SkiaSharpView.UWP/2.0.0-beta.101": {
-        "type": "package",
-        "dependencies": {
-          "LiveChartsCore": "2.0.0-beta.101",
-          "LiveChartsCore.SkiaSharpView": "2.0.0-beta.101",
-          "Newtonsoft.Json": "[13.0.1]",
-          "SkiaSharp": "[2.88.0-preview.179]",
-          "SkiaSharp.Views.Uno": "[2.88.0-preview.179]"
-        },
-        "compile": {
-          "lib/uap10.0/LiveChartsCore.SkiaSharpView.UWP.dll": {}
-        },
-        "runtime": {
-          "lib/uap10.0/LiveChartsCore.SkiaSharpView.UWP.dll": {}
-        }
-      },
       "LiveChartsCore.SkiaSharpView.XamarinForms/2.0.0-beta.230": {
         "type": "package",
         "dependencies": {
@@ -5221,6 +5858,23 @@
         },
         "runtime": {
           "lib/netstandard2.0/LiveChartsCore.SkiaSharpView.XamarinForms.dll": {}
+        }
+      },
+      "Microsoft.AI.DirectML/1.8.0": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.AI.DirectML.props": {},
+          "build/Microsoft.AI.DirectML.targets": {}
+        }
+      },
+      "Microsoft.AI.MachineLearning/1.11.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AI.DirectML": "1.8.0"
+        },
+        "build": {
+          "build/uap10.0/Microsoft.AI.MachineLearning.props": {},
+          "build/uap10.0/Microsoft.AI.MachineLearning.targets": {}
         }
       },
       "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
@@ -5269,6 +5923,84 @@
         },
         "runtime": {
           "lib/netcore50/Microsoft.CSharp.dll": {}
+        }
+      },
+      "Microsoft.ML/1.7.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ML.CpuMath": "1.7.1",
+          "Microsoft.ML.DataView": "1.7.1",
+          "Newtonsoft.Json": "10.0.3",
+          "System.CodeDom": "4.4.0",
+          "System.Collections.Immutable": "1.5.0",
+          "System.Memory": "4.5.3",
+          "System.Reflection.Emit.Lightweight": "4.3.0",
+          "System.Threading.Channels": "4.7.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ML.Core.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.Data.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.KMeansClustering.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.PCA.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.StandardTrainers.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.Transforms.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.Core.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.Data.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.KMeansClustering.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.PCA.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.StandardTrainers.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.Transforms.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.dll": {}
+        },
+        "build": {
+          "build/netstandard2.0/_._": {}
+        }
+      },
+      "Microsoft.ML.CpuMath/1.7.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ML.CpuMath.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.CpuMath.dll": {}
+        },
+        "build": {
+          "build/netstandard2.0/_._": {}
+        }
+      },
+      "Microsoft.ML.DataView/1.7.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Collections.Immutable": "1.5.0",
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ML.DataView.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.DataView.dll": {}
+        }
+      },
+      "Microsoft.ML.TensorFlow/1.7.1": {
+        "type": "package",
+        "dependencies": {
+          "Google.Protobuf": "3.19.4",
+          "Microsoft.ML": "1.7.1",
+          "System.IO.FileSystem.AccessControl": "4.5.0",
+          "System.Security.Principal.Windows": "4.5.0",
+          "TensorFlow.NET": "0.20.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ML.TensorFlow.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.TensorFlow.dll": {}
         }
       },
       "Microsoft.Net.Native.Compiler/2.2.11-rel-30601-02": {
@@ -5615,6 +6347,18 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "NumSharp.Lite/0.1.8": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/NumSharp.Lite.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/NumSharp.Lite.dll": {}
+        }
+      },
       "PCLStorage/1.0.2": {
         "type": "package",
         "compile": {
@@ -5655,6 +6399,18 @@
         },
         "runtime": {
           "lib/wpa81/Prism.dll": {}
+        }
+      },
+      "Protobuf.Text/0.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Protobuf": "3.11.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Protobuf.Text.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Protobuf.Text.dll": {}
         }
       },
       "runtime.aot.System.Collections/4.3.0": {
@@ -6204,6 +6960,15 @@
           "lib/Portable-Win81+Wpa81/Splat.dll": {}
         }
       },
+      "System.CodeDom/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.CodeDom.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.CodeDom.dll": {}
+        }
+      },
       "System.Collections/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -6219,13 +6984,13 @@
           "lib/win8/_._": {}
         }
       },
-      "System.Collections.Immutable/1.3.1": {
+      "System.Collections.Immutable/1.5.0": {
         "type": "package",
         "compile": {
-          "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.dll": {}
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
         },
         "runtime": {
-          "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.dll": {}
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
         }
       },
       "System.Diagnostics.Contracts/4.3.0": {
@@ -6308,6 +7073,15 @@
         },
         "runtime": {
           "lib/win8/_._": {}
+        }
+      },
+      "System.IO.FileSystem.AccessControl/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.IO.FileSystem.AccessControl.dll": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/netstandard2.0/System.IO.FileSystem.AccessControl.dll": {}
         }
       },
       "System.Linq/4.3.0": {
@@ -6425,7 +7199,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.0/_._": {}
+          "ref/netstandard1.0/System.Reflection.Emit.ILGeneration.dll": {}
         },
         "runtime": {
           "runtimes/aot/lib/netcore50/_._": {}
@@ -6440,7 +7214,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.0/_._": {}
+          "ref/netstandard1.0/System.Reflection.Emit.Lightweight.dll": {}
         },
         "runtime": {
           "runtimes/aot/lib/netcore50/_._": {}
@@ -6527,7 +7301,7 @@
           "lib/win8/_._": {}
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+      "System.Runtime.CompilerServices.Unsafe/4.5.3": {
         "type": "package",
         "compile": {
           "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
@@ -6593,6 +7367,24 @@
           "runtimes/aot/lib/netcore50/System.Runtime.InteropServices.WindowsRuntime.dll": {}
         }
       },
+      "System.Runtime.WindowsRuntime/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/uap10.0.16299/_._": {}
+        },
+        "runtime": {
+          "runtimes/win-aot/lib/uap10.0.16299/_._": {}
+        }
+      },
+      "System.Security.Principal.Windows/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/uap10.0.16299/_._": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/uap10.0.16299/_._": {}
+        }
+      },
       "System.Text.Encoding/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -6637,6 +7429,18 @@
           "runtimes/aot/lib/netcore50/System.Threading.dll": {}
         }
       },
+      "System.Threading.Channels/4.7.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Threading.Channels.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Threading.Channels.dll": {}
+        }
+      },
       "System.Threading.Tasks/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -6652,10 +7456,10 @@
           "lib/win8/_._": {}
         }
       },
-      "System.Threading.Tasks.Extensions/4.5.2": {
+      "System.Threading.Tasks.Extensions/4.5.4": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+          "System.Runtime.CompilerServices.Unsafe": "4.5.3"
         },
         "compile": {
           "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
@@ -6671,6 +7475,20 @@
         },
         "runtime": {
           "lib/uap10.0.16299/_._": {}
+        }
+      },
+      "TensorFlow.NET/0.20.1": {
+        "type": "package",
+        "dependencies": {
+          "Google.Protobuf": "3.11.4",
+          "NumSharp.Lite": "0.1.8",
+          "Protobuf.Text": "0.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/TensorFlow.NET.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TensorFlow.NET.dll": {}
         }
       },
       "TensorFlowSharp/1.15.1": {
@@ -6734,6 +7552,12 @@
         },
         "build": {
           "buildTransitive/uap10.0.17763/Uno.UI.targets": {}
+        }
+      },
+      "UwpDesktop/10.0.14393.3": {
+        "type": "package",
+        "build": {
+          "build/portable-net45+uap/_._": {}
         }
       },
       "Win2D.uwp/1.20.0": {
@@ -6801,6 +7625,8 @@
           "CsvHelper": "27.2.1",
           "LiveChartsCore": "2.0.0-beta.230",
           "LiveChartsCore.SkiaSharpView.XamarinForms": "2.0.0-beta.230",
+          "Microsoft.ML.TensorFlow": "1.7.1",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.13",
           "MvvmCross": "5.1.0",
           "MvvmCross.Binding": "5.1.0",
           "MvvmCross.Core": "5.1.0",
@@ -6814,6 +7640,10 @@
           "Plugin.Share": "7.0.1",
           "Prism.Core": "6.3.0",
           "Splat": "2.0.0",
+          "System.Runtime.InteropServices.WindowsRuntime": "4.3.0",
+          "System.Runtime.WindowsRuntime": "4.7.0",
+          "TensorFlowSharp": "1.15.1",
+          "UwpDesktop": "10.0.14393.3",
           "Xam.Plugins.Settings": "3.0.1",
           "Xamarin.Essentials": "1.6.0",
           "Xamarin.Forms": "5.0.0.2291"
@@ -6930,6 +7760,19 @@
           "lib/netstandard2.0/CsvHelper.dll": {}
         }
       },
+      "Google.Protobuf/3.19.4": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Protobuf.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Protobuf.dll": {}
+        }
+      },
       "HarfBuzzSharp/2.8.2-preview.254": {
         "type": "package",
         "dependencies": {
@@ -6981,22 +7824,6 @@
           "lib/netstandard2.0/LiveChartsCore.SkiaSharpView.dll": {}
         }
       },
-      "LiveChartsCore.SkiaSharpView.UWP/2.0.0-beta.101": {
-        "type": "package",
-        "dependencies": {
-          "LiveChartsCore": "2.0.0-beta.101",
-          "LiveChartsCore.SkiaSharpView": "2.0.0-beta.101",
-          "Newtonsoft.Json": "[13.0.1]",
-          "SkiaSharp": "[2.88.0-preview.179]",
-          "SkiaSharp.Views.Uno": "[2.88.0-preview.179]"
-        },
-        "compile": {
-          "lib/uap10.0/LiveChartsCore.SkiaSharpView.UWP.dll": {}
-        },
-        "runtime": {
-          "lib/uap10.0/LiveChartsCore.SkiaSharpView.UWP.dll": {}
-        }
-      },
       "LiveChartsCore.SkiaSharpView.XamarinForms/2.0.0-beta.230": {
         "type": "package",
         "dependencies": {
@@ -7010,6 +7837,23 @@
         },
         "runtime": {
           "lib/netstandard2.0/LiveChartsCore.SkiaSharpView.XamarinForms.dll": {}
+        }
+      },
+      "Microsoft.AI.DirectML/1.8.0": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.AI.DirectML.props": {},
+          "build/Microsoft.AI.DirectML.targets": {}
+        }
+      },
+      "Microsoft.AI.MachineLearning/1.11.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AI.DirectML": "1.8.0"
+        },
+        "build": {
+          "build/uap10.0/Microsoft.AI.MachineLearning.props": {},
+          "build/uap10.0/Microsoft.AI.MachineLearning.targets": {}
         }
       },
       "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
@@ -7058,6 +7902,90 @@
         },
         "runtime": {
           "lib/netcore50/Microsoft.CSharp.dll": {}
+        }
+      },
+      "Microsoft.ML/1.7.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ML.CpuMath": "1.7.1",
+          "Microsoft.ML.DataView": "1.7.1",
+          "Newtonsoft.Json": "10.0.3",
+          "System.CodeDom": "4.4.0",
+          "System.Collections.Immutable": "1.5.0",
+          "System.Memory": "4.5.3",
+          "System.Reflection.Emit.Lightweight": "4.3.0",
+          "System.Threading.Channels": "4.7.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ML.Core.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.Data.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.KMeansClustering.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.PCA.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.StandardTrainers.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.Transforms.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.Core.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.Data.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.KMeansClustering.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.PCA.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.StandardTrainers.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.Transforms.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.dll": {}
+        },
+        "native": {
+          "runtimes/win-x64/native/LdaNative.dll": {}
+        },
+        "build": {
+          "build/netstandard2.0/_._": {}
+        }
+      },
+      "Microsoft.ML.CpuMath/1.7.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ML.CpuMath.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.CpuMath.dll": {}
+        },
+        "native": {
+          "runtimes/win-x64/nativeassets/netstandard2.0/CpuMathNative.dll": {}
+        },
+        "build": {
+          "build/netstandard2.0/_._": {}
+        }
+      },
+      "Microsoft.ML.DataView/1.7.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Collections.Immutable": "1.5.0",
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ML.DataView.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.DataView.dll": {}
+        }
+      },
+      "Microsoft.ML.TensorFlow/1.7.1": {
+        "type": "package",
+        "dependencies": {
+          "Google.Protobuf": "3.19.4",
+          "Microsoft.ML": "1.7.1",
+          "System.IO.FileSystem.AccessControl": "4.5.0",
+          "System.Security.Principal.Windows": "4.5.0",
+          "TensorFlow.NET": "0.20.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ML.TensorFlow.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.TensorFlow.dll": {}
         }
       },
       "Microsoft.Net.Native.Compiler/2.2.11-rel-30601-02": {
@@ -7404,6 +8332,18 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "NumSharp.Lite/0.1.8": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/NumSharp.Lite.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/NumSharp.Lite.dll": {}
+        }
+      },
       "PCLStorage/1.0.2": {
         "type": "package",
         "compile": {
@@ -7444,6 +8384,18 @@
         },
         "runtime": {
           "lib/wpa81/Prism.dll": {}
+        }
+      },
+      "Protobuf.Text/0.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Protobuf": "3.11.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Protobuf.Text.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Protobuf.Text.dll": {}
         }
       },
       "runtime.any.System.Collections/4.3.0": {
@@ -7953,6 +8905,15 @@
           "lib/Portable-Win81+Wpa81/Splat.dll": {}
         }
       },
+      "System.CodeDom/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.CodeDom.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.CodeDom.dll": {}
+        }
+      },
       "System.Collections/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -7968,13 +8929,13 @@
           "lib/win8/_._": {}
         }
       },
-      "System.Collections.Immutable/1.3.1": {
+      "System.Collections.Immutable/1.5.0": {
         "type": "package",
         "compile": {
-          "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.dll": {}
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
         },
         "runtime": {
-          "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.dll": {}
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
         }
       },
       "System.Diagnostics.Contracts/4.3.0": {
@@ -8057,6 +9018,15 @@
         },
         "runtime": {
           "lib/win8/_._": {}
+        }
+      },
+      "System.IO.FileSystem.AccessControl/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.IO.FileSystem.AccessControl.dll": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/netstandard2.0/System.IO.FileSystem.AccessControl.dll": {}
         }
       },
       "System.Linq/4.3.0": {
@@ -8174,7 +9144,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.0/_._": {}
+          "ref/netstandard1.0/System.Reflection.Emit.ILGeneration.dll": {}
         },
         "runtime": {
           "lib/netcore50/System.Reflection.Emit.ILGeneration.dll": {}
@@ -8189,7 +9159,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.0/_._": {}
+          "ref/netstandard1.0/System.Reflection.Emit.Lightweight.dll": {}
         },
         "runtime": {
           "lib/netcore50/System.Reflection.Emit.Lightweight.dll": {}
@@ -8276,7 +9246,7 @@
           "lib/win8/_._": {}
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+      "System.Runtime.CompilerServices.Unsafe/4.5.3": {
         "type": "package",
         "compile": {
           "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
@@ -8342,6 +9312,24 @@
           "lib/netcore50/System.Runtime.InteropServices.WindowsRuntime.dll": {}
         }
       },
+      "System.Runtime.WindowsRuntime/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/uap10.0.16299/_._": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/uap10.0.16299/_._": {}
+        }
+      },
+      "System.Security.Principal.Windows/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/uap10.0.16299/_._": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/uap10.0.16299/_._": {}
+        }
+      },
       "System.Text.Encoding/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -8370,6 +9358,18 @@
           "lib/netcore50/System.Threading.dll": {}
         }
       },
+      "System.Threading.Channels/4.7.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Threading.Channels.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Threading.Channels.dll": {}
+        }
+      },
       "System.Threading.Tasks/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -8385,10 +9385,10 @@
           "lib/win8/_._": {}
         }
       },
-      "System.Threading.Tasks.Extensions/4.5.2": {
+      "System.Threading.Tasks.Extensions/4.5.4": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+          "System.Runtime.CompilerServices.Unsafe": "4.5.3"
         },
         "compile": {
           "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
@@ -8404,6 +9404,20 @@
         },
         "runtime": {
           "lib/uap10.0.16299/_._": {}
+        }
+      },
+      "TensorFlow.NET/0.20.1": {
+        "type": "package",
+        "dependencies": {
+          "Google.Protobuf": "3.11.4",
+          "NumSharp.Lite": "0.1.8",
+          "Protobuf.Text": "0.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/TensorFlow.NET.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TensorFlow.NET.dll": {}
         }
       },
       "TensorFlowSharp/1.15.1": {
@@ -8470,6 +9484,12 @@
         },
         "build": {
           "buildTransitive/uap10.0.17763/Uno.UI.targets": {}
+        }
+      },
+      "UwpDesktop/10.0.14393.3": {
+        "type": "package",
+        "build": {
+          "build/portable-net45+uap/_._": {}
         }
       },
       "Win2D.uwp/1.20.0": {
@@ -8540,6 +9560,8 @@
           "CsvHelper": "27.2.1",
           "LiveChartsCore": "2.0.0-beta.230",
           "LiveChartsCore.SkiaSharpView.XamarinForms": "2.0.0-beta.230",
+          "Microsoft.ML.TensorFlow": "1.7.1",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.13",
           "MvvmCross": "5.1.0",
           "MvvmCross.Binding": "5.1.0",
           "MvvmCross.Core": "5.1.0",
@@ -8553,6 +9575,10 @@
           "Plugin.Share": "7.0.1",
           "Prism.Core": "6.3.0",
           "Splat": "2.0.0",
+          "System.Runtime.InteropServices.WindowsRuntime": "4.3.0",
+          "System.Runtime.WindowsRuntime": "4.7.0",
+          "TensorFlowSharp": "1.15.1",
+          "UwpDesktop": "10.0.14393.3",
           "Xam.Plugins.Settings": "3.0.1",
           "Xamarin.Essentials": "1.6.0",
           "Xamarin.Forms": "5.0.0.2291"
@@ -8669,6 +9695,19 @@
           "lib/netstandard2.0/CsvHelper.dll": {}
         }
       },
+      "Google.Protobuf/3.19.4": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Protobuf.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Protobuf.dll": {}
+        }
+      },
       "HarfBuzzSharp/2.8.2-preview.254": {
         "type": "package",
         "dependencies": {
@@ -8720,22 +9759,6 @@
           "lib/netstandard2.0/LiveChartsCore.SkiaSharpView.dll": {}
         }
       },
-      "LiveChartsCore.SkiaSharpView.UWP/2.0.0-beta.101": {
-        "type": "package",
-        "dependencies": {
-          "LiveChartsCore": "2.0.0-beta.101",
-          "LiveChartsCore.SkiaSharpView": "2.0.0-beta.101",
-          "Newtonsoft.Json": "[13.0.1]",
-          "SkiaSharp": "[2.88.0-preview.179]",
-          "SkiaSharp.Views.Uno": "[2.88.0-preview.179]"
-        },
-        "compile": {
-          "lib/uap10.0/LiveChartsCore.SkiaSharpView.UWP.dll": {}
-        },
-        "runtime": {
-          "lib/uap10.0/LiveChartsCore.SkiaSharpView.UWP.dll": {}
-        }
-      },
       "LiveChartsCore.SkiaSharpView.XamarinForms/2.0.0-beta.230": {
         "type": "package",
         "dependencies": {
@@ -8749,6 +9772,23 @@
         },
         "runtime": {
           "lib/netstandard2.0/LiveChartsCore.SkiaSharpView.XamarinForms.dll": {}
+        }
+      },
+      "Microsoft.AI.DirectML/1.8.0": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.AI.DirectML.props": {},
+          "build/Microsoft.AI.DirectML.targets": {}
+        }
+      },
+      "Microsoft.AI.MachineLearning/1.11.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AI.DirectML": "1.8.0"
+        },
+        "build": {
+          "build/uap10.0/Microsoft.AI.MachineLearning.props": {},
+          "build/uap10.0/Microsoft.AI.MachineLearning.targets": {}
         }
       },
       "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
@@ -8797,6 +9837,90 @@
         },
         "runtime": {
           "lib/netcore50/Microsoft.CSharp.dll": {}
+        }
+      },
+      "Microsoft.ML/1.7.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ML.CpuMath": "1.7.1",
+          "Microsoft.ML.DataView": "1.7.1",
+          "Newtonsoft.Json": "10.0.3",
+          "System.CodeDom": "4.4.0",
+          "System.Collections.Immutable": "1.5.0",
+          "System.Memory": "4.5.3",
+          "System.Reflection.Emit.Lightweight": "4.3.0",
+          "System.Threading.Channels": "4.7.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ML.Core.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.Data.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.KMeansClustering.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.PCA.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.StandardTrainers.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.Transforms.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.Core.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.Data.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.KMeansClustering.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.PCA.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.StandardTrainers.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.Transforms.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.dll": {}
+        },
+        "native": {
+          "runtimes/win-x64/native/LdaNative.dll": {}
+        },
+        "build": {
+          "build/netstandard2.0/_._": {}
+        }
+      },
+      "Microsoft.ML.CpuMath/1.7.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ML.CpuMath.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.CpuMath.dll": {}
+        },
+        "native": {
+          "runtimes/win-x64/nativeassets/netstandard2.0/CpuMathNative.dll": {}
+        },
+        "build": {
+          "build/netstandard2.0/_._": {}
+        }
+      },
+      "Microsoft.ML.DataView/1.7.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Collections.Immutable": "1.5.0",
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ML.DataView.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.DataView.dll": {}
+        }
+      },
+      "Microsoft.ML.TensorFlow/1.7.1": {
+        "type": "package",
+        "dependencies": {
+          "Google.Protobuf": "3.19.4",
+          "Microsoft.ML": "1.7.1",
+          "System.IO.FileSystem.AccessControl": "4.5.0",
+          "System.Security.Principal.Windows": "4.5.0",
+          "TensorFlow.NET": "0.20.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ML.TensorFlow.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.TensorFlow.dll": {}
         }
       },
       "Microsoft.Net.Native.Compiler/2.2.11-rel-30601-02": {
@@ -9143,6 +10267,18 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "NumSharp.Lite/0.1.8": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/NumSharp.Lite.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/NumSharp.Lite.dll": {}
+        }
+      },
       "PCLStorage/1.0.2": {
         "type": "package",
         "compile": {
@@ -9183,6 +10319,18 @@
         },
         "runtime": {
           "lib/wpa81/Prism.dll": {}
+        }
+      },
+      "Protobuf.Text/0.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Protobuf": "3.11.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Protobuf.Text.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Protobuf.Text.dll": {}
         }
       },
       "runtime.aot.System.Collections/4.3.0": {
@@ -9732,6 +10880,15 @@
           "lib/Portable-Win81+Wpa81/Splat.dll": {}
         }
       },
+      "System.CodeDom/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.CodeDom.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.CodeDom.dll": {}
+        }
+      },
       "System.Collections/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -9747,13 +10904,13 @@
           "lib/win8/_._": {}
         }
       },
-      "System.Collections.Immutable/1.3.1": {
+      "System.Collections.Immutable/1.5.0": {
         "type": "package",
         "compile": {
-          "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.dll": {}
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
         },
         "runtime": {
-          "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.dll": {}
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
         }
       },
       "System.Diagnostics.Contracts/4.3.0": {
@@ -9836,6 +10993,15 @@
         },
         "runtime": {
           "lib/win8/_._": {}
+        }
+      },
+      "System.IO.FileSystem.AccessControl/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.IO.FileSystem.AccessControl.dll": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/netstandard2.0/System.IO.FileSystem.AccessControl.dll": {}
         }
       },
       "System.Linq/4.3.0": {
@@ -9953,7 +11119,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.0/_._": {}
+          "ref/netstandard1.0/System.Reflection.Emit.ILGeneration.dll": {}
         },
         "runtime": {
           "runtimes/aot/lib/netcore50/_._": {}
@@ -9968,7 +11134,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.0/_._": {}
+          "ref/netstandard1.0/System.Reflection.Emit.Lightweight.dll": {}
         },
         "runtime": {
           "runtimes/aot/lib/netcore50/_._": {}
@@ -10055,7 +11221,7 @@
           "lib/win8/_._": {}
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+      "System.Runtime.CompilerServices.Unsafe/4.5.3": {
         "type": "package",
         "compile": {
           "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
@@ -10121,6 +11287,24 @@
           "runtimes/aot/lib/netcore50/System.Runtime.InteropServices.WindowsRuntime.dll": {}
         }
       },
+      "System.Runtime.WindowsRuntime/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/uap10.0.16299/_._": {}
+        },
+        "runtime": {
+          "runtimes/win-aot/lib/uap10.0.16299/_._": {}
+        }
+      },
+      "System.Security.Principal.Windows/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/uap10.0.16299/_._": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/uap10.0.16299/_._": {}
+        }
+      },
       "System.Text.Encoding/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -10165,6 +11349,18 @@
           "runtimes/aot/lib/netcore50/System.Threading.dll": {}
         }
       },
+      "System.Threading.Channels/4.7.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Threading.Channels.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Threading.Channels.dll": {}
+        }
+      },
       "System.Threading.Tasks/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -10180,10 +11376,10 @@
           "lib/win8/_._": {}
         }
       },
-      "System.Threading.Tasks.Extensions/4.5.2": {
+      "System.Threading.Tasks.Extensions/4.5.4": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+          "System.Runtime.CompilerServices.Unsafe": "4.5.3"
         },
         "compile": {
           "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
@@ -10199,6 +11395,20 @@
         },
         "runtime": {
           "lib/uap10.0.16299/_._": {}
+        }
+      },
+      "TensorFlow.NET/0.20.1": {
+        "type": "package",
+        "dependencies": {
+          "Google.Protobuf": "3.11.4",
+          "NumSharp.Lite": "0.1.8",
+          "Protobuf.Text": "0.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/TensorFlow.NET.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TensorFlow.NET.dll": {}
         }
       },
       "TensorFlowSharp/1.15.1": {
@@ -10265,6 +11475,12 @@
         },
         "build": {
           "buildTransitive/uap10.0.17763/Uno.UI.targets": {}
+        }
+      },
+      "UwpDesktop/10.0.14393.3": {
+        "type": "package",
+        "build": {
+          "build/portable-net45+uap/_._": {}
         }
       },
       "Win2D.uwp/1.20.0": {
@@ -10335,6 +11551,8 @@
           "CsvHelper": "27.2.1",
           "LiveChartsCore": "2.0.0-beta.230",
           "LiveChartsCore.SkiaSharpView.XamarinForms": "2.0.0-beta.230",
+          "Microsoft.ML.TensorFlow": "1.7.1",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.13",
           "MvvmCross": "5.1.0",
           "MvvmCross.Binding": "5.1.0",
           "MvvmCross.Core": "5.1.0",
@@ -10348,6 +11566,10 @@
           "Plugin.Share": "7.0.1",
           "Prism.Core": "6.3.0",
           "Splat": "2.0.0",
+          "System.Runtime.InteropServices.WindowsRuntime": "4.3.0",
+          "System.Runtime.WindowsRuntime": "4.7.0",
+          "TensorFlowSharp": "1.15.1",
+          "UwpDesktop": "10.0.14393.3",
           "Xam.Plugins.Settings": "3.0.1",
           "Xamarin.Essentials": "1.6.0",
           "Xamarin.Forms": "5.0.0.2291"
@@ -10464,6 +11686,19 @@
           "lib/netstandard2.0/CsvHelper.dll": {}
         }
       },
+      "Google.Protobuf/3.19.4": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Protobuf.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Protobuf.dll": {}
+        }
+      },
       "HarfBuzzSharp/2.8.2-preview.254": {
         "type": "package",
         "dependencies": {
@@ -10515,22 +11750,6 @@
           "lib/netstandard2.0/LiveChartsCore.SkiaSharpView.dll": {}
         }
       },
-      "LiveChartsCore.SkiaSharpView.UWP/2.0.0-beta.101": {
-        "type": "package",
-        "dependencies": {
-          "LiveChartsCore": "2.0.0-beta.101",
-          "LiveChartsCore.SkiaSharpView": "2.0.0-beta.101",
-          "Newtonsoft.Json": "[13.0.1]",
-          "SkiaSharp": "[2.88.0-preview.179]",
-          "SkiaSharp.Views.Uno": "[2.88.0-preview.179]"
-        },
-        "compile": {
-          "lib/uap10.0/LiveChartsCore.SkiaSharpView.UWP.dll": {}
-        },
-        "runtime": {
-          "lib/uap10.0/LiveChartsCore.SkiaSharpView.UWP.dll": {}
-        }
-      },
       "LiveChartsCore.SkiaSharpView.XamarinForms/2.0.0-beta.230": {
         "type": "package",
         "dependencies": {
@@ -10544,6 +11763,23 @@
         },
         "runtime": {
           "lib/netstandard2.0/LiveChartsCore.SkiaSharpView.XamarinForms.dll": {}
+        }
+      },
+      "Microsoft.AI.DirectML/1.8.0": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.AI.DirectML.props": {},
+          "build/Microsoft.AI.DirectML.targets": {}
+        }
+      },
+      "Microsoft.AI.MachineLearning/1.11.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AI.DirectML": "1.8.0"
+        },
+        "build": {
+          "build/uap10.0/Microsoft.AI.MachineLearning.props": {},
+          "build/uap10.0/Microsoft.AI.MachineLearning.targets": {}
         }
       },
       "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
@@ -10592,6 +11828,90 @@
         },
         "runtime": {
           "lib/netcore50/Microsoft.CSharp.dll": {}
+        }
+      },
+      "Microsoft.ML/1.7.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ML.CpuMath": "1.7.1",
+          "Microsoft.ML.DataView": "1.7.1",
+          "Newtonsoft.Json": "10.0.3",
+          "System.CodeDom": "4.4.0",
+          "System.Collections.Immutable": "1.5.0",
+          "System.Memory": "4.5.3",
+          "System.Reflection.Emit.Lightweight": "4.3.0",
+          "System.Threading.Channels": "4.7.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ML.Core.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.Data.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.KMeansClustering.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.PCA.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.StandardTrainers.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.Transforms.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.Core.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.Data.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.KMeansClustering.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.PCA.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.StandardTrainers.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.Transforms.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.dll": {}
+        },
+        "native": {
+          "runtimes/win-x86/native/LdaNative.dll": {}
+        },
+        "build": {
+          "build/netstandard2.0/_._": {}
+        }
+      },
+      "Microsoft.ML.CpuMath/1.7.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ML.CpuMath.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.CpuMath.dll": {}
+        },
+        "native": {
+          "runtimes/win-x86/nativeassets/netstandard2.0/CpuMathNative.dll": {}
+        },
+        "build": {
+          "build/netstandard2.0/_._": {}
+        }
+      },
+      "Microsoft.ML.DataView/1.7.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Collections.Immutable": "1.5.0",
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ML.DataView.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.DataView.dll": {}
+        }
+      },
+      "Microsoft.ML.TensorFlow/1.7.1": {
+        "type": "package",
+        "dependencies": {
+          "Google.Protobuf": "3.19.4",
+          "Microsoft.ML": "1.7.1",
+          "System.IO.FileSystem.AccessControl": "4.5.0",
+          "System.Security.Principal.Windows": "4.5.0",
+          "TensorFlow.NET": "0.20.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ML.TensorFlow.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.TensorFlow.dll": {}
         }
       },
       "Microsoft.Net.Native.Compiler/2.2.11-rel-30601-02": {
@@ -10938,6 +12258,18 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "NumSharp.Lite/0.1.8": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/NumSharp.Lite.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/NumSharp.Lite.dll": {}
+        }
+      },
       "PCLStorage/1.0.2": {
         "type": "package",
         "compile": {
@@ -10978,6 +12310,18 @@
         },
         "runtime": {
           "lib/wpa81/Prism.dll": {}
+        }
+      },
+      "Protobuf.Text/0.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Protobuf": "3.11.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Protobuf.Text.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Protobuf.Text.dll": {}
         }
       },
       "runtime.any.System.Collections/4.3.0": {
@@ -11487,6 +12831,15 @@
           "lib/Portable-Win81+Wpa81/Splat.dll": {}
         }
       },
+      "System.CodeDom/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.CodeDom.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.CodeDom.dll": {}
+        }
+      },
       "System.Collections/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -11502,13 +12855,13 @@
           "lib/win8/_._": {}
         }
       },
-      "System.Collections.Immutable/1.3.1": {
+      "System.Collections.Immutable/1.5.0": {
         "type": "package",
         "compile": {
-          "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.dll": {}
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
         },
         "runtime": {
-          "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.dll": {}
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
         }
       },
       "System.Diagnostics.Contracts/4.3.0": {
@@ -11591,6 +12944,15 @@
         },
         "runtime": {
           "lib/win8/_._": {}
+        }
+      },
+      "System.IO.FileSystem.AccessControl/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.IO.FileSystem.AccessControl.dll": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/netstandard2.0/System.IO.FileSystem.AccessControl.dll": {}
         }
       },
       "System.Linq/4.3.0": {
@@ -11708,7 +13070,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.0/_._": {}
+          "ref/netstandard1.0/System.Reflection.Emit.ILGeneration.dll": {}
         },
         "runtime": {
           "lib/netcore50/System.Reflection.Emit.ILGeneration.dll": {}
@@ -11723,7 +13085,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.0/_._": {}
+          "ref/netstandard1.0/System.Reflection.Emit.Lightweight.dll": {}
         },
         "runtime": {
           "lib/netcore50/System.Reflection.Emit.Lightweight.dll": {}
@@ -11810,7 +13172,7 @@
           "lib/win8/_._": {}
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+      "System.Runtime.CompilerServices.Unsafe/4.5.3": {
         "type": "package",
         "compile": {
           "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
@@ -11876,6 +13238,24 @@
           "lib/netcore50/System.Runtime.InteropServices.WindowsRuntime.dll": {}
         }
       },
+      "System.Runtime.WindowsRuntime/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/uap10.0.16299/_._": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/uap10.0.16299/_._": {}
+        }
+      },
+      "System.Security.Principal.Windows/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/uap10.0.16299/_._": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/uap10.0.16299/_._": {}
+        }
+      },
       "System.Text.Encoding/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -11904,6 +13284,18 @@
           "lib/netcore50/System.Threading.dll": {}
         }
       },
+      "System.Threading.Channels/4.7.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Threading.Channels.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Threading.Channels.dll": {}
+        }
+      },
       "System.Threading.Tasks/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -11919,10 +13311,10 @@
           "lib/win8/_._": {}
         }
       },
-      "System.Threading.Tasks.Extensions/4.5.2": {
+      "System.Threading.Tasks.Extensions/4.5.4": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+          "System.Runtime.CompilerServices.Unsafe": "4.5.3"
         },
         "compile": {
           "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
@@ -11938,6 +13330,20 @@
         },
         "runtime": {
           "lib/uap10.0.16299/_._": {}
+        }
+      },
+      "TensorFlow.NET/0.20.1": {
+        "type": "package",
+        "dependencies": {
+          "Google.Protobuf": "3.11.4",
+          "NumSharp.Lite": "0.1.8",
+          "Protobuf.Text": "0.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/TensorFlow.NET.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TensorFlow.NET.dll": {}
         }
       },
       "TensorFlowSharp/1.15.1": {
@@ -12001,6 +13407,12 @@
         },
         "build": {
           "buildTransitive/uap10.0.17763/Uno.UI.targets": {}
+        }
+      },
+      "UwpDesktop/10.0.14393.3": {
+        "type": "package",
+        "build": {
+          "build/portable-net45+uap/_._": {}
         }
       },
       "Win2D.uwp/1.20.0": {
@@ -12071,6 +13483,8 @@
           "CsvHelper": "27.2.1",
           "LiveChartsCore": "2.0.0-beta.230",
           "LiveChartsCore.SkiaSharpView.XamarinForms": "2.0.0-beta.230",
+          "Microsoft.ML.TensorFlow": "1.7.1",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.13",
           "MvvmCross": "5.1.0",
           "MvvmCross.Binding": "5.1.0",
           "MvvmCross.Core": "5.1.0",
@@ -12084,6 +13498,10 @@
           "Plugin.Share": "7.0.1",
           "Prism.Core": "6.3.0",
           "Splat": "2.0.0",
+          "System.Runtime.InteropServices.WindowsRuntime": "4.3.0",
+          "System.Runtime.WindowsRuntime": "4.7.0",
+          "TensorFlowSharp": "1.15.1",
+          "UwpDesktop": "10.0.14393.3",
           "Xam.Plugins.Settings": "3.0.1",
           "Xamarin.Essentials": "1.6.0",
           "Xamarin.Forms": "5.0.0.2291"
@@ -12200,6 +13618,19 @@
           "lib/netstandard2.0/CsvHelper.dll": {}
         }
       },
+      "Google.Protobuf/3.19.4": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Protobuf.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Protobuf.dll": {}
+        }
+      },
       "HarfBuzzSharp/2.8.2-preview.254": {
         "type": "package",
         "dependencies": {
@@ -12251,22 +13682,6 @@
           "lib/netstandard2.0/LiveChartsCore.SkiaSharpView.dll": {}
         }
       },
-      "LiveChartsCore.SkiaSharpView.UWP/2.0.0-beta.101": {
-        "type": "package",
-        "dependencies": {
-          "LiveChartsCore": "2.0.0-beta.101",
-          "LiveChartsCore.SkiaSharpView": "2.0.0-beta.101",
-          "Newtonsoft.Json": "[13.0.1]",
-          "SkiaSharp": "[2.88.0-preview.179]",
-          "SkiaSharp.Views.Uno": "[2.88.0-preview.179]"
-        },
-        "compile": {
-          "lib/uap10.0/LiveChartsCore.SkiaSharpView.UWP.dll": {}
-        },
-        "runtime": {
-          "lib/uap10.0/LiveChartsCore.SkiaSharpView.UWP.dll": {}
-        }
-      },
       "LiveChartsCore.SkiaSharpView.XamarinForms/2.0.0-beta.230": {
         "type": "package",
         "dependencies": {
@@ -12280,6 +13695,23 @@
         },
         "runtime": {
           "lib/netstandard2.0/LiveChartsCore.SkiaSharpView.XamarinForms.dll": {}
+        }
+      },
+      "Microsoft.AI.DirectML/1.8.0": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.AI.DirectML.props": {},
+          "build/Microsoft.AI.DirectML.targets": {}
+        }
+      },
+      "Microsoft.AI.MachineLearning/1.11.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AI.DirectML": "1.8.0"
+        },
+        "build": {
+          "build/uap10.0/Microsoft.AI.MachineLearning.props": {},
+          "build/uap10.0/Microsoft.AI.MachineLearning.targets": {}
         }
       },
       "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
@@ -12328,6 +13760,90 @@
         },
         "runtime": {
           "lib/netcore50/Microsoft.CSharp.dll": {}
+        }
+      },
+      "Microsoft.ML/1.7.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ML.CpuMath": "1.7.1",
+          "Microsoft.ML.DataView": "1.7.1",
+          "Newtonsoft.Json": "10.0.3",
+          "System.CodeDom": "4.4.0",
+          "System.Collections.Immutable": "1.5.0",
+          "System.Memory": "4.5.3",
+          "System.Reflection.Emit.Lightweight": "4.3.0",
+          "System.Threading.Channels": "4.7.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ML.Core.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.Data.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.KMeansClustering.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.PCA.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.StandardTrainers.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.Transforms.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.Core.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.Data.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.KMeansClustering.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.PCA.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.StandardTrainers.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.Transforms.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.dll": {}
+        },
+        "native": {
+          "runtimes/win-x86/native/LdaNative.dll": {}
+        },
+        "build": {
+          "build/netstandard2.0/_._": {}
+        }
+      },
+      "Microsoft.ML.CpuMath/1.7.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ML.CpuMath.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.CpuMath.dll": {}
+        },
+        "native": {
+          "runtimes/win-x86/nativeassets/netstandard2.0/CpuMathNative.dll": {}
+        },
+        "build": {
+          "build/netstandard2.0/_._": {}
+        }
+      },
+      "Microsoft.ML.DataView/1.7.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Collections.Immutable": "1.5.0",
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ML.DataView.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.DataView.dll": {}
+        }
+      },
+      "Microsoft.ML.TensorFlow/1.7.1": {
+        "type": "package",
+        "dependencies": {
+          "Google.Protobuf": "3.19.4",
+          "Microsoft.ML": "1.7.1",
+          "System.IO.FileSystem.AccessControl": "4.5.0",
+          "System.Security.Principal.Windows": "4.5.0",
+          "TensorFlow.NET": "0.20.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ML.TensorFlow.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.TensorFlow.dll": {}
         }
       },
       "Microsoft.Net.Native.Compiler/2.2.11-rel-30601-02": {
@@ -12674,6 +14190,18 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "NumSharp.Lite/0.1.8": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/NumSharp.Lite.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/NumSharp.Lite.dll": {}
+        }
+      },
       "PCLStorage/1.0.2": {
         "type": "package",
         "compile": {
@@ -12714,6 +14242,18 @@
         },
         "runtime": {
           "lib/wpa81/Prism.dll": {}
+        }
+      },
+      "Protobuf.Text/0.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Protobuf": "3.11.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Protobuf.Text.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Protobuf.Text.dll": {}
         }
       },
       "runtime.aot.System.Collections/4.3.0": {
@@ -13263,6 +14803,15 @@
           "lib/Portable-Win81+Wpa81/Splat.dll": {}
         }
       },
+      "System.CodeDom/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.CodeDom.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.CodeDom.dll": {}
+        }
+      },
       "System.Collections/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -13278,13 +14827,13 @@
           "lib/win8/_._": {}
         }
       },
-      "System.Collections.Immutable/1.3.1": {
+      "System.Collections.Immutable/1.5.0": {
         "type": "package",
         "compile": {
-          "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.dll": {}
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
         },
         "runtime": {
-          "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.dll": {}
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
         }
       },
       "System.Diagnostics.Contracts/4.3.0": {
@@ -13367,6 +14916,15 @@
         },
         "runtime": {
           "lib/win8/_._": {}
+        }
+      },
+      "System.IO.FileSystem.AccessControl/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.IO.FileSystem.AccessControl.dll": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/netstandard2.0/System.IO.FileSystem.AccessControl.dll": {}
         }
       },
       "System.Linq/4.3.0": {
@@ -13484,7 +15042,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.0/_._": {}
+          "ref/netstandard1.0/System.Reflection.Emit.ILGeneration.dll": {}
         },
         "runtime": {
           "runtimes/aot/lib/netcore50/_._": {}
@@ -13499,7 +15057,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.0/_._": {}
+          "ref/netstandard1.0/System.Reflection.Emit.Lightweight.dll": {}
         },
         "runtime": {
           "runtimes/aot/lib/netcore50/_._": {}
@@ -13586,7 +15144,7 @@
           "lib/win8/_._": {}
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+      "System.Runtime.CompilerServices.Unsafe/4.5.3": {
         "type": "package",
         "compile": {
           "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
@@ -13652,6 +15210,24 @@
           "runtimes/aot/lib/netcore50/System.Runtime.InteropServices.WindowsRuntime.dll": {}
         }
       },
+      "System.Runtime.WindowsRuntime/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/uap10.0.16299/_._": {}
+        },
+        "runtime": {
+          "runtimes/win-aot/lib/uap10.0.16299/_._": {}
+        }
+      },
+      "System.Security.Principal.Windows/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/uap10.0.16299/_._": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/uap10.0.16299/_._": {}
+        }
+      },
       "System.Text.Encoding/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -13696,6 +15272,18 @@
           "runtimes/aot/lib/netcore50/System.Threading.dll": {}
         }
       },
+      "System.Threading.Channels/4.7.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Threading.Channels.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Threading.Channels.dll": {}
+        }
+      },
       "System.Threading.Tasks/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -13711,10 +15299,10 @@
           "lib/win8/_._": {}
         }
       },
-      "System.Threading.Tasks.Extensions/4.5.2": {
+      "System.Threading.Tasks.Extensions/4.5.4": {
         "type": "package",
         "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+          "System.Runtime.CompilerServices.Unsafe": "4.5.3"
         },
         "compile": {
           "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
@@ -13730,6 +15318,20 @@
         },
         "runtime": {
           "lib/uap10.0.16299/_._": {}
+        }
+      },
+      "TensorFlow.NET/0.20.1": {
+        "type": "package",
+        "dependencies": {
+          "Google.Protobuf": "3.11.4",
+          "NumSharp.Lite": "0.1.8",
+          "Protobuf.Text": "0.4.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/TensorFlow.NET.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/TensorFlow.NET.dll": {}
         }
       },
       "TensorFlowSharp/1.15.1": {
@@ -13793,6 +15395,12 @@
         },
         "build": {
           "buildTransitive/uap10.0.17763/Uno.UI.targets": {}
+        }
+      },
+      "UwpDesktop/10.0.14393.3": {
+        "type": "package",
+        "build": {
+          "build/portable-net45+uap/_._": {}
         }
       },
       "Win2D.uwp/1.20.0": {
@@ -13863,6 +15471,8 @@
           "CsvHelper": "27.2.1",
           "LiveChartsCore": "2.0.0-beta.230",
           "LiveChartsCore.SkiaSharpView.XamarinForms": "2.0.0-beta.230",
+          "Microsoft.ML.TensorFlow": "1.7.1",
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.13",
           "MvvmCross": "5.1.0",
           "MvvmCross.Binding": "5.1.0",
           "MvvmCross.Core": "5.1.0",
@@ -13876,6 +15486,10 @@
           "Plugin.Share": "7.0.1",
           "Prism.Core": "6.3.0",
           "Splat": "2.0.0",
+          "System.Runtime.InteropServices.WindowsRuntime": "4.3.0",
+          "System.Runtime.WindowsRuntime": "4.7.0",
+          "TensorFlowSharp": "1.15.1",
+          "UwpDesktop": "10.0.14393.3",
           "Xam.Plugins.Settings": "3.0.1",
           "Xamarin.Essentials": "1.6.0",
           "Xamarin.Forms": "5.0.0.2291"
@@ -14055,6 +15669,29 @@
         "lib/netstandard2.1/CsvHelper.xml"
       ]
     },
+    "Google.Protobuf/3.19.4": {
+      "sha512": "fd07/ykL4O4FhqrZIELm5lmiyOHfdPg9+o+hWr6tcfRdS7tHXnImg/2wtogLzlW2eEmr0J7j6ZrZvaWOLiJbxQ==",
+      "type": "package",
+      "path": "google.protobuf/3.19.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "google.protobuf.3.19.4.nupkg.sha512",
+        "google.protobuf.nuspec",
+        "lib/net45/Google.Protobuf.dll",
+        "lib/net45/Google.Protobuf.pdb",
+        "lib/net45/Google.Protobuf.xml",
+        "lib/net5.0/Google.Protobuf.dll",
+        "lib/net5.0/Google.Protobuf.pdb",
+        "lib/net5.0/Google.Protobuf.xml",
+        "lib/netstandard1.1/Google.Protobuf.dll",
+        "lib/netstandard1.1/Google.Protobuf.pdb",
+        "lib/netstandard1.1/Google.Protobuf.xml",
+        "lib/netstandard2.0/Google.Protobuf.dll",
+        "lib/netstandard2.0/Google.Protobuf.pdb",
+        "lib/netstandard2.0/Google.Protobuf.xml"
+      ]
+    },
     "HarfBuzzSharp/2.8.2-preview.254": {
       "sha512": "7wicsIjzGyEYdK3Rbofdinfs6WVDMorWbnJZugAjgS0W5yVAdWkC1p3oMgA8CT8xRPcSyLe3JYWs7/Mg/X5FBg==",
       "type": "package",
@@ -14182,29 +15819,6 @@
         "livechartscore.skiasharpview.nuspec"
       ]
     },
-    "LiveChartsCore.SkiaSharpView.UWP/2.0.0-beta.101": {
-      "sha512": "ugnHDopcq2r3SpXNkxNmm536H9HQQYck5xEzF+s9L/E+KjxbgluJZmyEiecUdw92q4XMe5nsRWCaNGmCu1+3YQ==",
-      "type": "package",
-      "path": "livechartscore.skiasharpview.uwp/2.0.0-beta.101",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/uap10.0/LiveChartsCore.SkiaSharpView.UWP.XML",
-        "lib/uap10.0/LiveChartsCore.SkiaSharpView.UWP.dll",
-        "lib/uap10.0/LiveChartsCore.SkiaSharpView.UWP.pdb",
-        "lib/uap10.0/LiveChartsCore.SkiaSharpView.UWP.pri",
-        "lib/uap10.0/LiveChartsCore.SkiaSharpView.UWP/CartesianChart.xaml",
-        "lib/uap10.0/LiveChartsCore.SkiaSharpView.UWP/DefaultLegend.xaml",
-        "lib/uap10.0/LiveChartsCore.SkiaSharpView.UWP/DefaultTooltip.xaml",
-        "lib/uap10.0/LiveChartsCore.SkiaSharpView.UWP/GeoMap.xaml",
-        "lib/uap10.0/LiveChartsCore.SkiaSharpView.UWP/LiveChartsCore.SkiaSharpView.UWP.xr.xml",
-        "lib/uap10.0/LiveChartsCore.SkiaSharpView.UWP/MotionCanvas.xaml",
-        "lib/uap10.0/LiveChartsCore.SkiaSharpView.UWP/PieChart.xaml",
-        "lib/uap10.0/LiveChartsCore.SkiaSharpView.UWP/PolarChart.xaml",
-        "livechartscore.skiasharpview.uwp.2.0.0-beta.101.nupkg.sha512",
-        "livechartscore.skiasharpview.uwp.nuspec"
-      ]
-    },
     "LiveChartsCore.SkiaSharpView.XamarinForms/2.0.0-beta.230": {
       "sha512": "/jBfam5tvnqpoAldPBG5ugbKf+5Y/8SmrV0W0ETvvgTrrru94EcL55Yk28T4Mej6XUX3SP5eKQKrc/UCfS4hvA==",
       "type": "package",
@@ -14217,6 +15831,129 @@
         "lib/netstandard2.0/LiveChartsCore.SkiaSharpView.XamarinForms.xml",
         "livechartscore.skiasharpview.xamarinforms.2.0.0-beta.230.nupkg.sha512",
         "livechartscore.skiasharpview.xamarinforms.nuspec"
+      ]
+    },
+    "Microsoft.AI.DirectML/1.8.0": {
+      "sha512": "r39+/ro8xLawydFl4LroRJ8JuzWDUwNknXKFaiB9eJ1FKLM2riHuCYg25Pdm9+AqX7OAkF4997F1zf14psCrIA==",
+      "type": "package",
+      "path": "microsoft.ai.directml/1.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE-CODE.txt",
+        "LICENSE.txt",
+        "README.md",
+        "ThirdPartyNotices.txt",
+        "bin/arm-win/DirectML.Debug.dll",
+        "bin/arm-win/DirectML.Debug.pdb",
+        "bin/arm-win/DirectML.dll",
+        "bin/arm-win/DirectML.lib",
+        "bin/arm-win/DirectML.pdb",
+        "bin/arm64-win/DirectML.Debug.dll",
+        "bin/arm64-win/DirectML.Debug.pdb",
+        "bin/arm64-win/DirectML.dll",
+        "bin/arm64-win/DirectML.lib",
+        "bin/arm64-win/DirectML.pdb",
+        "bin/x64-linux/libdirectml.so",
+        "bin/x64-win/DirectML.Debug.dll",
+        "bin/x64-win/DirectML.Debug.pdb",
+        "bin/x64-win/DirectML.dll",
+        "bin/x64-win/DirectML.lib",
+        "bin/x64-win/DirectML.pdb",
+        "bin/x86-win/DirectML.Debug.dll",
+        "bin/x86-win/DirectML.Debug.pdb",
+        "bin/x86-win/DirectML.dll",
+        "bin/x86-win/DirectML.lib",
+        "bin/x86-win/DirectML.pdb",
+        "build/Microsoft.AI.DirectML.Rules.Project.xml",
+        "build/Microsoft.AI.DirectML.props",
+        "build/Microsoft.AI.DirectML.targets",
+        "include/DirectML.h",
+        "include/DirectMLConfig.h",
+        "microsoft.ai.directml.1.8.0.nupkg.sha512",
+        "microsoft.ai.directml.nuspec"
+      ]
+    },
+    "Microsoft.AI.MachineLearning/1.11.0": {
+      "sha512": "97KnnqHkS1Z81HG3NAlpy9r+81sRfHok9ngT+A4JbojCWsz6jo0yVydRRPlXy32xDPnERChqI7QT0S/rh+DBXA==",
+      "type": "package",
+      "path": "microsoft.ai.machinelearning/1.11.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "ORT_icon_for_light_bg.png",
+        "Privacy.md",
+        "ThirdPartyNotices.txt",
+        "build/native/Microsoft.AI.MachineLearning.Rules.Project.xml",
+        "build/native/Microsoft.AI.MachineLearning.props",
+        "build/native/Microsoft.AI.MachineLearning.targets",
+        "build/native/include/MLOperatorAuthor.h",
+        "build/native/include/Microsoft.AI.MachineLearning.Native.h",
+        "build/native/include/abi/Microsoft.AI.MachineLearning.h",
+        "build/native/include/abi/dualapipartitionattribute.h",
+        "build/native/include/cpu_provider_factory.h",
+        "build/native/include/dml_provider_factory.h",
+        "build/native/include/onnxruntime_c_api.h",
+        "build/native/include/onnxruntime_cxx_api.h",
+        "build/native/include/onnxruntime_cxx_inline.h",
+        "build/native/include/onnxruntime_run_options_config_keys.h",
+        "build/native/include/onnxruntime_session_options_config_keys.h",
+        "build/native/include/provider_options.h",
+        "build/net5.0/Microsoft.AI.MachineLearning.props",
+        "build/net5.0/Microsoft.AI.MachineLearning.targets",
+        "build/uap10.0/Microsoft.AI.MachineLearning.Rules.Project.xml",
+        "build/uap10.0/Microsoft.AI.MachineLearning.props",
+        "build/uap10.0/Microsoft.AI.MachineLearning.targets",
+        "build/uap10.0/include/MLOperatorAuthor.h",
+        "build/uap10.0/include/Microsoft.AI.MachineLearning.Native.h",
+        "build/uap10.0/include/abi/Microsoft.AI.MachineLearning.h",
+        "build/uap10.0/include/abi/dualapipartitionattribute.h",
+        "build/uap10.0/include/cpu_provider_factory.h",
+        "build/uap10.0/include/dml_provider_factory.h",
+        "build/uap10.0/include/onnxruntime_c_api.h",
+        "build/uap10.0/include/onnxruntime_cxx_api.h",
+        "build/uap10.0/include/onnxruntime_cxx_inline.h",
+        "build/uap10.0/include/onnxruntime_run_options_config_keys.h",
+        "build/uap10.0/include/onnxruntime_session_options_config_keys.h",
+        "build/uap10.0/include/provider_options.h",
+        "lib/net5.0/Microsoft.AI.MachineLearning.Interop.dll",
+        "microsoft.ai.machinelearning.1.11.0.nupkg.sha512",
+        "microsoft.ai.machinelearning.nuspec",
+        "runtimes/win-arm/_native/microsoft.ai.machinelearning.dll",
+        "runtimes/win-arm/_native/microsoft.ai.machinelearning.lib",
+        "runtimes/win-arm/_native/onnxruntime.dll",
+        "runtimes/win-arm/_native/onnxruntime.lib",
+        "runtimes/win-arm/_native/static/microsoft.ai.machinelearning.dll",
+        "runtimes/win-arm/_native/static/microsoft.ai.machinelearning.lib",
+        "runtimes/win-arm/_native/static/onnxruntime.dll",
+        "runtimes/win-arm/_native/static/onnxruntime.lib",
+        "runtimes/win-arm64/_native/microsoft.ai.machinelearning.dll",
+        "runtimes/win-arm64/_native/microsoft.ai.machinelearning.lib",
+        "runtimes/win-arm64/_native/onnxruntime.dll",
+        "runtimes/win-arm64/_native/onnxruntime.lib",
+        "runtimes/win-arm64/_native/static/microsoft.ai.machinelearning.dll",
+        "runtimes/win-arm64/_native/static/microsoft.ai.machinelearning.lib",
+        "runtimes/win-arm64/_native/static/onnxruntime.dll",
+        "runtimes/win-arm64/_native/static/onnxruntime.lib",
+        "runtimes/win-x64/_native/Microsoft.AI.MachineLearning.dll",
+        "runtimes/win-x64/_native/Microsoft.AI.MachineLearning.lib",
+        "runtimes/win-x64/_native/onnxruntime.dll",
+        "runtimes/win-x64/_native/onnxruntime.lib",
+        "runtimes/win-x64/_native/static/microsoft.ai.machinelearning.dll",
+        "runtimes/win-x64/_native/static/microsoft.ai.machinelearning.lib",
+        "runtimes/win-x64/_native/static/onnxruntime.dll",
+        "runtimes/win-x64/_native/static/onnxruntime.lib",
+        "runtimes/win-x86/_native/microsoft.ai.machinelearning.dll",
+        "runtimes/win-x86/_native/microsoft.ai.machinelearning.lib",
+        "runtimes/win-x86/_native/onnxruntime.dll",
+        "runtimes/win-x86/_native/onnxruntime.lib",
+        "runtimes/win-x86/_native/static/microsoft.ai.machinelearning.dll",
+        "runtimes/win-x86/_native/static/microsoft.ai.machinelearning.lib",
+        "runtimes/win-x86/_native/static/onnxruntime.dll",
+        "runtimes/win-x86/_native/static/onnxruntime.lib",
+        "winmds/Microsoft.AI.MachineLearning.Experimental.winmd",
+        "winmds/Microsoft.AI.MachineLearning.winmd"
       ]
     },
     "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
@@ -14329,8 +16066,107 @@
         "ref/xamarinwatchos10/_._"
       ]
     },
+    "Microsoft.ML/1.7.1": {
+      "sha512": "t33nUR6A8VwYMInbsEM5eSGJaHWdScikAX7mER0Yh0H4e85W7FRw0KBlCixHHuivSF2y7ez+2IGpfb2PUgVVow==",
+      "type": "package",
+      "path": "microsoft.ml/1.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "THIRD-PARTY-NOTICES.TXT",
+        "build/netstandard2.0/Microsoft.ML.props",
+        "build/netstandard2.0/Microsoft.ML.targets",
+        "lib/netstandard2.0/Microsoft.ML.Core.dll",
+        "lib/netstandard2.0/Microsoft.ML.Core.xml",
+        "lib/netstandard2.0/Microsoft.ML.Data.dll",
+        "lib/netstandard2.0/Microsoft.ML.Data.xml",
+        "lib/netstandard2.0/Microsoft.ML.KMeansClustering.dll",
+        "lib/netstandard2.0/Microsoft.ML.KMeansClustering.xml",
+        "lib/netstandard2.0/Microsoft.ML.PCA.dll",
+        "lib/netstandard2.0/Microsoft.ML.PCA.xml",
+        "lib/netstandard2.0/Microsoft.ML.StandardTrainers.dll",
+        "lib/netstandard2.0/Microsoft.ML.StandardTrainers.xml",
+        "lib/netstandard2.0/Microsoft.ML.Transforms.dll",
+        "lib/netstandard2.0/Microsoft.ML.Transforms.xml",
+        "lib/netstandard2.0/Microsoft.ML.dll",
+        "lib/netstandard2.0/Microsoft.ML.xml",
+        "microsoft.ml.1.7.1.nupkg.sha512",
+        "microsoft.ml.nuspec",
+        "mlnetlogo.png",
+        "runtimes/linux-arm/native/libLdaNative.so",
+        "runtimes/linux-arm64/native/libLdaNative.so",
+        "runtimes/linux-x64/native/libLdaNative.so",
+        "runtimes/osx-arm64/native/libLdaNative.dylib",
+        "runtimes/osx-x64/native/libLdaNative.dylib",
+        "runtimes/win-x64/native/LdaNative.dll",
+        "runtimes/win-x86/native/LdaNative.dll"
+      ]
+    },
+    "Microsoft.ML.CpuMath/1.7.1": {
+      "sha512": "kkUm/o1pBFAtRI+5LRwtJpvXhf8l8YyeQ8OYZNkTGrn5exn5C3YrwrRRX3fDz7yPPKA38XY4EPy2WVltArO0aw==",
+      "type": "package",
+      "path": "microsoft.ml.cpumath/1.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "THIRD-PARTY-NOTICES.TXT",
+        "build/netstandard2.0/Microsoft.ML.CpuMath.props",
+        "lib/netcoreapp3.1/Microsoft.ML.CpuMath.dll",
+        "lib/netcoreapp3.1/Microsoft.ML.CpuMath.xml",
+        "lib/netstandard2.0/Microsoft.ML.CpuMath.dll",
+        "lib/netstandard2.0/Microsoft.ML.CpuMath.xml",
+        "microsoft.ml.cpumath.1.7.1.nupkg.sha512",
+        "microsoft.ml.cpumath.nuspec",
+        "mlnetlogo.png",
+        "runtimes/linux-arm/nativeassets/netcoreapp3.1/_._",
+        "runtimes/linux-arm64/nativeassets/netcoreapp3.1/_._",
+        "runtimes/linux-x64/nativeassets/netcoreapp3.1/_._",
+        "runtimes/linux-x64/nativeassets/netstandard2.0/libCpuMathNative.so",
+        "runtimes/osx-arm64/nativeassets/netcoreapp3.1/_._",
+        "runtimes/osx-x64/nativeassets/netcoreapp3.1/_._",
+        "runtimes/osx-x64/nativeassets/netstandard2.0/libCpuMathNative.dylib",
+        "runtimes/win-x64/nativeassets/netcoreapp3.1/_._",
+        "runtimes/win-x64/nativeassets/netstandard2.0/CpuMathNative.dll",
+        "runtimes/win-x86/nativeassets/netcoreapp3.1/_._",
+        "runtimes/win-x86/nativeassets/netstandard2.0/CpuMathNative.dll"
+      ]
+    },
+    "Microsoft.ML.DataView/1.7.1": {
+      "sha512": "j7BwSzNJUjxI8aSkzv4yCi0/kem1mYFVWiuLQcG0vcMEs3BNqvkunt+qdRmUMYuPY7/9AK22a70laAxjcJ2GGA==",
+      "type": "package",
+      "path": "microsoft.ml.dataview/1.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard2.0/Microsoft.ML.DataView.dll",
+        "lib/netstandard2.0/Microsoft.ML.DataView.xml",
+        "microsoft.ml.dataview.1.7.1.nupkg.sha512",
+        "microsoft.ml.dataview.nuspec",
+        "mlnetlogo.png"
+      ]
+    },
+    "Microsoft.ML.TensorFlow/1.7.1": {
+      "sha512": "b0wOkjf2kfpLnjHLFfrghyitYERu9Kmd60+PKjLD8lq0Pp7Pg9232h1UPk8HcmbP9QVprg+UXOlGxR9B0O90YQ==",
+      "type": "package",
+      "path": "microsoft.ml.tensorflow/1.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard2.0/Microsoft.ML.TensorFlow.dll",
+        "lib/netstandard2.0/Microsoft.ML.TensorFlow.xml",
+        "microsoft.ml.tensorflow.1.7.1.nupkg.sha512",
+        "microsoft.ml.tensorflow.nuspec",
+        "mlnetlogo.png"
+      ]
+    },
     "Microsoft.Net.Native.Compiler/2.2.11-rel-30601-02": {
-      "sha512": "CSL2oqpWB4cQ32W6ELPqZDuKGT4kNKSfw7NFAZJjK1eJk+LwkZwb7hiib0IxmrI/v4hpWTx4yk9Npki6Fjvv1w==",
+      "sha512": "8Gh7R/CN5FC2eHJkZq0yEcuXiap97TyT58Lvo1f806QD44u9J9LFagljj+Sznl0wg4Nx+lZq/qvuYrArYiFGXg==",
       "type": "package",
       "path": "microsoft.net.native.compiler/2.2.11-rel-30601-02",
       "hasTools": true,
@@ -14384,7 +16220,7 @@
       ]
     },
     "Microsoft.Net.UWPCoreRuntimeSdk/2.2.13": {
-      "sha512": "VAuSVkrhFRg3YdZlUMVYP2DXg1EEjpg8SP7zUa1ZDblRRwCYA8aV032RNDyR5ORMJMzmvK6sH6TB5VeZt2u6TQ==",
+      "sha512": "hSf15sjlRmQlkX1ty1i3WB2YkPgo8S+WbYcImRQIS4c69+AtGQ9W40NaZHM8IZJnil9Wr1RsmkzIhjT4LrrjwQ==",
       "type": "package",
       "path": "microsoft.net.uwpcoreruntimesdk/2.2.13",
       "hasTools": true,
@@ -14403,7 +16239,7 @@
       ]
     },
     "Microsoft.NETCore.Platforms/2.1.0": {
-      "sha512": "GmkKfoyerqmsHMn7OZj0AKpcBabD+GaafqphvX2Mw406IwiJRy1pKcKqdCfKJfYmkRyJ6+e+RaUylgdJoDa1jQ==",
+      "sha512": "ok+RPAtESz/9MUXeIEz6Lv5XAGQsaNmEYXMsgVALj4D7kqC8gveKWXWXbufLySR2fWrwZf8smyN5RmHu0e4BHA==",
       "type": "package",
       "path": "microsoft.netcore.platforms/2.1.0",
       "files": [
@@ -14435,7 +16271,7 @@
       ]
     },
     "Microsoft.NETCore.UniversalWindowsPlatform/6.2.13": {
-      "sha512": "2CrUxOSYSrDPANhySZtBEeGXPlSxDZXASUZfRnUcP3l76hpFpWKfu3mERR/wEYS1BRM+aa3bDgPg4NNs9x13cQ==",
+      "sha512": "YtvnIYTot2rclwvqNxDCIveKbMXzIFgihDK80YS6MF0gC2iYFzr9PBBWegP3nc80NmQuR5xcMhlHX86O/v7oZw==",
       "type": "package",
       "path": "microsoft.netcore.universalwindowsplatform/6.2.13",
       "files": [
@@ -15175,6 +17011,20 @@
         "packageIcon.png"
       ]
     },
+    "NumSharp.Lite/0.1.8": {
+      "sha512": "8J74SVRjrsid+26pCkRo2A1e0tWIv1R/Qvin7zDVD3Pm1C3lK0XEQXNJ7nk3Qb1jwfNYCRaXBvFJZrj0X7ocTA==",
+      "type": "package",
+      "path": "numsharp.lite/0.1.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/netstandard2.0/NumSharp.Lite.dll",
+        "lib/netstandard2.0/NumSharp.Lite.pdb",
+        "numsharp.lite.0.1.8.nupkg.sha512",
+        "numsharp.lite.nuspec"
+      ]
+    },
     "PCLStorage/1.0.2": {
       "sha512": "9If+1ZFCk3QaT/asfiL+J9FMnx2CTMrLCU8tDMUOI/aCGWGWl9vJ1/KcMkjf92op23ZknenvYJZBLDAqE3sFlg==",
       "type": "package",
@@ -15320,6 +17170,18 @@
         "lib/wpa81/Prism.xml",
         "prism.core.6.3.0.nupkg.sha512",
         "prism.core.nuspec"
+      ]
+    },
+    "Protobuf.Text/0.4.0": {
+      "sha512": "fg7139wyR33UUbqJjRR8LppXORUv6FyrX1ngazHyadVmjnRi0UhwReHKbpi5/54h+PcGyue/DoV3k3IKXKhO/A==",
+      "type": "package",
+      "path": "protobuf.text/0.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Protobuf.Text.dll",
+        "protobuf.text.0.4.0.nupkg.sha512",
+        "protobuf.text.nuspec"
       ]
     },
     "runtime.any.System.Collections/4.3.0": {
@@ -16070,7 +17932,7 @@
       ]
     },
     "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.11-rel-30601-02": {
-      "sha512": "acXQ096PcghMPtVn7gtQd/1C5Q9phqD/IYpBeMJabzTLC6+TISLvXowLDZg4Xeja/Z+OWNccYjuofavVlgDqEw==",
+      "sha512": "sbfRiIa+wkFW2IKwg30qpp3j+W4/JZii4K0ko3/0Ybqc/IEnYO0TrHwiU8HKDSu30IKYUZOjlAi7L6vQiYGpHg==",
       "type": "package",
       "path": "runtime.win10-arm.microsoft.net.native.compiler/2.2.11-rel-30601-02",
       "hasTools": true,
@@ -16369,7 +18231,7 @@
       ]
     },
     "runtime.win10-arm.Microsoft.Net.Native.SharedLibrary/2.2.8-rel-30601-02": {
-      "sha512": "f4OQx2bdMLn0WVFLlo78BELWbC83fy66oSDVdq1s7WZJjuhDT72Tc+Jk4AXRQYCvF4qDFP1YM2qKpG//C3dDDg==",
+      "sha512": "gEMZbttShuWWHITe2tJynj9VUm8Wn9ZsPO3wXjbSDKXmgNENitHMaVj0vtvM/hpRqoFrp0JJzKTNHZ/Q1jrYNg==",
       "type": "package",
       "path": "runtime.win10-arm.microsoft.net.native.sharedlibrary/2.2.8-rel-30601-02",
       "hasTools": true,
@@ -16749,7 +18611,7 @@
       ]
     },
     "runtime.win10-arm.Microsoft.Net.UWPCoreRuntimeSdk/2.2.13": {
-      "sha512": "+89RsG/qiYOsI+SteXSIwrPV3wVsKeXBvUweo0bNvrZnzWiT0XB3km916ccJ8HE8NcrN18vcOHeGi0CKj4//BA==",
+      "sha512": "sOl/r5ySp7Mv+EWb0ZX2N/j/A7Y1AMkNZ0oRzjvTmIShMqUODR6QnBzGG/bmsSZQ3llQgwDa0MiAHVjXHKOHUA==",
       "type": "package",
       "path": "runtime.win10-arm.microsoft.net.uwpcoreruntimesdk/2.2.13",
       "hasTools": true,
@@ -17135,7 +18997,7 @@
       ]
     },
     "runtime.win10-arm64.Microsoft.Net.Native.Compiler/2.2.11-rel-30601-02": {
-      "sha512": "XVogy0xH4N08OZmx7JZE8HdpUz7jI4FI4zmp31eeNgKszIGc0+scoWL1msSfg2GuFPg6BTdER4Xf7TVkHMGncw==",
+      "sha512": "Ujs/ites15TOfNS3cdkVf9y5sxZEDdDRhgig6H4sa2Ba3vESQstm96xPisy6siz0s3z0F1Sxb8IQHe5LXECyQw==",
       "type": "package",
       "path": "runtime.win10-arm64.microsoft.net.native.compiler/2.2.11-rel-30601-02",
       "hasTools": true,
@@ -17313,7 +19175,7 @@
       ]
     },
     "runtime.win10-arm64.Microsoft.Net.Native.SharedLibrary/2.2.8-rel-30601-02": {
-      "sha512": "+JBFpA1GYAAj66Fidf9gxB4hulRcrm+wHAOglUU03JNZAmkW8RcraGcxjNs3xvRphiAiE/SELQMLs1J3FkhVpg==",
+      "sha512": "vq3cCwA1+C0g0nq3xJaLQmdWKw2wybnDTB9kn2YM4gX7ftGegfGNOOlVfw1acG2Rwb2ii8LLPDlTDMxeZwcTsA==",
       "type": "package",
       "path": "runtime.win10-arm64.microsoft.net.native.sharedlibrary/2.2.8-rel-30601-02",
       "hasTools": true,
@@ -17878,7 +19740,7 @@
       ]
     },
     "runtime.win10-x64.Microsoft.Net.Native.Compiler/2.2.11-rel-30601-02": {
-      "sha512": "tSG0yZavxMu2jwVGLQ9swhgCbet9OYdey/r2PC9+EDs23ZdokMR40wvunVTIKaug99tKb1R4z41rTMf0wuwwdQ==",
+      "sha512": "0SDO08wd/Q/Vnhv2m0Cix7RI2oLrmroHb2+30iqXk1xwyCIeLlMW3Dc2X3+c0d2IG82y+4Yr/6BindgPUcMMWQ==",
       "type": "package",
       "path": "runtime.win10-x64.microsoft.net.native.compiler/2.2.11-rel-30601-02",
       "hasTools": true,
@@ -18171,7 +20033,7 @@
       ]
     },
     "runtime.win10-x64.Microsoft.Net.Native.SharedLibrary/2.2.8-rel-30601-02": {
-      "sha512": "2ihCjdqatqDGT2TF5I1krKNiOf5LaCYfDEGtXtawnLG0BoSOBTxCfLU7ksVmyffQpFIyZLrJcaCgO+NdxROopQ==",
+      "sha512": "6grSKbRCt3JJSfHY5jQA6uB02YukM+f3xdC0024S30gZLJMhsIA5BtEXlInh/5kR/WwdQrDWwEIh2TznqOmp+A==",
       "type": "package",
       "path": "runtime.win10-x64.microsoft.net.native.sharedlibrary/2.2.8-rel-30601-02",
       "hasTools": true,
@@ -18551,7 +20413,7 @@
       ]
     },
     "runtime.win10-x64.Microsoft.Net.UWPCoreRuntimeSdk/2.2.13": {
-      "sha512": "NbLdfB0C1+tIGbD+pWEUoCgvp4dLdPfl+BoT1GiP9nZokufF5+ymXO1zYXvGFtnaLpDLezPCDZuflwU9O32f0g==",
+      "sha512": "yLxeLxdwz6oZ91OtKCyNiHpk+vE7Gj7kSWFtz1Iw7dL5GCMsAF+Cbksy8IlAi3rkti2GzFb3y0lNLl/qW136sg==",
       "type": "package",
       "path": "runtime.win10-x64.microsoft.net.uwpcoreruntimesdk/2.2.13",
       "hasTools": true,
@@ -18937,7 +20799,7 @@
       ]
     },
     "runtime.win10-x86.Microsoft.Net.Native.Compiler/2.2.11-rel-30601-02": {
-      "sha512": "X8XI1ceCCiI2tAEH/HhWjRk4/cvs+VryZnhWqdEI8FtxCyfR+MD8KjLmLPNUou9i05Az9J8J7tMP9tEEWu/Faw==",
+      "sha512": "BkipJxx/xO+UNkBjHMl4VKnL8QPVusMAtguJzS0Cxix7HLZ06/45gNDedDaLmTMd8Rnesv674HUZDdeuDhMZ8Q==",
       "type": "package",
       "path": "runtime.win10-x86.microsoft.net.native.compiler/2.2.11-rel-30601-02",
       "hasTools": true,
@@ -19230,7 +21092,7 @@
       ]
     },
     "runtime.win10-x86.Microsoft.Net.Native.SharedLibrary/2.2.8-rel-30601-02": {
-      "sha512": "11CBdoWSpHwniFYiWccenWB2XUSPmGqbSoNW4bg4gsIJIg9t+H32tbcumYMZdwPBJKA3A1uc1+odNsJvNqDTyg==",
+      "sha512": "AHm49HQodrFrp4iN3ckjmP1Q5TJLU/Lq3zO66Gbp4EW+XuMxyPrEsqW0DRE7Hrd0I9uvBAGJM2S5hDEvgsEP2w==",
       "type": "package",
       "path": "runtime.win10-x86.microsoft.net.native.sharedlibrary/2.2.8-rel-30601-02",
       "hasTools": true,
@@ -19610,7 +21472,7 @@
       ]
     },
     "runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk/2.2.13": {
-      "sha512": "gWVrT/BG5u6CWdpew1WKQT2ON5H7aWsMIhjTJnLKUUq0g7j8AHIHFEtEZwbFwkC1ZtBcFqW0RQEbDELTvRw2dQ==",
+      "sha512": "p2f9jwmy5NrUkTj/hESaXV/53aU57KSjkAFFqQarNJWuYKe2pGUfxQ7uasOOirKblHWaiyma+WWqN8CsGAZckQ==",
       "type": "package",
       "path": "runtime.win10-x86.microsoft.net.uwpcoreruntimesdk/2.2.13",
       "hasTools": true,
@@ -20113,6 +21975,27 @@
         "src/TypeForwardedSystemDrawing.cs"
       ]
     },
+    "System.CodeDom/4.4.0": {
+      "sha512": "2sCCb7doXEwtYAbqzbF/8UAeDRMNmPaQbU2q50Psg1J9KzumyVVCgKQY8s53WIPTufNT0DpSe9QRvVjOzfDWBA==",
+      "type": "package",
+      "path": "system.codedom/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.CodeDom.dll",
+        "lib/netstandard2.0/System.CodeDom.dll",
+        "ref/net461/System.CodeDom.dll",
+        "ref/net461/System.CodeDom.xml",
+        "ref/netstandard2.0/System.CodeDom.dll",
+        "ref/netstandard2.0/System.CodeDom.xml",
+        "system.codedom.4.4.0.nupkg.sha512",
+        "system.codedom.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "System.Collections/4.3.0": {
       "sha512": "3Dcj85/TBdVpL5Zr+gEEBUuFe2icOnLalmEh9hfck1PTYbbyWuZgh4fmm2ysCLTrqLQw6t3TgTyJ+VLp+Qb+Lw==",
       "type": "package",
@@ -20181,21 +22064,27 @@
         "system.collections.nuspec"
       ]
     },
-    "System.Collections.Immutable/1.3.1": {
-      "sha512": "n+AGX7zmiZumW9aggOkXaHzUeAS3EfeTErnkKCusyONUozbTv+kMb8VE36m+ldV6kF9g57G2c641KCdgH9E0pg==",
+    "System.Collections.Immutable/1.5.0": {
+      "sha512": "EXKiDFsChZW0RjrZ4FYHu9aW6+P4MCgEDCklsVseRfhoO0F+dXeMSsMRAlVXIo06kGJ/zv+2w1a2uc2+kxxSaQ==",
       "type": "package",
-      "path": "system.collections.immutable/1.3.1",
+      "path": "system.collections.immutable/1.5.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "ThirdPartyNotices.txt",
-        "dotnet_library_license.txt",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
         "lib/netstandard1.0/System.Collections.Immutable.dll",
         "lib/netstandard1.0/System.Collections.Immutable.xml",
+        "lib/netstandard1.3/System.Collections.Immutable.dll",
+        "lib/netstandard1.3/System.Collections.Immutable.xml",
+        "lib/netstandard2.0/System.Collections.Immutable.dll",
+        "lib/netstandard2.0/System.Collections.Immutable.xml",
         "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.dll",
         "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.xml",
-        "system.collections.immutable.1.3.1.nupkg.sha512",
-        "system.collections.immutable.nuspec"
+        "system.collections.immutable.1.5.0.nupkg.sha512",
+        "system.collections.immutable.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "System.Diagnostics.Contracts/4.3.0": {
@@ -20544,6 +22433,45 @@
         "ref/xamarinwatchos10/_._",
         "system.io.4.3.0.nupkg.sha512",
         "system.io.nuspec"
+      ]
+    },
+    "System.IO.FileSystem.AccessControl/4.5.0": {
+      "sha512": "TYe6xstoqT5MlTly0OtPU6u9zWuNScLVMEx6sTCjjx+Hqdp0wCXoG6fnzMpTPMQACXQzi9pd2N5Tloow+5jQdQ==",
+      "type": "package",
+      "path": "system.io.filesystem.accesscontrol/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/System.IO.FileSystem.AccessControl.dll",
+        "lib/net461/System.IO.FileSystem.AccessControl.dll",
+        "lib/netstandard1.3/System.IO.FileSystem.AccessControl.dll",
+        "lib/netstandard2.0/System.IO.FileSystem.AccessControl.dll",
+        "ref/net46/System.IO.FileSystem.AccessControl.dll",
+        "ref/net461/System.IO.FileSystem.AccessControl.dll",
+        "ref/net461/System.IO.FileSystem.AccessControl.xml",
+        "ref/netstandard1.3/System.IO.FileSystem.AccessControl.dll",
+        "ref/netstandard1.3/System.IO.FileSystem.AccessControl.xml",
+        "ref/netstandard1.3/de/System.IO.FileSystem.AccessControl.xml",
+        "ref/netstandard1.3/es/System.IO.FileSystem.AccessControl.xml",
+        "ref/netstandard1.3/fr/System.IO.FileSystem.AccessControl.xml",
+        "ref/netstandard1.3/it/System.IO.FileSystem.AccessControl.xml",
+        "ref/netstandard1.3/ja/System.IO.FileSystem.AccessControl.xml",
+        "ref/netstandard1.3/ko/System.IO.FileSystem.AccessControl.xml",
+        "ref/netstandard1.3/ru/System.IO.FileSystem.AccessControl.xml",
+        "ref/netstandard1.3/zh-hans/System.IO.FileSystem.AccessControl.xml",
+        "ref/netstandard1.3/zh-hant/System.IO.FileSystem.AccessControl.xml",
+        "ref/netstandard2.0/System.IO.FileSystem.AccessControl.dll",
+        "ref/netstandard2.0/System.IO.FileSystem.AccessControl.xml",
+        "runtimes/win/lib/net46/System.IO.FileSystem.AccessControl.dll",
+        "runtimes/win/lib/net461/System.IO.FileSystem.AccessControl.dll",
+        "runtimes/win/lib/netstandard1.3/System.IO.FileSystem.AccessControl.dll",
+        "runtimes/win/lib/netstandard2.0/System.IO.FileSystem.AccessControl.dll",
+        "system.io.filesystem.accesscontrol.4.5.0.nupkg.sha512",
+        "system.io.filesystem.accesscontrol.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "System.Linq/4.3.0": {
@@ -21342,26 +23270,30 @@
         "system.runtime.nuspec"
       ]
     },
-    "System.Runtime.CompilerServices.Unsafe/4.5.2": {
-      "sha512": "wprSFgext8cwqymChhrBLu62LMg/1u92bU+VOwyfBimSPVFXtsNqEWC92Pf9ofzJFlk4IHmJA75EDJn1b2goAQ==",
+    "System.Runtime.CompilerServices.Unsafe/4.5.3": {
+      "sha512": "3TIsJhD1EiiT0w2CcDMN/iSSwnNnsrnbzeVHSKkaEgV85txMprmuO+Yq2AdSbeVGcg28pdNDTPK87tJhX7VFHw==",
       "type": "package",
-      "path": "system.runtime.compilerservices.unsafe/4.5.2",
+      "path": "system.runtime.compilerservices.unsafe/4.5.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.xml",
         "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll",
         "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.xml",
         "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
         "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
         "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
         "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/net461/System.Runtime.CompilerServices.Unsafe.xml",
         "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
         "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
         "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
         "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
-        "system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.4.5.3.nupkg.sha512",
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -21640,6 +23572,129 @@
         "system.runtime.interopservices.windowsruntime.nuspec"
       ]
     },
+    "System.Runtime.WindowsRuntime/4.7.0": {
+      "sha512": "RQxUkf37fp7MSWbOfKRjUjyudyfZb2u79YY5i1s+d7vuD80A7kmr2YfefO0JprQUhanxSm8bhXigCVfX2kEh+w==",
+      "type": "package",
+      "path": "system.runtime.windowsruntime/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "build/net45/System.Runtime.WindowsRuntime.targets",
+        "build/net451/System.Runtime.WindowsRuntime.targets",
+        "build/net461/System.Runtime.WindowsRuntime.targets",
+        "buildTransitive/net45/System.Runtime.WindowsRuntime.targets",
+        "buildTransitive/net451/System.Runtime.WindowsRuntime.targets",
+        "buildTransitive/net461/System.Runtime.WindowsRuntime.targets",
+        "lib/net45/_._",
+        "lib/netstandard1.0/System.Runtime.WindowsRuntime.dll",
+        "lib/netstandard1.0/System.Runtime.WindowsRuntime.xml",
+        "lib/netstandard1.2/System.Runtime.WindowsRuntime.dll",
+        "lib/netstandard1.2/System.Runtime.WindowsRuntime.xml",
+        "lib/netstandard2.0/System.Runtime.WindowsRuntime.dll",
+        "lib/netstandard2.0/System.Runtime.WindowsRuntime.xml",
+        "lib/portable-win8+wp8+wpa81/_._",
+        "lib/uap10.0.16299/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "ref/net45/_._",
+        "ref/netcore50/System.Runtime.WindowsRuntime.dll",
+        "ref/netcore50/System.Runtime.WindowsRuntime.xml",
+        "ref/netcore50/de/System.Runtime.WindowsRuntime.xml",
+        "ref/netcore50/es/System.Runtime.WindowsRuntime.xml",
+        "ref/netcore50/fr/System.Runtime.WindowsRuntime.xml",
+        "ref/netcore50/it/System.Runtime.WindowsRuntime.xml",
+        "ref/netcore50/ja/System.Runtime.WindowsRuntime.xml",
+        "ref/netcore50/ko/System.Runtime.WindowsRuntime.xml",
+        "ref/netcore50/ru/System.Runtime.WindowsRuntime.xml",
+        "ref/netcore50/zh-hans/System.Runtime.WindowsRuntime.xml",
+        "ref/netcore50/zh-hant/System.Runtime.WindowsRuntime.xml",
+        "ref/netstandard1.0/System.Runtime.WindowsRuntime.dll",
+        "ref/netstandard1.0/System.Runtime.WindowsRuntime.xml",
+        "ref/netstandard1.0/de/System.Runtime.WindowsRuntime.xml",
+        "ref/netstandard1.0/es/System.Runtime.WindowsRuntime.xml",
+        "ref/netstandard1.0/fr/System.Runtime.WindowsRuntime.xml",
+        "ref/netstandard1.0/it/System.Runtime.WindowsRuntime.xml",
+        "ref/netstandard1.0/ja/System.Runtime.WindowsRuntime.xml",
+        "ref/netstandard1.0/ko/System.Runtime.WindowsRuntime.xml",
+        "ref/netstandard1.0/ru/System.Runtime.WindowsRuntime.xml",
+        "ref/netstandard1.0/zh-hans/System.Runtime.WindowsRuntime.xml",
+        "ref/netstandard1.0/zh-hant/System.Runtime.WindowsRuntime.xml",
+        "ref/netstandard1.2/System.Runtime.WindowsRuntime.dll",
+        "ref/netstandard1.2/System.Runtime.WindowsRuntime.xml",
+        "ref/netstandard1.2/de/System.Runtime.WindowsRuntime.xml",
+        "ref/netstandard1.2/es/System.Runtime.WindowsRuntime.xml",
+        "ref/netstandard1.2/fr/System.Runtime.WindowsRuntime.xml",
+        "ref/netstandard1.2/it/System.Runtime.WindowsRuntime.xml",
+        "ref/netstandard1.2/ja/System.Runtime.WindowsRuntime.xml",
+        "ref/netstandard1.2/ko/System.Runtime.WindowsRuntime.xml",
+        "ref/netstandard1.2/ru/System.Runtime.WindowsRuntime.xml",
+        "ref/netstandard1.2/zh-hans/System.Runtime.WindowsRuntime.xml",
+        "ref/netstandard1.2/zh-hant/System.Runtime.WindowsRuntime.xml",
+        "ref/netstandard2.0/System.Runtime.WindowsRuntime.dll",
+        "ref/netstandard2.0/System.Runtime.WindowsRuntime.xml",
+        "ref/portable-win8+wp8+wpa81/_._",
+        "ref/uap10.0.16299/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "runtimes/win-aot/lib/netcore50/System.Runtime.WindowsRuntime.dll",
+        "runtimes/win-aot/lib/uap10.0.16299/_._",
+        "runtimes/win/lib/netcore50/System.Runtime.WindowsRuntime.dll",
+        "runtimes/win/lib/netcoreapp3.0/System.Runtime.WindowsRuntime.dll",
+        "runtimes/win/lib/netcoreapp3.0/System.Runtime.WindowsRuntime.xml",
+        "runtimes/win/lib/uap10.0.16299/_._",
+        "system.runtime.windowsruntime.4.7.0.nupkg.sha512",
+        "system.runtime.windowsruntime.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Security.Principal.Windows/4.5.0": {
+      "sha512": "U77HfRXlZlOeIXd//Yoj6Jnk8AXlbeisf1oq1os+hxOGVnuG+lGSfGqTwTZBoORFF6j/0q7HXIl8cqwQ9aUGqQ==",
+      "type": "package",
+      "path": "system.security.principal.windows/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/System.Security.Principal.Windows.dll",
+        "lib/net461/System.Security.Principal.Windows.dll",
+        "lib/netstandard1.3/System.Security.Principal.Windows.dll",
+        "lib/netstandard2.0/System.Security.Principal.Windows.dll",
+        "lib/uap10.0.16299/_._",
+        "ref/net46/System.Security.Principal.Windows.dll",
+        "ref/net461/System.Security.Principal.Windows.dll",
+        "ref/net461/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/System.Security.Principal.Windows.dll",
+        "ref/netstandard1.3/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/de/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/es/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/fr/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/it/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ja/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ko/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ru/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/zh-hans/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/zh-hant/System.Security.Principal.Windows.xml",
+        "ref/netstandard2.0/System.Security.Principal.Windows.dll",
+        "ref/netstandard2.0/System.Security.Principal.Windows.xml",
+        "ref/uap10.0.16299/_._",
+        "runtimes/unix/lib/netcoreapp2.0/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/net46/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/net461/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/netstandard1.3/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/uap10.0.16299/_._",
+        "system.security.principal.windows.4.5.0.nupkg.sha512",
+        "system.security.principal.windows.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "System.Text.Encoding/4.3.0": {
       "sha512": "BiIg+KWaSDOITze6jGQynxg64naAPtqGHBwDrLaCtixsa5bKiR8dpPOHA7ge3C0JJQizJE+sfkz1wV+BAKAYZw==",
       "type": "package",
@@ -21847,6 +23902,30 @@
         "system.threading.nuspec"
       ]
     },
+    "System.Threading.Channels/4.7.1": {
+      "sha512": "6akRtHK/wab3246t4p5v3HQrtQk8LboOt5T4dtpNgsp3zvDeM4/Gx8V12t0h+c/W9/enUrilk8n6EQqdQorZAA==",
+      "type": "package",
+      "path": "system.threading.channels/4.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Threading.Channels.dll",
+        "lib/net461/System.Threading.Channels.xml",
+        "lib/netcoreapp3.0/System.Threading.Channels.dll",
+        "lib/netcoreapp3.0/System.Threading.Channels.xml",
+        "lib/netstandard1.3/System.Threading.Channels.dll",
+        "lib/netstandard1.3/System.Threading.Channels.xml",
+        "lib/netstandard2.0/System.Threading.Channels.dll",
+        "lib/netstandard2.0/System.Threading.Channels.xml",
+        "system.threading.channels.4.7.1.nupkg.sha512",
+        "system.threading.channels.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "System.Threading.Tasks/4.3.0": {
       "sha512": "LbSxKEdOUhVe8BezB/9uOGGppt+nZf6e1VFyw6v3DN6lqitm0OSn2uXMOdtP0M3W4iMcqcivm2J6UgqiwwnXiA==",
       "type": "package",
@@ -21915,10 +23994,10 @@
         "system.threading.tasks.nuspec"
       ]
     },
-    "System.Threading.Tasks.Extensions/4.5.2": {
-      "sha512": "BG/TNxDFv0svAzx8OiMXDlsHfGw623BZ8tCXw4YLhDFDvDhNUEV58jKYMGRnkbJNm7c3JNNJDiN7JBMzxRBR2w==",
+    "System.Threading.Tasks.Extensions/4.5.4": {
+      "sha512": "zteT+G8xuGu6mS+mzDzYXbzS7rd3K6Fjb9RiZlYlJPam2/hU7JCBZBVEcywNuR+oZ1ncTvc/cq0faRr3P01OVg==",
       "type": "package",
-      "path": "system.threading.tasks.extensions/4.5.2",
+      "path": "system.threading.tasks.extensions/4.5.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -21926,6 +24005,8 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/MonoAndroid10/_._",
         "lib/MonoTouch10/_._",
+        "lib/net461/System.Threading.Tasks.Extensions.dll",
+        "lib/net461/System.Threading.Tasks.Extensions.xml",
         "lib/netcoreapp2.1/_._",
         "lib/netstandard1.0/System.Threading.Tasks.Extensions.dll",
         "lib/netstandard1.0/System.Threading.Tasks.Extensions.xml",
@@ -21944,7 +24025,7 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
-        "system.threading.tasks.extensions.4.5.2.nupkg.sha512",
+        "system.threading.tasks.extensions.4.5.4.nupkg.sha512",
         "system.threading.tasks.extensions.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -21992,6 +24073,20 @@
         "system.valuetuple.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "TensorFlow.NET/0.20.1": {
+      "sha512": "8svOVEjS1CV5JDnUUuFKwvbM2q8KSaqUR7rFo3Ht/duACtY58lZS4Q6hwu2GeWm8gRvhJIrNngIrDbsWMbDvyg==",
+      "type": "package",
+      "path": "tensorflow.net/0.20.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/netstandard2.0/TensorFlow.NET.dll",
+        "lib/netstandard2.0/TensorFlow.NET.xml",
+        "tensorflow.net.0.20.1.nupkg.sha512",
+        "tensorflow.net.nuspec"
       ]
     },
     "TensorFlowSharp/1.15.1": {
@@ -23063,6 +25158,22 @@
         "uno.ui.nuspec"
       ]
     },
+    "UwpDesktop/10.0.14393.3": {
+      "sha512": "INgnDsZ7qoS08iBtt+C2qpBb5YQc0AINe1gcXFw0RwEisC9jqBapwwu5oMVR5MIgt+MdoQfKbq8YwOqNsb2eOA==",
+      "type": "package",
+      "path": "uwpdesktop/10.0.14393.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/UwpDesktopAnalyzer.dll",
+        "build/portable-net45+uap/UwpDesktop.targets",
+        "tools/install.ps1",
+        "tools/uninstall.ps1",
+        "uwpdesktop.10.0.14393.3.nupkg.sha512",
+        "uwpdesktop.nuspec"
+      ]
+    },
     "Win2D.uwp/1.20.0": {
       "sha512": "sFyNT2EiV6vmEFMrkiJdSolaKNyOyk+kfjgvXN8XqUhdEPqBd2zPrFdl7SojNHQGm2Br6JLIBOdrj9fB1Qy4GA==",
       "type": "package",
@@ -23456,9 +25567,7 @@
       "BLE.Client >= 1.0.0",
       "CsvExport >= 1.0.2",
       "CsvHelper >= 27.2.1",
-      "LiveChartsCore >= 2.0.0-beta.230",
-      "LiveChartsCore.SkiaSharpView.UWP >= 2.0.0-beta.101",
-      "LiveChartsCore.SkiaSharpView.XamarinForms >= 2.0.0-beta.230",
+      "Microsoft.AI.MachineLearning >= 1.11.0",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.13",
       "MvvmCross >= 5.1.0",
       "MvvmCross.Binding >= 5.1.0",
@@ -23470,7 +25579,6 @@
       "Plugin.Permissions >= 2.0.1",
       "SkiaSharp >= 2.88.0-preview.254",
       "SkiaSharp.Views.Uno >= 2.88.0-preview.254",
-      "TensorFlowSharp >= 1.15.1",
       "Xam.Plugins.Settings >= 3.0.1",
       "Xamarin.Essentials >= 1.4.0",
       "Xamarin.Forms >= 5.0.0.2291"
@@ -23538,17 +25646,9 @@
             "target": "Package",
             "version": "[27.2.1, )"
           },
-          "LiveChartsCore": {
+          "Microsoft.AI.MachineLearning": {
             "target": "Package",
-            "version": "[2.0.0-beta.230, )"
-          },
-          "LiveChartsCore.SkiaSharpView.UWP": {
-            "target": "Package",
-            "version": "[2.0.0-beta.101, )"
-          },
-          "LiveChartsCore.SkiaSharpView.XamarinForms": {
-            "target": "Package",
-            "version": "[2.0.0-beta.230, )"
+            "version": "[1.11.0, )"
           },
           "Microsoft.NETCore.UniversalWindowsPlatform": {
             "target": "Package",
@@ -23585,10 +25685,6 @@
           "SkiaSharp.Views.Uno": {
             "target": "Package",
             "version": "[2.88.0-preview.254, )"
-          },
-          "TensorFlowSharp": {
-            "target": "Package",
-            "version": "[1.15.1, )"
           },
           "Xam.Plugins.Settings": {
             "target": "Package",
@@ -23635,57 +25731,6 @@
     }
   },
   "logs": [
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package version outside of dependency constraint: LiveChartsCore.SkiaSharpView.UWP 2.0.0-beta.101 requires SkiaSharp (= 2.88.0-preview.179) but version SkiaSharp 2.88.0-preview.254 was resolved.",
-      "libraryId": "SkiaSharp",
-      "targetGraphs": [
-        "UAP,Version=v10.0.17763",
-        "UAP,Version=v10.0.17763/win10-arm",
-        "UAP,Version=v10.0.17763/win10-arm-aot",
-        "UAP,Version=v10.0.17763/win10-arm64-aot",
-        "UAP,Version=v10.0.17763/win10-x64",
-        "UAP,Version=v10.0.17763/win10-x64-aot",
-        "UAP,Version=v10.0.17763/win10-x86",
-        "UAP,Version=v10.0.17763/win10-x86-aot"
-      ]
-    },
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package version outside of dependency constraint: LiveChartsCore.SkiaSharpView.UWP 2.0.0-beta.101 requires SkiaSharp.Views.Uno (= 2.88.0-preview.179) but version SkiaSharp.Views.Uno 2.88.0-preview.254 was resolved.",
-      "libraryId": "SkiaSharp.Views.Uno",
-      "targetGraphs": [
-        "UAP,Version=v10.0.17763",
-        "UAP,Version=v10.0.17763/win10-arm",
-        "UAP,Version=v10.0.17763/win10-arm-aot",
-        "UAP,Version=v10.0.17763/win10-arm64-aot",
-        "UAP,Version=v10.0.17763/win10-x64",
-        "UAP,Version=v10.0.17763/win10-x64-aot",
-        "UAP,Version=v10.0.17763/win10-x86",
-        "UAP,Version=v10.0.17763/win10-x86-aot"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package downgrade: Xamarin.Essentials from 1.6.0 to 1.4.0. Reference the package directly from the project to select a different version. \r\n BLE.Client.UWP -> LiveChartsCore.SkiaSharpView.XamarinForms 2.0.0-beta.230 -> Xamarin.Essentials (>= 1.6.0) \r\n BLE.Client.UWP -> Xamarin.Essentials (>= 1.4.0)",
-      "libraryId": "Xamarin.Essentials",
-      "targetGraphs": [
-        "UAP,Version=v10.0.17763",
-        "UAP,Version=v10.0.17763/win10-arm",
-        "UAP,Version=v10.0.17763/win10-arm-aot",
-        "UAP,Version=v10.0.17763/win10-arm64-aot",
-        "UAP,Version=v10.0.17763/win10-x64",
-        "UAP,Version=v10.0.17763/win10-x64-aot",
-        "UAP,Version=v10.0.17763/win10-x86",
-        "UAP,Version=v10.0.17763/win10-x86-aot"
-      ]
-    },
     {
       "code": "NU1605",
       "level": "Warning",

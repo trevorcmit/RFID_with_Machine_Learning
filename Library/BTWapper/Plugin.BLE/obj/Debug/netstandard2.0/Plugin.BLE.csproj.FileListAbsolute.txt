@@ -13,8 +13,3 @@ C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\Plugin.BLE\obj\Debug\
 C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\Plugin.BLE\obj\Debug\netstandard2.0\Plugin.BLE.AssemblyInfoInputs.cache
 C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\Plugin.BLE\obj\Debug\netstandard2.0\Plugin.BLE.AssemblyInfo.cs
 C:\Users\trevo\source\repos\RFID_Exercise\Library\BTWapper\Plugin.BLE\obj\Debug\netstandard2.0\Plugin.BLE.csproj.CoreCompileInputs.cache
-C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\Plugin.BLE\obj\Debug\netstandard2.0\Plugin.BLE.csproj.AssemblyReference.cache
-C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\Plugin.BLE\obj\Debug\netstandard2.0\Plugin.BLE.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\Plugin.BLE\obj\Debug\netstandard2.0\Plugin.BLE.AssemblyInfoInputs.cache
-C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\Plugin.BLE\obj\Debug\netstandard2.0\Plugin.BLE.AssemblyInfo.cs
-C:\Users\trevo\source\repos\Exercise_No_Duty\Library\BTWapper\Plugin.BLE\obj\Debug\netstandard2.0\Plugin.BLE.csproj.CoreCompileInputs.cache

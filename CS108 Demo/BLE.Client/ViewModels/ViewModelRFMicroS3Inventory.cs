@@ -1,18 +1,29 @@
-﻿using System;
-using System.IO;
-using System.Linq; // added later, could delete?
-using System.Collections.ObjectModel;
-using System.Collections.Generic;
-using System.ComponentModel;
-using Acr.UserDialogs;
+﻿using Acr.UserDialogs;
 using MvvmCross.Core.ViewModels;
-using System.Windows.Input;
-using Xamarin.Forms;
 using Plugin.BLE.Abstractions.Contracts;
 using Plugin.BLE.Abstractions;
 using Prism.Mvvm;
+using System;
+using System.Collections.ObjectModel;
+using System.Collections.Generic;
+using System.ComponentModel;
 using System.Data.SqlTypes;
+using System.IO;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Input;
+using Xamarin.Forms;
+
+
+// For ML purposes
+using TensorFlow;
+using Windows.AI.MachineLearning;
+using Windows.Storage;
+using Windows.Storage.Streams;
+using Windows.Media;
+using Windows.Foundation;
+
 
 
 namespace BLE.Client.ViewModels {
@@ -84,7 +95,7 @@ namespace BLE.Client.ViewModels {
 				output = value.ToString().Trim();
 			}
 
-			if (output.Length > 30000) //cropping value for stupid Excel
+			if (output.Length > 30000) // Cropping value for stupid Excel
 				output = output.Substring(0, 30000);
 
 			if (output.Contains(columnSeparator) || output.Contains("\"") || output.Contains("\n") || output.Contains("\r"))
@@ -136,24 +147,15 @@ namespace BLE.Client.ViewModels {
             public string ElapsedTime {get {return this._ElapsedTime;} set{this.SetProperty(ref this._ElapsedTime, value);}}
             private string _Gradient; // Rate of change of temperature from current reading to last reading
             public string Gradient {get {return this._Gradient;} set{this.SetProperty(ref this._Gradient, value);}}
-
             /////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-            private string _EPC;
-            public string EPC {get {return this._EPC;} set {this.SetProperty(ref this._EPC, value);}}
-            private string _NickName;
-            public string NickName {get {return this._NickName;} set {this.SetProperty(ref this._NickName, value);}}
-            private string _DisplayName;
-            public string DisplayName {get {return this._DisplayName;} set {this.SetProperty(ref this._DisplayName, value);}}
-            private uint _OCRSSI;
-            public uint OCRSSI {get {return this._OCRSSI;} set {this.SetProperty(ref this._OCRSSI, value);}}
-            public double _sensorValueSum;
-            private string _SensorValue;
-            public string SensorValue {get {return this._SensorValue;} set {this.SetProperty(ref this._SensorValue, value);}}
-            private uint _sucessCount;
-            public uint SucessCount {get {return this._sucessCount;} set {this.SetProperty(ref this._sucessCount, value);}}
-            private string _RSSIColor;
-            public string RSSIColor {get {return this._RSSIColor;} set {this.SetProperty(ref this._RSSIColor, value);}}
+            private string _EPC;         public string EPC {get {return this._EPC;} set {this.SetProperty(ref this._EPC, value);}}
+            private string _NickName;    public string NickName {get {return this._NickName;} set {this.SetProperty(ref this._NickName, value);}}
+            private string _DisplayName; public string DisplayName {get {return this._DisplayName;} set {this.SetProperty(ref this._DisplayName, value);}}
+            private uint _OCRSSI;        public uint OCRSSI {get {return this._OCRSSI;} set {this.SetProperty(ref this._OCRSSI, value);}}
+            private string _SensorValue; public string SensorValue {get {return this._SensorValue;} set {this.SetProperty(ref this._SensorValue, value);}}
+            private uint _sucessCount;   public uint SucessCount {get {return this._sucessCount;} set {this.SetProperty(ref this._sucessCount, value);}}
+            private string _RSSIColor;   public string RSSIColor {get {return this._RSSIColor;} set {this.SetProperty(ref this._RSSIColor, value);}}
             public RFMicroTagInfoViewModel() {}
         }
 
@@ -183,12 +185,10 @@ namespace BLE.Client.ViewModels {
         Dictionary<string, List<string>> tag_RSSI = new Dictionary<string, List<string>>();
 
         ///////////////// Public/Private Variables for Body Model /////////////////
-        private string _LeftGluteTemp;  public string LeftGluteTemp {get => _LeftGluteTemp; set {_LeftGluteTemp = value; OnPropertyChanged("LeftGluteTemp");}}
-        private string _RightGluteTemp; public string RightGluteTemp {get => _RightGluteTemp; set {_RightGluteTemp = value; OnPropertyChanged("RightGluteTemp");}}
-        private string _LeftQuadTemp;   public string LeftQuadTemp {get => _LeftQuadTemp; set {_LeftQuadTemp = value; OnPropertyChanged("LeftQuadTemp");}}
-        private string _RightQuadTemp;  public string RightQuadTemp {get => _RightQuadTemp; set {_RightQuadTemp = value; OnPropertyChanged("RightQuadTemp");}}
-        private string _LeftCalfTemp;   public string LeftCalfTemp {get => _LeftCalfTemp; set {_LeftCalfTemp = value; OnPropertyChanged("LeftCalfTemp");}}
-        private string _RightCalfTemp;  public string RightCalfTemp {get => _RightCalfTemp; set {_RightCalfTemp = value; OnPropertyChanged("RightCalfTemp");}}
+        private string _LeftForearmTemp;  public string LeftForearmTemp {get => _LeftForearmTemp; set {_LeftForearmTemp = value; OnPropertyChanged("LeftForearmTemp");}}
+        private string _RightForearmTemp; public string RightForearmTemp {get => _RightForearmTemp; set {_RightForearmTemp = value; OnPropertyChanged("RightForearmTemp");}}
+        private string _LeftBicepTemp;   public string LeftBicepTemp {get => _LeftBicepTemp; set {_LeftBicepTemp = value; OnPropertyChanged("LeftBicepTemp");}}
+        private string _RightBicepTemp;  public string RightBicepTemp {get => _RightBicepTemp; set {_RightBicepTemp = value; OnPropertyChanged("RightBicepTemp");}}
 
         private List<string> _epcs; public List<string> epcs {get => _epcs; set {_epcs = value; OnPropertyChanged("epcs");}}
         private Dictionary<string, string> _map; public Dictionary<string, string> map {get => _map; set {_map = value; OnPropertyChanged("map");}}
@@ -211,34 +211,75 @@ namespace BLE.Client.ViewModels {
 
         #endregion
 
+        // FOR MACHINE LEARNING
+        public Dictionary<int, string> labels = new Dictionary<int, string> {
+            [0] = "Baseline",
+            [1] = "Bicep Cooldown",
+            [2] = "Bicep Work",
+            [3] = "Forearm Cooldown",
+            [4] = "Forearm Work"
+        };
+
+        private TempModel modelGen;
+        public sealed class TempInput {
+            public ImageFeatureValue Input3; // BitmapPixelFormat: Gray8, BitmapAlphaMode: Premultiplied, width: 28, height: 28
+        }
+
+        public sealed class TempOutput {
+            public TensorFloat Plus214_Output_0; // shape(1,10)
+        }
+
+        public sealed class TempModel {
+            private LearningModel model;
+            private LearningModelSession session;
+            private LearningModelBinding binding;
+            public static async Task<TempModel> CreateFromStreamAsync(IRandomAccessStreamReference stream) {
+                TempModel _model = new TempModel();
+                _model.model = await LearningModel.LoadFromStreamAsync(stream);
+                // _model.model = await Windows.Storage.ApplicationData.Current.LocalFolder.GetFileAsync("myFile.txt");
+                _model.session = new LearningModelSession(_model.model);
+                _model.binding = new LearningModelBinding(_model.session);
+                return _model;
+            }
+            public async Task<TempOutput> EvaluateAsync(TempInput input) {
+                binding.Bind("Input3", input.Input3);
+                var result = await session.EvaluateAsync(binding, "0");
+                var output = new TempOutput();
+                output.Plus214_Output_0 = result.Outputs["Plus214_Output_0"] as TensorFloat;
+                return output;
+            }
+        }
+
+        private async Task LoadModelAsync() {
+            // Load a machine learning model
+            StorageFile modelFile = await StorageFile.GetFileFromApplicationUriAsync(new Uri($"ms-appx:///Assets/model.onnx"));
+            modelGen = await TempModel.CreateFromStreamAsync(modelFile as IRandomAccessStreamReference);
+        }
+
+
         public ViewModelRFMicroS3Inventory(IAdapter adapter, IUserDialogs userDialogs) : base(adapter) {
             _userDialogs = userDialogs;
-            LeftGluteTemp  = "N/A";
-            RightGluteTemp = "N/A";  // Default Label values
-            LeftQuadTemp   = "N/A";
-            RightQuadTemp  = "N/A";
-            LeftCalfTemp   = "N/A";
-            RightCalfTemp  = "N/A";
+            LeftForearmTemp  = "N/A";
+            RightForearmTemp = "N/A";  // Default Label values
+            LeftBicepTemp    = "N/A";
+            RightBicepTemp   = "N/A";
 
             epcs = new List<string> {
                 "E282403E000207D6F9779E5E", // Left Bicep Out
                 "E282403E000207D6F9775B6E", // Left Bicep In
                 "E282403E000207D6F9772B27", // Left Forearm Out
                 "E282403E000207D6F9779F5F", // Left Foremarm In
-
                 "E282403E000207D6F977A62A", // Right Bicep Out
                 "E282403E000207D6F9777D4A", // Right Bicep In
                 "E282403E000207D6F97759A4", // Right Forearm Out
                 "E282403E000207D6F9773D72", // Right Forearm In
             };
 
-
             map = new Dictionary<string, string> {
                 ["E282403E000207D6F9779E5E"] = "Left Bicep Out",
                 ["E282403E000207D6F9775B6E"] = "Left Bicep In",
                 ["E282403E000207D6F9772B27"] = "Left Forearm Out",
                 ["E282403E000207D6F9779F5F"] = "Left Forearm In",
-
                 ["E282403E000207D6F977A62A"] = "Right Bicep Out",
                 ["E282403E000207D6F9777D4A"] = "Right Bicep In",
                 ["E282403E000207D6F97759A4"] = "Right Forearm Out",
@@ -459,10 +500,8 @@ namespace BLE.Client.ViewModels {
         }
 
         void TagInventoryEvent(object sender, CSLibrary.Events.OnAsyncCallbackEventArgs e) {
-            if (e.type != CSLibrary.Constants.CallbackType.TAG_RANGING) 
-                return;
-            if (e.info.Bank1Data == null || e.info.Bank2Data == null) 
-                return;
+            if (e.type != CSLibrary.Constants.CallbackType.TAG_RANGING) return;
+            if (e.info.Bank1Data == null || e.info.Bank2Data == null)   return;
             InvokeOnMainThread(() => {
                 AddOrUpdateTagData(e.info);
             });
@@ -773,5 +812,6 @@ namespace BLE.Client.ViewModels {
         }
         
     }
+
 }
     

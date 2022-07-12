@@ -1,13 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using CSLibrary.Constants;
 using CSLibrary.Structures;
 
 
 namespace CSLibrary {
     public partial class RFIDReader {
-        //AntennaList m_AntennaList = null乙new AntennaList(AntennaList.DEFAULT_ANTENNA_LIST, true);
         AntennaList m_AntennaList = null;
 
         public AntennaList AntennaList {

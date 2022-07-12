@@ -1,12 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using CSLibrary;
 using CSLibrary.Constants;
 using CSLibrary.Structures;
 using CSLibrary.Events;
-using CSLibrary.Tools;
 
 
 namespace CSLibrary {

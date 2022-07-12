@@ -74,6 +74,14 @@
               "target": "Package",
               "version": "[2.0.0-beta.230, )"
             },
+            "Microsoft.ML.TensorFlow": {
+              "target": "Package",
+              "version": "[1.7.1, )"
+            },
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.13, )"
+            },
             "MvvmCross": {
               "target": "Package",
               "version": "[5.1.0, )"
@@ -123,6 +131,22 @@
             "Splat": {
               "target": "Package",
               "version": "[2.0.0, )"
+            },
+            "System.Runtime.InteropServices.WindowsRuntime": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Runtime.WindowsRuntime": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "TensorFlowSharp": {
+              "target": "Package",
+              "version": "[1.15.1, )"
+            },
+            "UwpDesktop": {
+              "target": "Package",
+              "version": "[10.0.14393.3, )"
             },
             "Xam.Plugins.Settings": {
               "target": "Package",
